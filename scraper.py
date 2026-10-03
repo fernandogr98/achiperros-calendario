@@ -8,6 +8,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+import google_sync
+
 TEAM_ID = 2538202
 TEAM_NAME = "ACHIPERROS FC"
 BASE = "https://www.competize.com/es"
@@ -133,32 +135,39 @@ END:STANDARD
 END:VTIMEZONE""".splitlines()
 
 
-def build_ics(matches: list[dict]) -> str:
+def to_event(m: dict) -> dict:
+    """Datos comunes del evento para el .ics y para Google Calendar."""
+    if m["score"]:
+        summary = f"⚽ {m['home']} {m['score'][0]}-{m['score'][1]} {m['away']}"
+    else:
+        summary = f"⚽ {m['home']} vs {m['away']}"
+    desc = "\n".join(filter(None, [
+        m["competition"], " - ".join(filter(None, [m["matchday"], m["group"]])), m["url"]]))
+    return {"id": m["id"], "summary": summary, "description": desc, "location": m["venue"],
+            "url": m["url"], "start": m["start"], "end": m["start"] + DURATION}
+
+
+def build_ics(events: list[dict]) -> str:
     fmt = "%Y%m%dT%H%M%S"
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//achiperros-calendario//ES",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Achiperros FC",
-             "X-WR-TIMEZONE:Europe/Madrid", "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
-             "X-PUBLISHED-TTL:PT6H", *VTIMEZONE]
-    for m in sorted(matches, key=lambda x: x["start"]):
-        if m["score"]:
-            summary = f"⚽ {m['home']} {m['score'][0]}-{m['score'][1]} {m['away']}"
-        else:
-            summary = f"⚽ {m['home']} vs {m['away']}"
-        desc = "\n".join(filter(None, [
-            m["competition"], " - ".join(filter(None, [m["matchday"], m["group"]])), m["url"]]))
+             "X-WR-TIMEZONE:Europe/Madrid", "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
+             "X-PUBLISHED-TTL:PT1H", *VTIMEZONE]
+    for e in sorted(events, key=lambda x: x["start"]):
+        summary, desc = e["summary"], e["description"]
         # DTSTAMP estable (hash del contenido) para que el fichero solo cambie si cambia algo real
         stamp = datetime(2026, 1, 1) + timedelta(
-            seconds=int(hashlib.sha1((summary + desc + m["start"].isoformat()).encode()).hexdigest()[:6], 16))
+            seconds=int(hashlib.sha1((summary + desc + e["start"].isoformat()).encode()).hexdigest()[:6], 16))
         lines += [
             "BEGIN:VEVENT",
-            f"UID:competize-match-{m['id']}@achiperros",
+            f"UID:competize-match-{e['id']}@achiperros",
             f"DTSTAMP:{stamp.strftime(fmt)}Z",
-            f"DTSTART;TZID=Europe/Madrid:{m['start'].strftime(fmt)}",
-            f"DTEND;TZID=Europe/Madrid:{(m['start'] + DURATION).strftime(fmt)}",
+            f"DTSTART;TZID=Europe/Madrid:{e['start'].strftime(fmt)}",
+            f"DTEND;TZID=Europe/Madrid:{e['end'].strftime(fmt)}",
             f"SUMMARY:{esc(summary)}",
-            f"LOCATION:{esc(m['venue'])}",
+            f"LOCATION:{esc(e['location'])}",
             f"DESCRIPTION:{esc(desc)}",
-            f"URL:{m['url']}",
+            f"URL:{e['url']}",
             "BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{esc(summary)}",
             f"TRIGGER:{ALARM_BEFORE}", "END:VALARM",
             "END:VEVENT",
@@ -183,11 +192,14 @@ def main():
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     OUT_FILE.parent.mkdir(exist_ok=True)
-    OUT_FILE.write_bytes(build_ics(matches).encode("utf-8"))
+    events = [to_event(m) for m in matches]
+    OUT_FILE.write_bytes(build_ics(events).encode("utf-8"))
     for m in sorted(matches, key=lambda x: x["start"]):
         print(m["start"].strftime("%a %d/%m %H:%M"), "|", m["competition"], "|", m["matchday"],
               "|", m["home"], "vs", m["away"], "|", m["score"] or "")
     print(f"{len(matches)} partidos desde {since} -> {OUT_FILE}")
+
+    google_sync.sync(events, datetime.combine(since, datetime.min.time()))
 
 
 if __name__ == "__main__":

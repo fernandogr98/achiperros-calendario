@@ -70,13 +70,19 @@
   <details>
     <summary>¿Problemas? Instrucciones manuales</summary>
     <p><b>iPhone:</b> Ajustes › Calendario › Cuentas › Añadir cuenta › Otra › Añadir calendario suscrito, y pega el enlace.</p>
-    <p><b>Android:</b> el botón de Google añade el calendario a tu cuenta (Google tarda horas en refrescar cambios). Para avisos más rápidos usa la app <i>ICSx⁵</i> y pega el enlace.</p>
+    <p><b>Android:</b> el botón azul añade el calendario a tu cuenta de Google. Si usas otra app de calendario, instala <i>ICSx⁵</i> y pega el enlace.</p>
     <p>Enlace: <code id="url"></code></p>
   </details>
 </main>
 <script>
   const ICS = "https://fernandogr98.github.io/achiperros-calendario/achiperros.ics";
   document.getElementById("url").textContent = ICS;
+
+  // Si existe el calendario nativo de Google, el botón lo usa (se actualiza en minutos)
+  fetch("google_calendar.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(g => {
+    if (g && g.id) document.getElementById("google").href =
+      "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(g.id);
+  }).catch(() => {});
 
   const ua = navigator.userAgent;
   const hint = document.getElementById("hint");
