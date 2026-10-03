@@ -99,6 +99,7 @@
   .date-box .m { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
   .info { min-width: 0; flex: 1; }
   .info .t { font-weight: 600; font-size: 15px; line-height: 1.25; }
+  .info .t .us { color: var(--gold); }
   .info .s { color: var(--muted); font-size: 13px; margin-top: 2px; }
   .badge {
     flex: none; width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center;
@@ -152,7 +153,7 @@
   </section>
 
   <section>
-    <h2 class="label">Calendario</h2>
+    <h2 class="label">Próximas jornadas</h2>
     <div class="card" id="upcoming"><div class="empty">Cargando…</div></div>
   </section>
 
@@ -227,9 +228,12 @@
   function countdown(d) {
     const ms = d - Date.now();
     if (ms < 0) return "¡Jugando ahora!";
-    const days = Math.floor(ms / 864e5), hours = Math.floor(ms / 36e5) % 24, mins = Math.floor(ms / 6e4) % 60;
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const target = new Date(d); target.setHours(0, 0, 0, 0);
+    const days = Math.round((target - today) / 864e5);
+    const hours = Math.floor(ms / 36e5), mins = Math.floor(ms / 6e4) % 60;
     if (days > 1) return `Faltan ${days} días`;
-    if (days === 1) return `Mañana · faltan ${days * 24 + hours} h`;
+    if (days === 1) return `Mañana · faltan ${hours} h`;
     return hours ? `Hoy · faltan ${hours} h ${mins} min` : `Faltan ${mins} min`;
   }
 
@@ -253,8 +257,10 @@
     const db = el("div", "date-box");
     db.append(el("div", "d display", e.date.getDate()), el("div", "m", fmtMon.format(e.date).replace(".", "")));
     const info = el("div", "info");
-    const t = e.score ? `${e.home} ${e.score[0]}-${e.score[1]} ${e.away}` : `${e.home} vs ${e.away}`;
-    info.append(el("div", "t", t),
+    const t = el("div", "t");
+    const name = n => el("span", n === US ? "us" : null, n);
+    t.append(name(e.home), document.createTextNode(e.score ? ` ${e.score[0]}-${e.score[1]} ` : " vs "), name(e.away));
+    info.append(t,
       el("div", "s", `${cap(fmtDay.format(e.date).replace(".", ""))} ${fmtTime.format(e.date)} · ${[e.comp, e.round.split(" - ")[0]].filter(Boolean).join(" · ")}`));
     r.append(db, info);
     if (badge) r.appendChild(el("div", "badge " + badge, badge));
