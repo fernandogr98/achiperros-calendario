@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendario Achiperros FC</title>
+<meta name="description" content="Añade los partidos de Achiperros FC a tu calendario">
+<meta property="og:title" content="Calendario Achiperros FC ⚽">
+<meta property="og:description" content="Toca para añadir todos los partidos a tu calendario. Se actualiza solo.">
+<style>
+  :root {
+    --bg: #f4f5f7; --card: #ffffff; --text: #16181d; --muted: #5f6672;
+    --line: #e3e6eb; --accent: #0b7a3e; --accent-text: #ffffff;
+    --btn2: #1a73e8; --chip: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1114; --card: #191c21; --text: #eceef1; --muted: #9aa1ac;
+      --line: #2a2f36; --accent: #1f9d57; --btn2: #4c8df6; --chip: #232830;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 520px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 16px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    width: 100%; padding: 15px 16px; border-radius: 12px; border: 0;
+    font: 600 17px/1.2 inherit; text-decoration: none; cursor: pointer;
+    background: var(--accent); color: var(--accent-text); margin-bottom: 10px;
+  }
+  .btn.google { background: var(--btn2); }
+  .btn.ghost { background: var(--chip); color: var(--text); font-weight: 500; font-size: 15px; }
+  .btn.highlight { outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent); outline-offset: 2px; }
+  .hint { color: var(--muted); font-size: 14px; margin: 4px 0 0; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 10px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { padding: 10px 0; border-top: 1px solid var(--line); }
+  li:first-child { border-top: 0; padding-top: 0; }
+  .when { font-weight: 600; }
+  .what { font-size: 15px; }
+  .comp { color: var(--muted); font-size: 13px; }
+  details { color: var(--muted); font-size: 14px; }
+  details summary { cursor: pointer; }
+  code { word-break: break-all; background: var(--chip); padding: 2px 5px; border-radius: 5px; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>⚽ Achiperros FC</h1>
+  <p class="sub">Todos los partidos en tu calendario. Se actualiza solo cuando se publican jornadas o cambian horarios.</p>
+
+  <div class="card">
+    <a id="ios" class="btn" href="webcal://fernandogr98.github.io/achiperros-calendario/achiperros.ics"> Añadir en iPhone / Mac</a>
+    <a id="google" class="btn google" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Ffernandogr98.github.io%2Fachiperros-calendario%2Fachiperros.ics">Añadir en Google Calendar</a>
+    <button id="copy" class="btn ghost" type="button">Copiar enlace del calendario</button>
+    <p class="hint" id="hint"></p>
+  </div>
+
+  <div class="card">
+    <h2>Próximos partidos</h2>
+    <ul id="next"><li class="comp">Cargando…</li></ul>
+  </div>
+
+  <details>
+    <summary>¿Problemas? Instrucciones manuales</summary>
+    <p><b>iPhone:</b> Ajustes › Calendario › Cuentas › Añadir cuenta › Otra › Añadir calendario suscrito, y pega el enlace.</p>
+    <p><b>Android:</b> el botón de Google añade el calendario a tu cuenta (Google tarda horas en refrescar cambios). Para avisos más rápidos usa la app <i>ICSx⁵</i> y pega el enlace.</p>
+    <p>Enlace: <code id="url"></code></p>
+  </details>
+</main>
+<script>
+  const ICS = "https://fernandogr98.github.io/achiperros-calendario/achiperros.ics";
+  document.getElementById("url").textContent = ICS;
+
+  const ua = navigator.userAgent;
+  const hint = document.getElementById("hint");
+  if (/iPhone|iPad|Macintosh/.test(ua)) {
+    document.getElementById("ios").classList.add("highlight");
+    hint.textContent = "Toca el botón verde y confirma «Suscribirse».";
+  } else if (/Android/.test(ua)) {
+    const g = document.getElementById("google");
+    g.classList.add("highlight");
+    g.parentNode.insertBefore(g, document.getElementById("ios"));
+    hint.textContent = "Toca el botón azul con tu cuenta de Google iniciada y pulsa «Añadir».";
+  }
+
+  document.getElementById("copy").addEventListener("click", async (e) => {
+    try { await navigator.clipboard.writeText(ICS); e.target.textContent = "Enlace copiado ✓"; }
+    catch { prompt("Copia el enlace:", ICS); }
+  });
+
+  // Lista de próximos partidos a partir del propio .ics
+  fetch("achiperros.ics", { cache: "no-store" }).then(r => r.text()).then(txt => {
+    const unfolded = txt.replace(/\r?\n[ \t]/g, "");
+    const events = unfolded.split("BEGIN:VEVENT").slice(1).map(b => {
+      const get = k => (b.match(new RegExp("^" + k + "[^:\\n]*:(.*)$", "m")) || [])[1] || "";
+      const clean = s => s.replace(/\\n/g, "\n").replace(/\\([,;\\])/g, "$1");
+      const d = get("DTSTART");
+      return {
+        date: new Date(+d.slice(0, 4), +d.slice(4, 6) - 1, +d.slice(6, 8), +d.slice(9, 11), +d.slice(11, 13)),
+        title: clean(get("SUMMARY")).replace(/^⚽\s*/, ""),
+        comp: clean(get("DESCRIPTION")).split("\n").slice(0, 2).join(" · "),
+      };
+    });
+    const now = new Date(Date.now() - 2 * 3600e3);
+    const next = events.filter(e => e.date >= now).sort((a, b) => a.date - b.date);
+    const ul = document.getElementById("next");
+    if (!next.length) { ul.innerHTML = '<li class="comp">No hay partidos publicados todavía.</li>'; return; }
+    const fmt = new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    ul.innerHTML = "";
+    for (const e of next) {
+      const li = document.createElement("li");
+      li.innerHTML = '<div class="when"></div><div class="what"></div><div class="comp"></div>';
+      li.children[0].textContent = fmt.format(e.date);
+      li.children[1].textContent = e.title;
+      li.children[2].textContent = e.comp;
+      ul.appendChild(li);
+    }
+  }).catch(() => { document.getElementById("next").innerHTML = '<li class="comp">No se pudo cargar la lista.</li>'; });
+</script>
+</body>
+</html>
