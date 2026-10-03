@@ -20,6 +20,7 @@ ALARM_BEFORE = "-PT1H"
 
 ROOT = Path(__file__).parent
 CACHE_FILE = ROOT / "competitions_cache.json"
+DETAILS_FILE = ROOT / "docs" / "matches.json"
 OUT_FILE = ROOT / "docs" / "achiperros.ics"
 
 MONTHS = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6,
@@ -97,6 +98,45 @@ def competition_name(session: requests.Session, match_url: str) -> str:
     html = session.get(match_url, timeout=30).text
     m = re.search(r"competition/view/\d+[^'\"]*/results'>([^<]+)</a>", html)
     return m.group(1).strip() if m else ""
+
+
+def _players(side) -> list[dict]:
+    """Jugadores de un equipo con sus estadísticas ({'Gol': 2, 'Tarjeta Amarilla': 1, ...})."""
+    players = []
+    for td in side.select("td.match-player-name, td.match-player-name-right") if side else []:
+        label = td.a.get_text(" ", strip=True).replace("\xa0", " ").strip()
+        num, _, name = label.partition(". ")
+        stats, count = {}, 1
+        div = td.find("div")
+        for node in div.children if div else []:
+            if getattr(node, "name", None) == "img" and node.get("alt"):
+                stats[node["alt"]] = stats.get(node["alt"], 0) + count
+                count = 1
+            elif isinstance(node, str) and (c := re.search(r"(\d+)\s*x", node)):
+                count = int(c.group(1))
+        players.append({"num": num if name else "", "name": name or label, "stats": stats})
+    return players
+
+
+def match_details(session: requests.Session, match: dict) -> dict:
+    """Árbitro, alineaciones con goles/tarjetas/MVP y crónica de un partido jugado."""
+    view = session.get(match["url"], timeout=30).text
+    ref = re.search(r"rbitro Principal</div>([^<]*)<", view)
+    token = next((c.value for c in session.cookies if "csrf" in c.name), "")
+    r = session.post(f"{BASE}/matches/loadMatchFacts/{match['id']}",
+                     data={"csrf_token_competize_production": token},
+                     headers={"X-Requested-With": "XMLHttpRequest", "Referer": match["url"]}, timeout=30)
+    r.raise_for_status()
+    facts = r.json()
+    lineup = BeautifulSoup(facts.get("lineupPage", ""), "html.parser")
+    report = BeautifulSoup(facts.get("reportPage", ""), "html.parser").get_text("\n", strip=True)
+    return {
+        "referee": " ".join(ref.group(1).split()) if ref else "",
+        "home": _players(lineup.select_one(".table-stats-players-home")),
+        "away": _players(lineup.select_one(".table-stats-players-away")),
+        "report": report,
+        "fetched": date.today().isoformat(),
+    }
 
 
 def esc(text: str) -> str:
@@ -190,6 +230,19 @@ def main():
             cache[m["id"]] = competition_name(session, m["url"])
         m["competition"] = cache[m["id"]]
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+    # Detalle de partidos jugados (goles, tarjetas...). Se refresca durante 14 días tras el partido,
+    # porque el organizador a veces mete las estadísticas con retraso.
+    details = json.loads(DETAILS_FILE.read_text(encoding="utf-8")) if DETAILS_FILE.exists() else {}
+    recent = date.today() - timedelta(days=14)
+    for m in matches:
+        if m["score"] and (m["id"] not in details or m["start"].date() >= recent):
+            try:
+                details[m["id"]] = match_details(session, m)
+            except Exception as exc:  # un fallo aquí no debe tumbar el calendario
+                print(f"Aviso: sin detalle para {m['id']}: {exc}")
+    details = {k: v for k, v in details.items() if k in {m["id"] for m in matches}}
+    DETAILS_FILE.write_text(json.dumps(details, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     OUT_FILE.parent.mkdir(exist_ok=True)
     events = [to_event(m) for m in matches]

@@ -1,0 +1,429 @@
+{
+ "9079522": {
+  "away": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 2,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-10-03",
+  "home": [
+   {
+    "name": "DANIEL MIGUEL",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "IZAN BOSQUET",
+    "num": "2",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SERGIO VALHONDO",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "CARLOS CABANYES",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "HECTOR TORREGROSA",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "RICARDO MARTINEZ",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "JUAN CARLOS SELDAS",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "JAVIER RODRÍGUEZ",
+    "num": "25",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "MARIO ADRIAN OLMOS",
+    "num": "32",
+    "stats": {}
+   },
+   {
+    "name": "JORGE RAMOS",
+    "num": "69",
+    "stats": {}
+   },
+   {
+    "name": "DAVID SAAVEDRA",
+    "num": "71",
+    "stats": {}
+   },
+   {
+    "name": "IGNACIO CRESPO",
+    "num": "73",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "JAVIER Almagro",
+  "report": ""
+ },
+ "9079529": {
+  "away": [
+   {
+    "name": "GUILLERMO MARCOS",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR DEL CASTILLO",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "JUANJO PEREZ",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "MOISES SÁNCHEZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ALEX ANTOLINEZ",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "PABLO TOMAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL MOLINA",
+    "num": "25",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DANIEL PEREZ",
+    "num": "30",
+    "stats": {}
+   },
+   {
+    "name": "ETHAN LAURI",
+    "num": "33",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-10-03",
+  "home": [
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 3
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 3,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "Andrés Cujia",
+  "report": ""
+ },
+ "9084232": {
+  "away": [
+   {
+    "name": "ROBERTO HIGUERO",
+    "num": "3",
+    "stats": {}
+   },
+   {
+    "name": "JAIR AVILA",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "JULIÁN ÁLVAREZ",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "ÁNGEL DE BENITO",
+    "num": "6",
+    "stats": {}
+   },
+   {
+    "name": "CHRISTIAN CASTRO",
+    "num": "7",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "ANTONIO AGUADO",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "RODRIGO ÁLVAREZ",
+    "num": "11",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "JUAN CARLOS CASTRO",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL CAPILLA",
+    "num": "33",
+    "stats": {
+     "Gol recibido": 11
+    }
+   },
+   {
+    "name": "ARNOLD GUTIERREZ",
+    "num": "77",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-10-03",
+  "home": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 1,
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "JUAN MANUEL MOLINA",
+    "num": "3",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 5,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "referee": "Jesús Navarro Pérez",
+  "report": ""
+ }
+}

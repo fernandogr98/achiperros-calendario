@@ -106,6 +106,36 @@
     font-weight: 700; font-size: 13px; color: var(--black);
   }
   .badge.V { background: var(--win); } .badge.E { background: var(--draw); } .badge.D { background: var(--loss); }
+  details.match { border-top: 1px solid var(--line); }
+  details.match:first-child { border-top: 0; }
+  details.match > summary { list-style: none; cursor: pointer; }
+  details.match > summary::-webkit-details-marker { display: none; }
+  details.match > summary .row { border-top: 0; }
+  .chev { flex: none; color: var(--muted); transition: transform .2s ease; font-size: 14px; }
+  details.match[open] .chev { transform: rotate(180deg); color: var(--gold); }
+  details.match[open] > summary { background: var(--panel-2); }
+  .detail { padding: 4px 14px 16px; background: var(--panel-2); border-top: 1px dashed var(--line); }
+  .mvp {
+    display: flex; align-items: center; gap: 8px; margin: 12px 0 4px; padding: 8px 12px; border-radius: 10px;
+    background: var(--gold-soft); color: var(--gold); font-weight: 600; font-size: 14px;
+  }
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
+  .side h4 { margin: 0 0 6px; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); overflow-wrap: anywhere; }
+  .side.us h4 { color: var(--gold); }
+  .ev { display: flex; gap: 6px; align-items: baseline; font-size: 14px; line-height: 1.3; padding: 3px 0; }
+  .ev .ic { flex: none; width: 18px; text-align: center; }
+  .ev .x { color: var(--muted); font-size: 12px; margin-left: auto; padding-left: 6px; white-space: nowrap; }
+  .card-ic { display: inline-block; width: 10px; height: 14px; border-radius: 2px; vertical-align: -2px; }
+  .none { color: var(--muted); font-size: 13px; font-style: italic; }
+  .meta { margin-top: 14px; display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+  .meta b { color: var(--text); font-weight: 500; }
+  .squad summary { cursor: pointer; color: var(--text); font-size: 13px; }
+  .squad p { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+  .report { white-space: pre-line; font-size: 14px; color: var(--text); margin-top: 6px; }
+  .acta {
+    display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; padding: 8px 12px; border-radius: 10px;
+    border: 1px solid var(--gold); color: var(--gold); text-decoration: none; font-weight: 600; font-size: 14px;
+  }
   .empty { padding: 16px; color: var(--muted); font-size: 14px; text-align: center; }
   .record { display: flex; gap: 8px; margin-bottom: 10px; }
   .record div {
@@ -115,9 +145,9 @@
   .record b { display: block; font-size: 26px; line-height: 1; }
   .record span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
 
-  details { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
-  details summary { cursor: pointer; color: var(--text); }
-  details b { color: var(--text); }
+  details.help { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
+  details.help summary { cursor: pointer; color: var(--text); }
+  details.help b { color: var(--text); }
   code { word-break: break-all; background: var(--panel-2); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
   footer { text-align: center; color: #6c685f; font-size: 12px; padding: 0 16px 32px; }
   footer a { color: inherit; }
@@ -159,11 +189,12 @@
 
   <section id="results-section" hidden>
     <h2 class="label">Resultados de la temporada</h2>
+    <p class="hint" style="text-align:left;margin:-4px 0 10px">Toca un partido para ver goles, tarjetas y acta.</p>
     <div class="record" id="record"></div>
     <div class="card" id="results"></div>
   </section>
 
-  <details>
+  <details class="help">
     <summary>¿Problemas? Instrucciones manuales</summary>
     <p><b>iPhone:</b> Ajustes › Calendario › Cuentas › Añadir cuenta › Otra › Añadir calendario suscrito, y pega el enlace.</p>
     <p><b>Android:</b> el botón de Google añade el calendario a tu cuenta (con la sesión iniciada). Si usas otra app de calendario, instala <i>ICSx⁵</i> y pega el enlace.</p>
@@ -267,7 +298,82 @@
     return r;
   }
 
-  fetch("achiperros.ics", { cache: "no-store" }).then(r => r.text()).then(txt => {
+  const title = s => s.toLocaleLowerCase("es").replace(/(^|[\s\-'.])(\p{L})/gu, (m, a, b) => a + b.toLocaleUpperCase("es"));
+  const CARDS = { "Tarjeta Amarilla": "#f5c518", "Tarjeta Roja": "#e53935", "Tarjeta Azul": "#2f7bf5", "Tarjeta Blanca": "#f4f1e8" };
+
+  function sideBlock(teamName, players) {
+    const box = el("div", "side" + (teamName === US ? " us" : ""));
+    box.appendChild(el("h4", null, title(teamName)));
+    const add = (ic, name, extra) => {
+      const r = el("div", "ev");
+      const i = el("span", "ic"); if (typeof ic === "string") i.textContent = ic; else i.appendChild(ic);
+      r.append(i, el("span", null, name)); if (extra) r.appendChild(el("span", "x", extra));
+      box.appendChild(r);
+    };
+    let any = false;
+    players.filter(p => p.stats["Gol"]).sort((a, b) => b.stats["Gol"] - a.stats["Gol"])
+      .forEach(p => { any = true; add("⚽", title(p.name), p.stats["Gol"] > 1 ? `×${p.stats["Gol"]}` : ""); });
+    players.filter(p => p.stats["Autogol"]).forEach(p => { any = true; add("⚽", title(p.name), "en propia"); });
+    players.filter(p => p.stats["Asistencia"]).forEach(p => { any = true; add("👟", title(p.name), `asist.${p.stats["Asistencia"] > 1 ? " ×" + p.stats["Asistencia"] : ""}`); });
+    for (const [k, color] of Object.entries(CARDS)) {
+      players.filter(p => p.stats[k]).forEach(p => {
+        any = true; const c = el("span", "card-ic"); c.style.background = color;
+        add(c, title(p.name), p.stats[k] > 1 ? `×${p.stats[k]}` : "");
+      });
+    }
+    players.filter(p => p.stats["Lesión"]).forEach(p => { any = true; add("🩹", title(p.name), "lesión"); });
+    if (!any) box.appendChild(el("div", "none", "Sin goles ni tarjetas"));
+    return box;
+  }
+
+  function detailBlock(e, d) {
+    const box = el("div", "detail");
+    if (!d) {
+      box.appendChild(el("div", "none", "Aún no hay estadísticas de este partido."));
+    } else {
+      const all = [...d.home.map(p => [p, e.home]), ...d.away.map(p => [p, e.away])];
+      const mvp = all.find(([p]) => p.stats["MVP"]);
+      if (mvp) box.appendChild(el("div", "mvp", `⭐ MVP: ${title(mvp[0].name)}${mvp[1] !== US ? " (" + title(mvp[1]) + ")" : ""}`));
+      const teams = el("div", "teams");
+      teams.append(sideBlock(e.home, d.home), sideBlock(e.away, d.away));
+      box.appendChild(teams);
+      const meta = el("div", "meta");
+      if (d.referee) { const r = el("div"); r.append("Árbitro: ", el("b", null, d.referee)); meta.appendChild(r); }
+      const ours = e.home === US ? d.home : e.away === US ? d.away : [];
+      if (ours.length) {
+        const sq = el("details", "squad");
+        sq.append(el("summary", null, `Convocados de Achiperros (${ours.length})`),
+                  el("p", null, ours.map(p => (p.num ? p.num + ". " : "") + title(p.name)).join(" · ")));
+        meta.appendChild(sq);
+      }
+      if (d.report) { const r = el("div"); r.append(el("b", null, "Crónica"), el("div", "report", d.report)); meta.appendChild(r); }
+      box.appendChild(meta);
+    }
+    const a = el("a", "acta", "Ver acta completa en Competize ↗");
+    a.href = e.url; a.target = "_blank"; a.rel = "noopener";
+    box.appendChild(a);
+    return box;
+  }
+
+  function playedRow(e, badge, details) {
+    const wrap = el("details", "match");
+    const sum = el("summary");
+    const r = row({ ...e, url: "" }, badge);
+    r.appendChild(el("span", "chev", "▾"));
+    sum.appendChild(r);
+    wrap.appendChild(sum);
+    const id = (e.url.match(/(\d+)$/) || [])[1];
+    let built = false;
+    wrap.addEventListener("toggle", () => {
+      if (wrap.open && !built) { built = true; wrap.appendChild(detailBlock(e, details[id])); }
+    });
+    return wrap;
+  }
+
+  const detailsP = fetch("matches.json", { cache: "no-store" }).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+
+  fetch("achiperros.ics", { cache: "no-store" }).then(r => r.text()).then(async txt => {
+    const details = await detailsP;
     const all = parseIcs(txt);
     const cutoff = Date.now() - 2 * 36e5;
     const upcoming = all.filter(e => !e.score && e.date >= cutoff);
@@ -284,7 +390,7 @@
       played.forEach(e => {
         const [gh, ga] = e.score, ours = e.home === US ? gh : ga, theirs = e.home === US ? ga : gh;
         const k = ours > theirs ? "V" : ours < theirs ? "D" : "E";
-        tally[k]++; res.appendChild(row(e, k));
+        tally[k]++; res.appendChild(playedRow(e, k, details));
       });
       const rec = $("record");
       [["V", "Victorias", "var(--win)"], ["E", "Empates", "var(--text)"], ["D", "Derrotas", "var(--loss)"]].forEach(([k, label, c]) => {
