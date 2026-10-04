@@ -149,6 +149,63 @@
   details.help summary { cursor: pointer; color: var(--text); }
   details.help b { color: var(--text); }
   code { word-break: break-all; background: var(--panel-2); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
+  /* Pestañas */
+  nav.tabs {
+    position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; padding: 8px 12px;
+    background: rgba(11,11,11,.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
+  }
+  nav.tabs::-webkit-scrollbar { display: none; }
+  nav.tabs a {
+    flex: 1 0 auto; text-align: center; padding: 9px 12px; border-radius: 10px; text-decoration: none;
+    color: var(--muted); font-weight: 600; font-size: 14px; white-space: nowrap;
+  }
+  nav.tabs a[aria-current="page"] { background: var(--gold); color: var(--black); }
+  .panel[hidden] { display: none; }
+
+  /* Tablas */
+  .pills { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+  .pills button {
+    border: 1px solid var(--line); background: var(--panel); color: var(--muted); border-radius: 999px;
+    padding: 7px 12px; font: 600 13px/1.2 Inter, sans-serif; cursor: pointer;
+  }
+  .pills button[aria-pressed="true"] { border-color: var(--gold); color: var(--gold); background: var(--gold-soft); }
+  .tbl-wrap { overflow-x: auto; }
+  table.tbl { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+  .tbl th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600;
+    text-align: center; padding: 10px 6px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  .tbl td { text-align: center; padding: 9px 6px; border-top: 1px solid var(--line); }
+  .tbl tr:first-child td { border-top: 0; }
+  .tbl .l { text-align: left; }
+  .tbl .name { text-align: left; font-weight: 500; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tbl tr.us td { background: var(--gold-soft); color: var(--gold); font-weight: 700; }
+  .tbl tr.rival td { background: rgba(239,90,76,.10); }
+  .tbl .pts { font-weight: 700; }
+  .tbl th.sort { cursor: pointer; }
+  .tbl th.sort[aria-sort] { color: var(--gold); }
+  .tbl .dim { color: var(--muted); }
+  .note { color: var(--muted); font-size: 13px; margin: 8px 2px 0; }
+  .pos-big { display: flex; gap: 10px; margin-bottom: 12px; }
+  .pos-big > div { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 12px; text-align: center; }
+  .pos-big b { display: block; font-size: 34px; line-height: 1; color: var(--gold); }
+  .pos-big span { font-size: 12px; color: var(--muted); }
+
+  /* Avisos y fichas */
+  .alert { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 12px; font-size: 14px; margin-bottom: 8px;
+    background: rgba(239,90,76,.10); border: 1px solid rgba(239,90,76,.35); }
+  .alert.warn { background: var(--gold-soft); border-color: rgba(239,190,36,.35); }
+  .alert.ok { background: rgba(60,207,122,.08); border-color: rgba(60,207,122,.3); }
+  .alert small { display: block; color: var(--muted); margin-top: 2px; }
+  .form { display: flex; gap: 5px; }
+  .form .badge { width: 26px; height: 26px; font-size: 12px; }
+  .kv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 12px 0 4px; }
+  .kv div { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 4px; text-align: center; }
+  .kv b { display: block; font-size: 22px; line-height: 1.1; }
+  .kv span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .rival-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .rival-head h3 { margin: 0; font-size: 26px; line-height: 1; }
+  .link-gold { color: var(--gold); font-weight: 600; font-size: 14px; text-decoration: none; }
+  .pad { padding: 14px; }
   footer { text-align: center; color: #6c685f; font-size: 12px; padding: 0 16px 32px; }
   footer a { color: inherit; }
 </style>
@@ -160,10 +217,19 @@
   <p>Todos los partidos en tu calendario. Se actualiza solo con cada jornada y cambio de horario.</p>
 </header>
 
+<nav class="tabs" aria-label="Secciones">
+  <a href="#partidos" data-tab="partidos">Partidos</a>
+  <a href="#clasificacion" data-tab="clasificacion">Clasificación</a>
+  <a href="#equipo" data-tab="equipo">Equipo</a>
+  <a href="#rival" data-tab="rival">Rival</a>
+</nav>
+
 <main>
+<div class="panel" id="tab-partidos">
   <section id="next-section">
     <h2 class="label">Próximo partido</h2>
     <div class="next" id="next"><div class="empty">Cargando…</div></div>
+    <p class="hint" id="rival-link" hidden><a class="link-gold" href="#rival">Ver ficha del rival →</a></p>
   </section>
 
   <section>
@@ -200,8 +266,44 @@
     <p><b>Android:</b> el botón de Google añade el calendario a tu cuenta (con la sesión iniciada). Si usas otra app de calendario, instala <i>ICSx⁵</i> y pega el enlace.</p>
     <p>Enlace: <code id="url"></code></p>
   </details>
+</div>
+
+<div class="panel" id="tab-clasificacion" hidden>
+  <section>
+    <div class="pills" id="comp-pills"></div>
+    <div class="pos-big" id="comp-summary"></div>
+    <h2 class="label">Clasificación</h2>
+    <div class="card tbl-wrap" id="standings"><div class="empty">Cargando…</div></div>
+  </section>
+  <section>
+    <h2 class="label">Goleadores de la liga</h2>
+    <div class="card tbl-wrap" id="league-scorers"></div>
+    <p class="note">Achiperros en dorado.</p>
+  </section>
+  <section>
+    <h2 class="label">Fair play</h2>
+    <div class="card tbl-wrap" id="fairplay"></div>
+  </section>
+</div>
+
+<div class="panel" id="tab-equipo" hidden>
+  <section>
+    <h2 class="label">Tarjetas y sanciones</h2>
+    <div id="discipline"></div>
+  </section>
+  <section>
+    <h2 class="label">Estadísticas de la temporada</h2>
+    <div class="pills" id="team-pills"></div>
+    <div class="card tbl-wrap" id="players"><div class="empty">Cargando…</div></div>
+    <p class="note">Toca una columna para ordenar. Datos de las actas de Competize.</p>
+  </section>
+</div>
+
+<div class="panel" id="tab-rival" hidden>
+  <div id="rival"><div class="empty">Cargando…</div></div>
+</div>
 </main>
-<footer>Datos de <a href="https://www.competize.com/es/team/view/2538202-achiperros-fc">Competize</a> · se actualiza cada hora</footer>
+<footer><span id="updated"></span>Datos de <a href="https://www.competize.com/es/team/view/2538202-achiperros-fc">Competize</a> · se actualiza cada hora</footer>
 
 <script>
   const ICS = "https://fernandogr98.github.io/achiperros-calendario/achiperros.ics";
@@ -299,11 +401,13 @@
   }
 
   const title = s => s.toLocaleLowerCase("es").replace(/(^|[\s\-'.])(\p{L})/gu, (m, a, b) => a + b.toLocaleUpperCase("es"));
+  const ACRONYMS = /(?<!\p{L})(F\.?c|C\.?f|C\.?d|Cde|U\.?d|S\.?d|Ii|Iii|Iv)(?!\p{L})/gu;
+  const titleTeam = s => title(s).replace(ACRONYMS, m => m.toUpperCase());
   const CARDS = { "Tarjeta Amarilla": "#f5c518", "Tarjeta Roja": "#e53935", "Tarjeta Azul": "#2f7bf5", "Tarjeta Blanca": "#f4f1e8" };
 
   function sideBlock(teamName, players) {
     const box = el("div", "side" + (teamName === US ? " us" : ""));
-    box.appendChild(el("h4", null, title(teamName)));
+    box.appendChild(el("h4", null, titleTeam(teamName)));
     const add = (ic, name, extra) => {
       const r = el("div", "ev");
       const i = el("span", "ic"); if (typeof ic === "string") i.textContent = ic; else i.appendChild(ic);
@@ -333,7 +437,7 @@
     } else {
       const all = [...d.home.map(p => [p, e.home]), ...d.away.map(p => [p, e.away])];
       const mvp = all.find(([p]) => p.stats["MVP"]);
-      if (mvp) box.appendChild(el("div", "mvp", `⭐ MVP: ${title(mvp[0].name)}${mvp[1] !== US ? " (" + title(mvp[1]) + ")" : ""}`));
+      if (mvp) box.appendChild(el("div", "mvp", `⭐ MVP: ${title(mvp[0].name)}${mvp[1] !== US ? " (" + titleTeam(mvp[1]) + ")" : ""}`));
       const teams = el("div", "teams");
       teams.append(sideBlock(e.home, d.home), sideBlock(e.away, d.away));
       box.appendChild(teams);
@@ -401,5 +505,6 @@
     }
   }).catch(() => { $("next").innerHTML = '<div class="empty">No se pudo cargar el calendario.</div>'; });
 </script>
+<script src="secciones.js"></script>
 </body>
 </html>

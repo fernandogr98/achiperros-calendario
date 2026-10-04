@@ -1,7 +1,27 @@
 {
- "9079522": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
- "9079529": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
- "9079536": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
- "9084232": "FÚTBOL 7 LABORAL 26/27",
- "9087041": "FÚTBOL 7 LABORAL 26/27"
+ "9079522": {
+  "id": "409114",
+  "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
+  "url": "https://www.competize.com/es/competition/view/409114-futbol-7-finde-2627-1a-division"
+ },
+ "9079529": {
+  "id": "409114",
+  "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
+  "url": "https://www.competize.com/es/competition/view/409114-futbol-7-finde-2627-1a-division"
+ },
+ "9079536": {
+  "id": "409114",
+  "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
+  "url": "https://www.competize.com/es/competition/view/409114-futbol-7-finde-2627-1a-division"
+ },
+ "9084232": {
+  "id": "409666",
+  "name": "FÚTBOL 7 LABORAL 26/27",
+  "url": "https://www.competize.com/es/competition/view/409666-futbol-7-laboral-2627"
+ },
+ "9087041": {
+  "id": "409666",
+  "name": "FÚTBOL 7 LABORAL 26/27",
+  "url": "https://www.competize.com/es/competition/view/409666-futbol-7-laboral-2627"
+ }
 }

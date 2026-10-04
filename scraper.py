@@ -1,4 +1,4 @@
-"""Genera docs/achiperros.ics con los partidos de ACHIPERROS FC en Competize (temporada actual)."""
+"""Genera el calendario (docs/achiperros.ics), el detalle de partidos y las estadísticas de ACHIPERROS FC."""
 import hashlib
 import json
 import re
@@ -9,6 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import google_sync
+import stats
 
 TEAM_ID = 2538202
 TEAM_NAME = "ACHIPERROS FC"
@@ -22,6 +23,7 @@ ROOT = Path(__file__).parent
 CACHE_FILE = ROOT / "competitions_cache.json"
 DETAILS_FILE = ROOT / "docs" / "matches.json"
 OUT_FILE = ROOT / "docs" / "achiperros.ics"
+STATS_FILE = ROOT / "docs" / "stats.json"
 
 MONTHS = {"ene": 1, "feb": 2, "mar": 3, "abr": 4, "may": 5, "jun": 6,
           "jul": 7, "ago": 8, "sep": 9, "oct": 10, "nov": 11, "dic": 12}
@@ -43,16 +45,19 @@ def parse_date(text: str):
     return datetime(y, MONTHS[mon.lower()], int(d), int(hh), int(mm))
 
 
-def fetch_fixtures(session: requests.Session) -> str:
-    session.get(TEAM_URL, timeout=30).raise_for_status()
+def fetch_fixtures(session: requests.Session, team_id: int | str = TEAM_ID) -> str:
+    """Historial completo de partidos de un equipo (pestaña «Partidos» de Competize)."""
+    team_url = f"{BASE}/team/view/{team_id}"
+    if not any("csrf" in c.name for c in session.cookies):
+        session.get(TEAM_URL, timeout=30).raise_for_status()
     token = next((c.value for c in session.cookies if "csrf" in c.name), None)
     if not token:
         raise RuntimeError("No se encontró la cookie CSRF de Competize")
     r = session.post(
         f"{BASE}/team/loadFixturesTab",
-        data={"csrf_token_competize_production": token, "team": TEAM_ID,
+        data={"csrf_token_competize_production": token, "team": team_id,
               "idEvent": 0, "idOrganiser": 0, "idSeason": 0},
-        headers={"X-Requested-With": "XMLHttpRequest", "Referer": TEAM_URL},
+        headers={"X-Requested-With": "XMLHttpRequest", "Referer": team_url},
         timeout=30,
     )
     r.raise_for_status()
@@ -92,12 +97,6 @@ def parse_matches(html: str) -> list[dict]:
                 "venue": venue.get_text(strip=True) if venue else "",
             })
     return matches
-
-
-def competition_name(session: requests.Session, match_url: str) -> str:
-    html = session.get(match_url, timeout=30).text
-    m = re.search(r"competition/view/\d+[^'\"]*/results'>([^<]+)</a>", html)
-    return m.group(1).strip() if m else ""
 
 
 def _players(side) -> list[dict]:
@@ -221,14 +220,15 @@ def main():
     session.headers["User-Agent"] = UA
     since = season_start(date.today())
 
-    matches = [m for m in parse_matches(fetch_fixtures(session))
-               if m["start"].date() >= since and TEAM_NAME in (m["home"], m["away"])]
+    all_matches = [m for m in parse_matches(fetch_fixtures(session)) if TEAM_NAME in (m["home"], m["away"])]
+    matches = [m for m in all_matches if m["start"].date() >= since]
 
     cache = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
     for m in matches:
-        if not cache.get(m["id"]):
-            cache[m["id"]] = competition_name(session, m["url"])
-        m["competition"] = cache[m["id"]]
+        if not isinstance(cache.get(m["id"]), dict) or not cache[m["id"]].get("url"):
+            cache[m["id"]] = stats.competition_info(session, m["url"])
+        info = cache[m["id"]]
+        m["competition"], m["competition_url"], m["competition_id"] = info["name"], info["url"], info["id"]
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     # Detalle de partidos jugados (goles, tarjetas...). Se refresca durante 14 días tras el partido,
@@ -251,6 +251,16 @@ def main():
         print(m["start"].strftime("%a %d/%m %H:%M"), "|", m["competition"], "|", m["matchday"],
               "|", m["home"], "vs", m["away"], "|", m["score"] or "")
     print(f"{len(matches)} partidos desde {since} -> {OUT_FILE}")
+
+    # Clasificaciones, rankings, sanciones, estadísticas y ficha del rival (no debe tumbar el calendario)
+    try:
+        data = stats.build(session, TEAM_NAME, TEAM_ID, matches, all_matches, details,
+                           fetch_fixtures, parse_matches, since)
+        STATS_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"Estadísticas: {len(data['competitions'])} competiciones, {len(data['players'])} jugadores, "
+              f"rival: {(data['next_rival'] or {}).get('name', '-')}")
+    except Exception as exc:
+        print(f"Aviso: sin estadísticas: {exc}")
 
     google_sync.sync(events, datetime.combine(since, datetime.min.time()))
 
