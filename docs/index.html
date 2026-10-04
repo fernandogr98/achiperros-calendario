@@ -151,14 +151,14 @@
   code { word-break: break-all; background: var(--panel-2); padding: 2px 6px; border-radius: 6px; font-size: 12px; }
   /* Pestañas */
   nav.tabs {
-    position: sticky; top: 0; z-index: 10; display: flex; gap: 4px; padding: 8px 12px;
+    position: sticky; top: 0; z-index: 10; display: flex; gap: 2px; padding: 8px 8px;
     background: rgba(11,11,11,.92); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none;
   }
   nav.tabs::-webkit-scrollbar { display: none; }
   nav.tabs a {
-    flex: 1 0 auto; text-align: center; padding: 9px 12px; border-radius: 10px; text-decoration: none;
-    color: var(--muted); font-weight: 600; font-size: 14px; white-space: nowrap;
+    flex: 1 0 auto; text-align: center; padding: 9px 8px; border-radius: 10px; text-decoration: none;
+    color: var(--muted); font-weight: 600; font-size: 13px; white-space: nowrap;
   }
   nav.tabs a[aria-current="page"] { background: var(--gold); color: var(--black); }
   .panel[hidden] { display: none; }
@@ -206,6 +206,42 @@
   .rival-head h3 { margin: 0; font-size: 26px; line-height: 1; }
   .link-gold { color: var(--gold); font-weight: 600; font-size: 14px; text-decoration: none; }
   .pad { padding: 14px; }
+  /* Calendario */
+  .cal-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+  .cal-title-wrap { text-align: center; }
+  .cal-title-wrap h2 { margin: 0; font-size: 30px; line-height: 1; color: var(--gold); }
+  .cal-nav {
+    width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel);
+    color: var(--text); font-size: 26px; line-height: 1; cursor: pointer;
+  }
+  .cal-box { padding: 8px; }
+  .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; touch-action: pan-y; }
+  .cal-dow { text-align: center; font-size: 11px; font-weight: 700; color: var(--muted); padding: 4px 0 6px; }
+  .cal-cell {
+    position: relative; aspect-ratio: 1 / 1.08; border: 1px solid transparent; border-radius: 10px;
+    background: transparent; color: var(--text); font: 500 15px/1 Inter, sans-serif; padding: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; cursor: pointer;
+  }
+  .cal-cell.empty { cursor: default; }
+  .cal-cell:not(.empty):hover { background: var(--panel-2); }
+  .cal-cell.today .cal-num { color: var(--gold); font-weight: 800; }
+  .cal-cell.today::after { content: ""; position: absolute; top: 5px; right: 6px; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+  .cal-cell.has { background: color-mix(in srgb, var(--c) 16%, transparent); border-color: color-mix(in srgb, var(--c) 45%, transparent); }
+  .cal-cell.has .cal-num { font-weight: 700; }
+  .cal-cell.sel { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold) inset; }
+  .cal-sub { font-size: 10px; font-weight: 700; color: var(--c); letter-spacing: .02em; }
+  .cal-sub.res { width: 18px; height: 16px; border-radius: 5px; display: grid; place-items: center; color: var(--black); }
+  .cal-sub.V { background: var(--win); } .cal-sub.E { background: var(--draw); } .cal-sub.D { background: var(--loss); }
+  .cal-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 10px; }
+  .cal-legend { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; color: var(--muted); }
+  .cal-leg { display: inline-flex; align-items: center; gap: 6px; }
+  .cal-leg i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .cal-today { border: 1px solid var(--gold); background: transparent; color: var(--gold); border-radius: 999px; padding: 7px 14px; font: 600 13px Inter, sans-serif; cursor: pointer; }
+  .cal-card { text-align: center; margin-bottom: 10px; }
+  .cal-res.V { background: rgba(60,207,122,.14); color: var(--win); }
+  .cal-res.D { background: rgba(239,90,76,.14); color: var(--loss); }
+  .cal-res.E { background: var(--panel-2); color: var(--text); }
+  .cal-links { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
   footer { text-align: center; color: #6c685f; font-size: 12px; padding: 0 16px 32px; }
   footer a { color: inherit; }
 </style>
@@ -219,6 +255,7 @@
 
 <nav class="tabs" aria-label="Secciones">
   <a href="#partidos" data-tab="partidos">Partidos</a>
+  <a href="#calendario" data-tab="calendario">Calendario</a>
   <a href="#clasificacion" data-tab="clasificacion">Clasificación</a>
   <a href="#equipo" data-tab="equipo">Equipo</a>
   <a href="#rival" data-tab="rival">Rival</a>
@@ -266,6 +303,24 @@
     <p><b>Android:</b> el botón de Google añade el calendario a tu cuenta (con la sesión iniciada). Si usas otra app de calendario, instala <i>ICSx⁵</i> y pega el enlace.</p>
     <p>Enlace: <code id="url"></code></p>
   </details>
+</div>
+
+<div class="panel" id="tab-calendario" hidden>
+  <section>
+    <div class="cal-head">
+      <button id="cal-prev" class="cal-nav" type="button" aria-label="Mes anterior">‹</button>
+      <div class="cal-title-wrap"><h2 id="cal-title" class="display"></h2><div id="cal-count" class="comp"></div></div>
+      <button id="cal-next" class="cal-nav" type="button" aria-label="Mes siguiente">›</button>
+    </div>
+    <div class="card cal-box">
+      <div class="cal-grid" id="cal-grid"></div>
+    </div>
+    <div class="cal-foot">
+      <div id="cal-legend" class="cal-legend"></div>
+      <button id="cal-today" class="cal-today" type="button">Hoy</button>
+    </div>
+  </section>
+  <section id="cal-day"></section>
 </div>
 
 <div class="panel" id="tab-clasificacion" hidden>
@@ -506,5 +561,6 @@
   }).catch(() => { $("next").innerHTML = '<div class="empty">No se pudo cargar el calendario.</div>'; });
 </script>
 <script src="secciones.js"></script>
+<script src="calendario.js"></script>
 </body>
 </html>

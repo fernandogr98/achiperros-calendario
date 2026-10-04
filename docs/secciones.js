@@ -3,7 +3,7 @@
   // Norma de sanción por acumulación de amarillas (null = desconocida, solo se muestran los recuentos).
   const YELLOW_LIMIT = null;
 
-  const TABS = ["partidos", "clasificacion", "equipo", "rival"];
+  const TABS = ["partidos", "calendario", "clasificacion", "equipo", "rival"];
   const short = n => n.replace(/^F[ÚU]TBOL 7\s*/i, "").replace(/\s*\d{2}\/\d{2}\s*/, " ").replace(/\s+/g, " ").trim();
   const fmtDate = new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
   const fmtShort = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", year: "2-digit" });
