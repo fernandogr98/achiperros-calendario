@@ -280,6 +280,182 @@
   "referee": "Andrés Cujia",
   "report": ""
  },
+ "9079536": {
+  "away": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 2,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-10-04",
+  "home": [
+   {
+    "name": "DAVID VAZQUEZ",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL MIRANDA",
+    "num": "3",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR GAMALLO",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "RUBEN HERRADA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO SANZ",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "IVAN HERNANDEZ",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DAVID ALES",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ADRIÁN GARCÍA",
+    "num": "11",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "GUILLERMO VELASCO",
+    "num": "13",
+    "stats": {}
+   },
+   {
+    "name": "RAUL BARTOLOME",
+    "num": "17",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "CARLOS SANZ",
+    "num": "18",
+    "stats": {}
+   },
+   {
+    "name": "DIEGO CABALLERO",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "IURII TSYUHIN",
+    "num": "23",
+    "stats": {}
+   },
+   {
+    "name": "VICTOR MIGUEL",
+    "num": "24",
+    "stats": {}
+   },
+   {
+    "name": "IVAN ILLAN",
+    "num": "80",
+    "stats": {}
+   }
+  ],
+  "referee": "JAVIER Almagro",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
