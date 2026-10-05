@@ -283,16 +283,6 @@
  "9079536": {
   "away": [
    {
-    "name": "DIEGO MANZANO",
-    "num": "1",
-    "stats": {}
-   },
-   {
-    "name": "SERGIO RIVERA",
-    "num": "7",
-    "stats": {}
-   },
-   {
     "name": "FERNANDO GALLARDO",
     "num": "8",
     "stats": {}
@@ -330,26 +320,11 @@
     "stats": {}
    },
    {
-    "name": "ROBERTO RIVAS",
-    "num": "22",
-    "stats": {}
-   },
-   {
-    "name": "JORGE ALBERTO RODRÍGUEZ",
-    "num": "24",
-    "stats": {}
-   },
-   {
     "name": "SEBASTIÁN GALEANO",
     "num": "29",
     "stats": {
      "Gol": 1
     }
-   },
-   {
-    "name": "VÍCTOR ALCARAZ",
-    "num": "33",
-    "stats": {}
    },
    {
     "name": "MANUEL RAMÓN",
@@ -379,11 +354,6 @@
    {
     "name": "DANIEL MIRANDA",
     "num": "3",
-    "stats": {}
-   },
-   {
-    "name": "VÍCTOR GAMALLO",
-    "num": "5",
     "stats": {}
    },
    {
@@ -435,11 +405,6 @@
    {
     "name": "DIEGO CABALLERO",
     "num": "19",
-    "stats": {}
-   },
-   {
-    "name": "IURII TSYUHIN",
-    "num": "23",
     "stats": {}
    },
    {
