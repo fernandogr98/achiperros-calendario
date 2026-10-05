@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T06:15+02:00",
+ "updated": "2026-10-05T06:30+02:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -202,15 +202,15 @@
      "rows": [
       {
        "Posición": 1,
-       "Nombre": "ÁLVARO PASCUAL",
-       "Equipo": "ACHIPERROS FC",
+       "Nombre": "ALVARO MORAN",
+       "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 3,
-       "Goles": 6
+       "Goles": 9
       },
       {
        "Posición": 2,
-       "Nombre": "ALVARO MORAN",
-       "Equipo": "LEGIÓN SUR F.C.",
+       "Nombre": "ÁLVARO PASCUAL",
+       "Equipo": "ACHIPERROS FC",
        "Part.": 3,
        "Goles": 6
       },
@@ -363,328 +363,335 @@
       },
       {
        "Posición": 24,
+       "Nombre": "CARLOS RIBAGORDA",
+       "Equipo": "BASTARD MÜNCHEN",
+       "Part.": 3,
+       "Goles": 2
+      },
+      {
+       "Posición": 25,
        "Nombre": "ÁLVARO SILOCHI",
        "Equipo": "CDE FORUSIA",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 25,
+       "Posición": 26,
        "Nombre": "SIRO IBARGOYEN",
        "Equipo": "PORRATHINAIKOS",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 26,
+       "Posición": 27,
        "Nombre": "SEBASTIÁN GALEANO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 27,
+       "Posición": 28,
        "Nombre": "RUBEN MARTINEZ",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 28,
+       "Posición": 29,
        "Nombre": "MARCOS CAMBÓN",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 29,
+       "Posición": 30,
        "Nombre": "IVAN LEÓN",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 30,
+       "Posición": 31,
        "Nombre": "ALEJANDRO ACEITUNO",
        "Equipo": "CDE FORUSIA",
        "Part.": 2,
        "Goles": 2
       },
       {
-       "Posición": 31,
+       "Posición": 32,
        "Nombre": "HUGO MUÑOZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 1,
        "Goles": 2
       },
       {
-       "Posición": 32,
+       "Posición": 33,
        "Nombre": "GONZALO PINTOR",
        "Equipo": "SEITO DURO FC",
        "Part.": 1,
        "Goles": 2
       },
       {
-       "Posición": 33,
+       "Posición": 34,
        "Nombre": "JOSÉ BENJAMIN GUTAMA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 34,
+       "Posición": 35,
        "Nombre": "DANIEL MOLINA",
        "Equipo": "LOS PATXIS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 35,
+       "Posición": 36,
        "Nombre": "VÍCTOR ALCARAZ",
        "Equipo": "ACHIPERROS FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 36,
+       "Posición": 37,
        "Nombre": "SERGIO SÁNCHEZ",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 37,
+       "Posición": 38,
        "Nombre": "SERGIO RODRIGO",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 38,
+       "Posición": 39,
        "Nombre": "SERGIO MORAN",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 39,
+       "Posición": 40,
        "Nombre": "RUBEN RUBIO",
        "Equipo": "CDE FORUSIA",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 40,
+       "Posición": 41,
        "Nombre": "ROBERTO RIVAS",
        "Equipo": "ACHIPERROS FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 41,
+       "Posición": 42,
        "Nombre": "MARCOS SIRVENT",
        "Equipo": "SEITO DURO FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 42,
+       "Posición": 43,
        "Nombre": "JESÚS CARIÑO",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 43,
+       "Posición": 44,
        "Nombre": "FRANCISCO JAVIER VELAZQUEZ",
        "Equipo": "PORRATHINAIKOS",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 44,
+       "Posición": 45,
        "Nombre": "DAWID DARIUSZ CHRUSCIEL",
        "Equipo": "ACHIPERROS FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 45,
+       "Posición": 46,
        "Nombre": "DANIEL RODRÍGUEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 46,
-       "Nombre": "CARLOS RIBAGORDA",
+       "Posición": 47,
+       "Nombre": "BORJA GARCÍA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 47,
+       "Posición": 48,
        "Nombre": "ALEJANDRO SÁNCHEZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 48,
+       "Posición": 49,
        "Nombre": "AARON GUTIERREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 49,
+       "Posición": 50,
        "Nombre": "SERGIO RIVERA",
        "Equipo": "ACHIPERROS FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 50,
+       "Posición": 51,
        "Nombre": "MARCOS OLIVA",
        "Equipo": "SEITO DURO FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 51,
+       "Posición": 52,
        "Nombre": "MANUEL RAMÓN",
        "Equipo": "ACHIPERROS FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 52,
+       "Posición": 53,
        "Nombre": "LUCAS VALERA",
        "Equipo": "SEITO DURO FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 53,
+       "Posición": 54,
        "Nombre": "JORGE ALBERTO RODRÍGUEZ",
        "Equipo": "ACHIPERROS FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 54,
+       "Posición": 55,
        "Nombre": "JOHAN GOMEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 55,
+       "Posición": 56,
        "Nombre": "IGNACIO CRESPO",
        "Equipo": "BURDEL KING",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 56,
+       "Posición": 57,
        "Nombre": "GONZALO SAN ROMÁN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 57,
+       "Posición": 58,
        "Nombre": "EDUARDO GARCÍA",
        "Equipo": "CDE FORUSIA",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 58,
+       "Posición": 59,
        "Nombre": "DAVID ALES",
        "Equipo": "BARÇA MURAI",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 59,
+       "Posición": 60,
        "Nombre": "DANIEL RAMÓN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 60,
+       "Posición": 61,
        "Nombre": "DANIEL MIRANDA",
        "Equipo": "BARÇA MURAI",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 61,
+       "Posición": 62,
        "Nombre": "DANIEL IBÁÑEZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 62,
+       "Posición": 63,
        "Nombre": "CLAUDIO MIHAIL MOLEA",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 63,
+       "Posición": 64,
        "Nombre": "ALONSO DIAZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 64,
+       "Posición": 65,
        "Nombre": "RUBEN GARCÍA",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 65,
+       "Posición": 66,
        "Nombre": "RAUL BARTOLOME",
        "Equipo": "BARÇA MURAI",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 66,
+       "Posición": 67,
        "Nombre": "JAVIER RODRÍGUEZ",
        "Equipo": "BURDEL KING",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 67,
+       "Posición": 68,
        "Nombre": "IZAN BOSQUET",
        "Equipo": "BURDEL KING",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 68,
+       "Posición": 69,
        "Nombre": "IGNACIO JUY",
        "Equipo": "CDE FORUSIA",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 69,
+       "Posición": 70,
        "Nombre": "ALEJANDRO FERNÁNDEZ",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 70,
+       "Posición": 71,
        "Nombre": "ADRIÁN GARCÍA",
        "Equipo": "BARÇA MURAI",
        "Part.": 1,
@@ -749,57 +756,57 @@
       },
       {
        "Posición": 2,
+       "Nombre": "ALVARO MORAN",
+       "Equipo": "LEGIÓN SUR F.C.",
+       "Part.": 3,
+       "MVP": 2
+      },
+      {
+       "Posición": 3,
        "Nombre": "ÁLVARO PASCUAL",
        "Equipo": "ACHIPERROS FC",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 3,
+       "Posición": 4,
        "Nombre": "SERGIO MUÑOZ",
        "Equipo": "SEITO DURO FC",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 4,
+       "Posición": 5,
        "Nombre": "SAÚL VALERA",
        "Equipo": "SEITO DURO FC",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 5,
+       "Posición": 6,
        "Nombre": "IVAN GUTIERREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 6,
+       "Posición": 7,
        "Nombre": "GUILLERMO MARCOS",
        "Equipo": "LOS PATXIS FC",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 7,
+       "Posición": 8,
        "Nombre": "DANIEL SUÁREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "MVP": 1
       },
       {
-       "Posición": 8,
+       "Posición": 9,
        "Nombre": "DANIEL RODRÍGUEZ",
        "Equipo": "CDE FORUSIA",
-       "Part.": 3,
-       "MVP": 1
-      },
-      {
-       "Posición": 9,
-       "Nombre": "ALVARO MORAN",
-       "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 3,
        "MVP": 1
       },
