@@ -243,10 +243,10 @@ def main():
         m["competition"], m["competition_url"], m["competition_id"] = info["name"], info["url"], info["id"]
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
-    # Detalle de partidos jugados (goles, tarjetas...). Se refresca durante 14 días tras el partido,
+    # Detalle de partidos jugados (goles, tarjetas...). Se refresca durante 4 días tras el partido,
     # porque el organizador a veces mete las estadísticas con retraso.
     details = json.loads(DETAILS_FILE.read_text(encoding="utf-8")) if DETAILS_FILE.exists() else {}
-    recent = date.today() - timedelta(days=14)
+    recent = date.today() - timedelta(days=4)
     for m in matches:
         if m["score"] and (m["id"] not in details or m["start"].date() >= recent):
             try:

@@ -5,7 +5,8 @@
 //   - Pegar este código.
 //   - Settings > Variables and Secrets > añadir secreto GH_TOKEN (token fine-grained de GitHub,
 //     solo para el repo achiperros-calendario, permiso "Actions: Read and write").
-//   - Settings > Triggers > Cron Triggers > añadir "*/15 * * * *".
+//   - Settings > Triggers > Cron Triggers > "15 9,15,20,22 * * *" (UTC: 11:15, 17:15, 22:15 y 00:15 en Madrid).
+//     Pocas peticiones al día: Competize activó su anti-bots cuando lanzábamos cada 15 min.
 
 const WORKFLOW = "https://api.github.com/repos/fernandogr98/achiperros-calendario/actions/workflows/update.yml/dispatches";
 

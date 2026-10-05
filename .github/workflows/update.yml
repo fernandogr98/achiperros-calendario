@@ -2,7 +2,7 @@ name: Actualizar calendario
 
 on:
   schedule:
-    - cron: "17 * * * *"     # respaldo: el disparo fiable lo hace el Worker de Cloudflare cada 15 min
+    - cron: "40 23 * * *"    # respaldo diario; el disparo principal lo hace el Worker de Cloudflare 4 veces al día
   workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
 
 permissions:
