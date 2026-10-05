@@ -1,6 +1,7 @@
 """Genera el calendario (docs/achiperros.ics), el detalle de partidos y las estadísticas de ACHIPERROS FC."""
 import hashlib
 import json
+import os
 import re
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -230,6 +231,11 @@ def build_ics(events: list[dict]) -> str:
 def main():
     session = requests.Session()
     session.headers["User-Agent"] = UA
+    # Cookies anti-bot (AWS WAF) de Competize: si un proceso externo las deja
+    # en un fichero JSON, se inyectan para saltarse el desafío anti-bots.
+    _cookie_env = os.environ.get("COMPETIZE_COOKIES_FILE")
+    if _cookie_env and Path(_cookie_env).exists():
+        session.cookies.update(json.loads(Path(_cookie_env).read_text(encoding="utf-8")))
     since = season_start(date.today())
 
     all_matches = [m for m in parse_matches(fetch_fixtures(session)) if TEAM_NAME in (m["home"], m["away"])]
