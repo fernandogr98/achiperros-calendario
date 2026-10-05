@@ -45,11 +45,23 @@ def parse_date(text: str):
     return datetime(y, MONTHS[mon.lower()], int(d), int(hh), int(mm))
 
 
+class BlockedByCompetize(RuntimeError):
+    """Competize ha respondido con su desafío anti-bots (AWS WAF)."""
+
+
+def _check_blocked(r: requests.Response) -> None:
+    if r.headers.get("x-amzn-waf-action") or (r.status_code == 202 and not r.content):
+        raise BlockedByCompetize(f"Competize bloquea el acceso automático (HTTP {r.status_code}, "
+                                 f"waf={r.headers.get('x-amzn-waf-action', '-')})")
+
+
 def fetch_fixtures(session: requests.Session, team_id: int | str = TEAM_ID) -> str:
     """Historial completo de partidos de un equipo (pestaña «Partidos» de Competize)."""
     team_url = f"{BASE}/team/view/{team_id}"
     if not any("csrf" in c.name for c in session.cookies):
-        session.get(TEAM_URL, timeout=30).raise_for_status()
+        first = session.get(TEAM_URL, timeout=30)
+        _check_blocked(first)
+        first.raise_for_status()
     token = next((c.value for c in session.cookies if "csrf" in c.name), None)
     if not token:
         raise RuntimeError("No se encontró la cookie CSRF de Competize")
@@ -266,4 +278,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BlockedByCompetize as exc:
+        # No es un fallo nuestro: se conserva la última versión publicada y el job no sale en rojo.
+        print(f"AVISO: {exc}. Se mantiene la última versión del calendario y de la web.")
