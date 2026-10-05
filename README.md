@@ -4,7 +4,18 @@ Calendario `.ics` con los partidos de **ACHIPERROS FC** (todas las competiciones
 
 Página para suscribirse: https://achiperrosfc.com/
 
-Un GitHub Action ejecuta `scraper.py` cada hora y publica el resultado en GitHub Pages.
+## Actualización automática
+
+El calendario se actualiza solo **varias veces al día** (en las franjas en que se
+juegan los partidos de las ligas FINDE y LABORAL) y se publica en GitHub Pages.
+
+Competize protege su web con un anti-bot (AWS WAF) que bloquea a los clientes HTTP
+normales. Por eso la actualización se hace desde un servidor externo: un navegador
+headless resuelve el desafío anti-bot, reutiliza las cookies y ejecuta `scraper.py`,
+que regenera `achiperros.ics`, los datos de la web y las estadísticas.
+
+El GitHub Action (`update.yml`) y el Worker de Cloudflare siguen disponibles como
+respaldo y para actualizar a mano.
 
 **Suscribirse (iPhone):** Ajustes › Calendario › Cuentas › Añadir cuenta › Otra › Añadir calendario suscrito, y pegar:
 
