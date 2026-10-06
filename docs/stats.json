@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T21:21+02:00",
+ "updated": "2026-10-06T23:00+02:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -2275,59 +2275,5 @@
    }
   }
  ],
- "next_rival": {
-  "name": "CREATIVE PROJECT",
-  "match_id": "9087041",
-  "competition": "FÚTBOL 7 LABORAL 26/27",
-  "date": "2026-10-06T22:15:00",
-  "venue": "Fútbol 7 Club Deportivo Estoril II",
-  "home": false,
-  "url": "https://www.competize.com/es/matches/view/9087041",
-  "matchday": "Jornada 2",
-  "standing": {
-   "pos": 8,
-   "team": "CREATIVE PROJECT",
-   "team_id": "2874265",
-   "j": 1,
-   "g": 0,
-   "e": 1,
-   "p": 0,
-   "gf": 2,
-   "gc": 2,
-   "dg": 0,
-   "pts": 1
-  },
-  "rival_id": "2874265",
-  "top_scorers": [
-   {
-    "Posición": 36,
-    "Nombre": "FRANCISCO DE LA RED",
-    "Equipo": "CREATIVE PROJECT",
-    "Part.": 1,
-    "Goles": 1
-   },
-   {
-    "Posición": 47,
-    "Nombre": "ALEJANDRO CARLOS",
-    "Equipo": "CREATIVE PROJECT",
-    "Part.": 1,
-    "Goles": 1
-   }
-  ],
-  "sanctions": [],
-  "last_results": [
-   {
-    "date": "2026-10-01T21:15:00",
-    "home": "CREATIVE PROJECT",
-    "away": "SANFERDOG",
-    "score": [
-     "2",
-     "2"
-    ],
-    "result": "E",
-    "url": "https://www.competize.com/es/matches/view/9084237"
-   }
-  ],
-  "head_to_head": []
- }
+ "next_rival": null
 }
