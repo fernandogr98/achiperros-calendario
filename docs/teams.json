@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T00:00",
+ "updated": "2026-10-07T00:30",
  "competitions": [
   {
    "id": "409114",
@@ -554,9 +554,42 @@
    "name": "LABORAL",
    "teams": [
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 1,
+     "pj": 2,
+     "g": 2,
+     "e": 0,
+     "p": 0,
+     "gf": 19,
+     "gc": 4,
+     "dg": 15,
+     "pts": 6,
+     "form": [
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T22:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "F.C SKBIA-2",
+       "score": "11-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
-     "pos": 1,
+     "pos": 2,
      "pj": 2,
      "g": 2,
      "e": 0,
@@ -589,7 +622,7 @@
     {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 2,
+     "pos": 3,
      "pj": 2,
      "g": 1,
      "e": 1,
@@ -620,31 +653,6 @@
      ]
     },
     {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 3,
-     "pj": 1,
-     "g": 1,
-     "e": 0,
-     "p": 0,
-     "gf": 11,
-     "gc": 1,
-     "dg": 10,
-     "pts": 3,
-     "form": [
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T22:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "F.C SKBIA-2",
-       "score": "11-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
      "pos": 4,
@@ -670,9 +678,42 @@
      ]
     },
     {
+     "id": "2870356",
+     "name": "POLEMICAS APARTE FC",
+     "pos": 5,
+     "pj": 2,
+     "g": 1,
+     "e": 0,
+     "p": 1,
+     "gf": 9,
+     "gc": 7,
+     "dg": 2,
+     "pts": 3,
+     "form": [
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-06T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "POLEMICAS APARTE FC",
+       "score": "1-7",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 5,
+     "pos": 6,
      "pj": 1,
      "g": 1,
      "e": 0,
@@ -697,7 +738,7 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 6,
+     "pos": 7,
      "pj": 1,
      "g": 1,
      "e": 0,
@@ -722,7 +763,7 @@
     {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 7,
+     "pos": 8,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -755,17 +796,18 @@
     {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 8,
-     "pj": 1,
+     "pos": 9,
+     "pj": 2,
      "g": 0,
      "e": 1,
-     "p": 0,
-     "gf": 2,
-     "gc": 2,
-     "dg": 0,
+     "p": 1,
+     "gf": 5,
+     "gc": 10,
+     "dg": -5,
      "pts": 1,
      "form": [
-      "E"
+      "E",
+      "D"
      ],
      "matches": [
       {
@@ -774,13 +816,20 @@
        "away": "SANFERDOG",
        "score": "2-2",
        "result": "E"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2806044",
      "name": "CDE FORUSIA",
-     "pos": 9,
+     "pos": 10,
      "pj": 1,
      "g": 0,
      "e": 0,
@@ -805,7 +854,7 @@
     {
      "id": "30160",
      "name": "BARRIO SÉSAMO",
-     "pos": 10,
+     "pos": 11,
      "pj": 1,
      "g": 0,
      "e": 0,
@@ -830,7 +879,7 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 11,
+     "pos": 12,
      "pj": 1,
      "g": 0,
      "e": 0,
@@ -853,43 +902,19 @@
      ]
     },
     {
-     "id": "2870356",
-     "name": "POLEMICAS APARTE FC",
-     "pos": 12,
-     "pj": 1,
-     "g": 0,
-     "e": 0,
-     "p": 1,
-     "gf": 2,
-     "gc": 6,
-     "dg": -4,
-     "pts": 0,
-     "form": [
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "30142",
      "name": "BETA - PUBLIX CF",
      "pos": 13,
-     "pj": 1,
+     "pj": 2,
      "g": 0,
      "e": 0,
-     "p": 1,
-     "gf": 3,
-     "gc": 9,
-     "dg": -6,
+     "p": 2,
+     "gf": 4,
+     "gc": 16,
+     "dg": -12,
      "pts": 0,
      "form": [
+      "D",
       "D"
      ],
      "matches": [
@@ -898,6 +923,13 @@
        "home": "BAR CON PAN Y TODO NAVALCARNERO",
        "away": "BETA - PUBLIX CF",
        "score": "9-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-06T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "POLEMICAS APARTE FC",
+       "score": "1-7",
        "result": "D"
       }
      ]

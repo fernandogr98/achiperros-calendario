@@ -566,5 +566,138 @@
   ],
   "referee": "Jesús Navarro Pérez",
   "report": ""
+ },
+ "9087041": {
+  "away": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 3,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-10-07",
+  "home": [
+   {
+    "name": "BORJA CALVO",
+    "num": "",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DAVID HERRANZ",
+    "num": "",
+    "stats": {}
+   },
+   {
+    "name": "JESUS PASCUAL",
+    "num": "",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO MONSALVE",
+    "num": "",
+    "stats": {}
+   },
+   {
+    "name": "DAVID NIETO",
+    "num": "3",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ANDRES GARCIA",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "ANGEL RODRIGUEZ",
+    "num": "6",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "FRANCISCO DE LA RED",
+    "num": "11",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "BERNANRDO ORTEGA",
+    "num": "18",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "Jesús Navarro Pérez",
+  "report": ""
  }
 }
