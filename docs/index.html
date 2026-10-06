@@ -245,6 +245,34 @@
   .cal-links { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
   footer { text-align: center; color: #6c685f; font-size: 12px; padding: 0 16px 32px; }
   footer a { color: inherit; }
+
+  /* Pestaña Liga (equipos) */
+  .search { width: 100%; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); color: var(--text); font: 500 15px Inter, sans-serif; margin-bottom: 12px; }
+  .search::placeholder { color: var(--muted); }
+  .team-card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; margin-bottom: 8px; }
+  .team-card.us { border-color: rgba(239,190,36,.45); }
+  .team-card > summary { list-style: none; cursor: pointer; }
+  .team-card > summary::-webkit-details-marker { display: none; }
+  .team-row { display: flex; align-items: center; gap: 12px; padding: 12px 14px; }
+  .team-card[open] .team-row { background: var(--panel-2); }
+  .pos-num { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: var(--panel-2); border: 1px solid var(--line); font: 400 17px/1 "Bebas Neue", Impact, sans-serif; color: var(--gold); }
+  .team-card.us .pos-num { background: var(--gold-soft); border-color: var(--gold); }
+  .team-info { min-width: 0; flex: 1; }
+  .team-info .n { font-weight: 700; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .team-card.us .team-info .n { color: var(--gold); }
+  .team-info .r { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .team-form { flex: none; display: flex; gap: 4px; }
+  .team-form .badge { width: 21px; height: 21px; border-radius: 6px; font-size: 11px; }
+  .team-pts { flex: none; text-align: right; }
+  .team-pts b { display: block; font: 400 19px/1 "Bebas Neue", Impact, sans-serif; color: var(--gold); }
+  .team-pts span { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .chev { flex: none; color: var(--muted); transition: transform .2s ease; font-size: 14px; }
+  .team-card[open] .chev { transform: rotate(180deg); color: var(--gold); }
+  .team-detail { padding: 4px 14px 14px; background: var(--panel-2); border-top: 1px dashed var(--line); }
+  .record-strip { display: flex; gap: 8px; margin: 10px 0; }
+  .record-strip div { flex: 1; text-align: center; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 7px 2px; }
+  .record-strip b { display: block; font-size: 20px; line-height: 1; }
+  .record-strip span { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
 </style>
 </head>
 <body>
@@ -260,6 +288,7 @@
   <a href="#clasificacion" data-tab="clasificacion">Clasificación</a>
   <a href="#equipo" data-tab="equipo">Equipo</a>
   <a href="#rival" data-tab="rival">Rival</a>
+  <a href="#liga" data-tab="liga">Liga</a>
 </nav>
 
 <main>
@@ -357,6 +386,15 @@
 
 <div class="panel" id="tab-rival" hidden>
   <div id="rival"><div class="empty">Cargando…</div></div>
+</div>
+
+<div class="panel" id="tab-liga" hidden>
+  <section>
+    <h2 class="label">Equipos de la liga</h2>
+    <div class="pills" id="liga-pills"></div>
+    <input class="search" id="liga-search" type="search" placeholder="Buscar equipo…" aria-label="Buscar equipo">
+    <div id="liga-teams"><div class="empty">Cargando…</div></div>
+  </section>
 </div>
 </main>
 <footer><span id="updated"></span>Datos de <a href="https://www.competize.com/es/team/view/2538202-achiperros-fc">Competize</a> · se actualiza varias veces al día</footer>
@@ -563,5 +601,6 @@
 </script>
 <script src="secciones.js"></script>
 <script src="calendario.js"></script>
+<script src="equipos.js"></script>
 </body>
 </html>
