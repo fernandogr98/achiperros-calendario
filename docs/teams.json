@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T23:31",
+ "updated": "2026-10-08T00:01",
  "competitions": [
   {
    "id": "409114",
@@ -653,19 +653,53 @@
      ]
     },
     {
-     "id": "1327061",
-     "name": "BAR CON PAN Y TODO NAVALCARNERO",
+     "id": "1871372",
+     "name": "MONSINES FC",
      "pos": 4,
-     "pj": 1,
+     "pj": 2,
      "g": 1,
      "e": 0,
-     "p": 0,
-     "gf": 9,
-     "gc": 3,
-     "dg": 6,
+     "p": 1,
+     "gf": 15,
+     "gc": 7,
+     "dg": 8,
      "pts": 3,
      "form": [
+      "D",
       "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "MONSINES FC",
+       "score": "7-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T21:15:00",
+       "home": "MONSINES FC",
+       "away": "BARRIO SÉSAMO",
+       "score": "11-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
+     "id": "1327061",
+     "name": "BAR CON PAN Y TODO NAVALCARNERO",
+     "pos": 5,
+     "pj": 2,
+     "g": 1,
+     "e": 0,
+     "p": 1,
+     "gf": 15,
+     "gc": 10,
+     "dg": 5,
+     "pts": 3,
+     "form": [
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -674,13 +708,20 @@
        "away": "BETA - PUBLIX CF",
        "score": "9-3",
        "result": "V"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 5,
+     "pos": 6,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -713,7 +754,7 @@
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 6,
+     "pos": 7,
      "pj": 1,
      "g": 1,
      "e": 0,
@@ -738,7 +779,7 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 7,
+     "pos": 8,
      "pj": 1,
      "g": 1,
      "e": 0,
@@ -761,9 +802,42 @@
      ]
     },
     {
+     "id": "2806044",
+     "name": "CDE FORUSIA",
+     "pos": 9,
+     "pj": 2,
+     "g": 1,
+     "e": 0,
+     "p": 1,
+     "gf": 10,
+     "gc": 10,
+     "dg": 0,
+     "pts": 3,
+     "form": [
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 8,
+     "pos": 10,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -796,7 +870,7 @@
     {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 9,
+     "pos": 11,
      "pj": 2,
      "g": 0,
      "e": 1,
@@ -827,84 +901,9 @@
      ]
     },
     {
-     "id": "2806044",
-     "name": "CDE FORUSIA",
-     "pos": 10,
-     "pj": 1,
-     "g": 0,
-     "e": 0,
-     "p": 1,
-     "gf": 3,
-     "gc": 4,
-     "dg": -1,
-     "pts": 0,
-     "form": [
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "30160",
-     "name": "BARRIO SÉSAMO",
-     "pos": 11,
-     "pj": 1,
-     "g": 0,
-     "e": 0,
-     "p": 1,
-     "gf": 2,
-     "gc": 4,
-     "dg": -2,
-     "pts": 0,
-     "form": [
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T22:15:00",
-       "home": "BARRIO SÉSAMO",
-       "away": "RECRELEGENS F.C.",
-       "score": "2-4",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "1871372",
-     "name": "MONSINES FC",
-     "pos": 12,
-     "pj": 1,
-     "g": 0,
-     "e": 0,
-     "p": 1,
-     "gf": 4,
-     "gc": 7,
-     "dg": -3,
-     "pts": 0,
-     "form": [
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "MONSINES FC",
-       "score": "7-4",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "30142",
      "name": "BETA - PUBLIX CF",
-     "pos": 13,
+     "pos": 12,
      "pj": 2,
      "g": 0,
      "e": 0,
@@ -930,6 +929,39 @@
        "home": "BETA - PUBLIX CF",
        "away": "POLEMICAS APARTE FC",
        "score": "1-7",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "30160",
+     "name": "BARRIO SÉSAMO",
+     "pos": 13,
+     "pj": 2,
+     "g": 0,
+     "e": 0,
+     "p": 2,
+     "gf": 2,
+     "gc": 15,
+     "dg": -13,
+     "pts": 0,
+     "form": [
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T22:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "RECRELEGENS F.C.",
+       "score": "2-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T21:15:00",
+       "home": "MONSINES FC",
+       "away": "BARRIO SÉSAMO",
+       "score": "11-0",
        "result": "D"
       }
      ]
