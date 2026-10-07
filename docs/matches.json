@@ -642,33 +642,21 @@
   "fetched": "2026-10-07",
   "home": [
    {
-    "name": "BORJA CALVO",
-    "num": "",
-    "stats": {
-     "Gol": 1
-    }
+    "name": "DAVID HERRANZ",
+    "num": "1",
+    "stats": {}
    },
    {
-    "name": "DAVID HERRANZ",
-    "num": "",
-    "stats": {}
+    "name": "ANGEL RODRIGUEZ",
+    "num": "2",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
    },
    {
     "name": "JESUS PASCUAL",
-    "num": "",
-    "stats": {}
-   },
-   {
-    "name": "SERGIO MONSALVE",
-    "num": "",
-    "stats": {}
-   },
-   {
-    "name": "DAVID NIETO",
     "num": "3",
-    "stats": {
-     "Gol": 1
-    }
+    "stats": {}
    },
    {
     "name": "ANDRES GARCIA",
@@ -676,22 +664,34 @@
     "stats": {}
    },
    {
-    "name": "ANGEL RODRIGUEZ",
+    "name": "FRANCISCO DE LA RED",
     "num": "6",
     "stats": {
      "Tarjeta Amarilla": 1
     }
    },
    {
-    "name": "FRANCISCO DE LA RED",
-    "num": "11",
+    "name": "BORJA CALVO",
+    "num": "8",
     "stats": {
-     "Tarjeta Amarilla": 1
+     "Gol": 1
     }
    },
    {
-    "name": "BERNANRDO ORTEGA",
-    "num": "18",
+    "name": "BERNARDO ORTEGA",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SERGIO MONSALVE",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "DAVID NIETO",
+    "num": "14",
     "stats": {
      "Gol": 1
     }
