@@ -572,7 +572,9 @@
    {
     "name": "DIEGO MANZANO",
     "num": "1",
-    "stats": {}
+    "stats": {
+     "Gol recibido": 3
+    }
    },
    {
     "name": "FERNANDO GALLARDO",
@@ -644,7 +646,9 @@
    {
     "name": "DAVID HERRANZ",
     "num": "1",
-    "stats": {}
+    "stats": {
+     "Gol recibido": 8
+    }
    },
    {
     "name": "ANGEL RODRIGUEZ",
@@ -657,6 +661,13 @@
     "name": "JESUS PASCUAL",
     "num": "3",
     "stats": {}
+   },
+   {
+    "name": "GUSTAVO VALIENTE",
+    "num": "4",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
    },
    {
     "name": "ANDRES GARCIA",
