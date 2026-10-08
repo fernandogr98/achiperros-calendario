@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T23:30",
+ "updated": "2026-10-09T00:00",
  "competitions": [
   {
    "id": "409114",
@@ -653,9 +653,75 @@
      ]
     },
     {
+     "id": "2874263",
+     "name": "RECRELEGENS F.C.",
+     "pos": 4,
+     "pj": 2,
+     "g": 1,
+     "e": 1,
+     "p": 0,
+     "gf": 8,
+     "gc": 6,
+     "dg": 2,
+     "pts": 4,
+     "form": [
+      "V",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T22:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "RECRELEGENS F.C.",
+       "score": "2-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-08T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "FONTANERÍA RUBIO",
+       "score": "4-4",
+       "result": "E"
+      }
+     ]
+    },
+    {
+     "id": "2332125",
+     "name": "FONTANERÍA RUBIO",
+     "pos": 5,
+     "pj": 2,
+     "g": 1,
+     "e": 1,
+     "p": 0,
+     "gf": 8,
+     "gc": 7,
+     "dg": 1,
+     "pts": 4,
+     "form": [
+      "V",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-08T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "FONTANERÍA RUBIO",
+       "score": "4-4",
+       "result": "E"
+      }
+     ]
+    },
+    {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 4,
+     "pos": 6,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -688,7 +754,7 @@
     {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 5,
+     "pos": 7,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -721,7 +787,7 @@
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 6,
+     "pos": 8,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -747,56 +813,6 @@
        "home": "BETA - PUBLIX CF",
        "away": "POLEMICAS APARTE FC",
        "score": "1-7",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2874263",
-     "name": "RECRELEGENS F.C.",
-     "pos": 7,
-     "pj": 1,
-     "g": 1,
-     "e": 0,
-     "p": 0,
-     "gf": 4,
-     "gc": 2,
-     "dg": 2,
-     "pts": 3,
-     "form": [
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T22:15:00",
-       "home": "BARRIO SÉSAMO",
-       "away": "RECRELEGENS F.C.",
-       "score": "2-4",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332125",
-     "name": "FONTANERÍA RUBIO",
-     "pos": 8,
-     "pj": 1,
-     "g": 1,
-     "e": 0,
-     "p": 0,
-     "gf": 4,
-     "gc": 3,
-     "dg": 1,
-     "pts": 3,
-     "form": [
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
        "result": "V"
       }
      ]
