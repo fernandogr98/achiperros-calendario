@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T08:00",
+ "updated": "2026-10-12T08:00",
  "competitions": [
   {
    "id": "409114",
@@ -162,9 +162,50 @@
      ]
     },
     {
+     "id": "2332139",
+     "name": "BURDEL KING",
+     "pos": 5,
+     "pj": 3,
+     "g": 2,
+     "e": 0,
+     "p": 1,
+     "gf": 19,
+     "gc": 7,
+     "dg": 12,
+     "pts": 6,
+     "form": [
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T12:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "BURDEL KING",
+       "score": "0-12",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
-     "pos": 5,
+     "pos": 6,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -205,7 +246,7 @@
     {
      "id": "1899890",
      "name": "GALÁCTICOS FC",
-     "pos": 6,
+     "pos": 7,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -231,39 +272,6 @@
        "home": "GALÁCTICOS FC",
        "away": "PEÑA ATLETICA MOSTOLES",
        "score": "12-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332139",
-     "name": "BURDEL KING",
-     "pos": 7,
-     "pj": 2,
-     "g": 1,
-     "e": 0,
-     "p": 1,
-     "gf": 15,
-     "gc": 7,
-     "dg": 8,
-     "pts": 3,
-     "form": [
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-04T12:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "BURDEL KING",
-       "score": "0-12",
        "result": "V"
       }
      ]
@@ -433,42 +441,9 @@
      ]
     },
     {
-     "id": "2870267",
-     "name": "BARÇA MURAI",
-     "pos": 12,
-     "pj": 2,
-     "g": 0,
-     "e": 0,
-     "p": 2,
-     "gf": 5,
-     "gc": 10,
-     "dg": -5,
-     "pts": 0,
-     "form": [
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "2538199",
      "name": "SKUAD DEL GÜEBO",
-     "pos": 13,
+     "pos": 12,
      "pj": 3,
      "g": 0,
      "e": 0,
@@ -502,6 +477,47 @@
        "home": "LOS DE SIEMPRE FC",
        "away": "SKUAD DEL GÜEBO",
        "score": "5-3",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "2870267",
+     "name": "BARÇA MURAI",
+     "pos": 13,
+     "pj": 3,
+     "g": 0,
+     "e": 0,
+     "p": 3,
+     "gf": 5,
+     "gc": 14,
+     "dg": -9,
+     "pts": 0,
+     "form": [
+      "D",
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
        "result": "D"
       }
      ]
