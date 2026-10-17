@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T08:01",
+ "updated": "2026-10-17T18:30",
  "competitions": [
   {
    "id": "409114",
@@ -244,9 +244,107 @@
      ]
     },
     {
+     "id": "2870362",
+     "name": "PORRATHINAIKOS",
+     "pos": 7,
+     "pj": 4,
+     "g": 1,
+     "e": 1,
+     "p": 2,
+     "gf": 11,
+     "gc": 13,
+     "dg": -2,
+     "pts": 4,
+     "form": [
+      "V",
+      "D",
+      "D",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T16:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "PORRATHINAIKOS",
+       "score": "2-8",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T18:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "COCA JUNIORS",
+       "score": "1-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T20:00:00",
+       "home": "SEITO DURO FC",
+       "away": "PORRATHINAIKOS",
+       "score": "3-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      }
+     ]
+    },
+    {
+     "id": "2723836",
+     "name": "LOS DE SIEMPRE FC",
+     "pos": 8,
+     "pj": 4,
+     "g": 1,
+     "e": 1,
+     "p": 2,
+     "gf": 9,
+     "gc": 14,
+     "dg": -5,
+     "pts": 4,
+     "form": [
+      "D",
+      "D",
+      "V",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-09-26T17:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "6-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T21:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "5-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      }
+     ]
+    },
+    {
      "id": "1899890",
      "name": "GALÁCTICOS FC",
-     "pos": 7,
+     "pos": 9,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -272,88 +370,6 @@
        "home": "GALÁCTICOS FC",
        "away": "PEÑA ATLETICA MOSTOLES",
        "score": "12-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2870362",
-     "name": "PORRATHINAIKOS",
-     "pos": 8,
-     "pj": 3,
-     "g": 1,
-     "e": 0,
-     "p": 2,
-     "gf": 10,
-     "gc": 12,
-     "dg": -2,
-     "pts": 3,
-     "form": [
-      "V",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T16:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "PORRATHINAIKOS",
-       "score": "2-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T18:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "COCA JUNIORS",
-       "score": "1-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T20:00:00",
-       "home": "SEITO DURO FC",
-       "away": "PORRATHINAIKOS",
-       "score": "3-1",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2723836",
-     "name": "LOS DE SIEMPRE FC",
-     "pos": 9,
-     "pj": 3,
-     "g": 1,
-     "e": 0,
-     "p": 2,
-     "gf": 8,
-     "gc": 13,
-     "dg": -5,
-     "pts": 3,
-     "form": [
-      "D",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-09-26T17:00:00",
-       "home": "LEGIÓN SUR F.C.",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "6-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T21:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "5-3",
        "result": "V"
       }
      ]
