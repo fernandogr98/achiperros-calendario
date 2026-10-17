@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:30+02:00",
+ "updated": "2026-10-17T20:00+02:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -2486,47 +2486,47 @@
   }
  ],
  "next_rival": {
-  "name": "CDE FORUSIA",
-  "match_id": "9079543",
-  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
-  "date": "2026-10-17T20:00:00",
+  "name": "SANFERDOG",
+  "match_id": "9087042",
+  "competition": "FÚTBOL 7 LABORAL 26/27",
+  "date": "2026-10-20T21:15:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
   "home": true,
-  "url": "https://www.competize.com/es/matches/view/9079543",
-  "matchday": "Jornada 4",
+  "url": "https://www.competize.com/es/matches/view/9087042",
+  "matchday": "Jornada 3",
   "standing": {
-   "pos": 2,
-   "team": "CDE FORUSIA",
-   "team_id": "2538194",
-   "j": 3,
-   "g": 3,
-   "e": 0,
+   "pos": 3,
+   "team": "SANFERDOG",
+   "team_id": "2332120",
+   "j": 2,
+   "g": 1,
+   "e": 1,
    "p": 0,
-   "gf": 15,
-   "gc": 3,
-   "dg": 12,
-   "pts": 9
+   "gf": 13,
+   "gc": 6,
+   "dg": 7,
+   "pts": 4
   },
-  "rival_id": "2538194",
+  "rival_id": "2332120",
   "top_scorers": [
    {
-    "Posición": 15,
-    "Nombre": "RUBEN MUÑOZ",
-    "Equipo": "CDE FORUSIA",
+    "Posición": 3,
+    "Nombre": "SANTIAGO CORVILLO",
+    "Equipo": "SANFERDOG",
+    "Part.": 2,
+    "Goles": 5
+   },
+   {
+    "Posición": 12,
+    "Nombre": "LUIS MARTÍNEZ",
+    "Equipo": "SANFERDOG",
     "Part.": 2,
     "Goles": 3
    },
    {
-    "Posición": 31,
-    "Nombre": "ÁLVARO SILOCHI",
-    "Equipo": "CDE FORUSIA",
-    "Part.": 2,
-    "Goles": 2
-   },
-   {
-    "Posición": 36,
-    "Nombre": "ALEJANDRO ACEITUNO",
-    "Equipo": "CDE FORUSIA",
+    "Posición": 26,
+    "Nombre": "ALEJANDRO AGRAMONTE",
+    "Equipo": "SANFERDOG",
     "Part.": 2,
     "Goles": 2
    }
@@ -2534,39 +2534,150 @@
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-10-04T16:00:00",
-    "home": "LOS PATXIS FC",
-    "away": "CDE FORUSIA",
+    "date": "2026-10-05T21:15:00",
+    "home": "SANFERDOG",
+    "away": "ALLIGATORS",
     "score": [
-     "1",
-     "5"
+     "11",
+     "4"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079542"
+    "url": "https://www.competize.com/es/matches/view/9087035"
    },
    {
-    "date": "2026-09-27T19:00:00",
-    "home": "CDE FORUSIA",
-    "away": "BASTARD MÜNCHEN",
+    "date": "2026-10-01T21:15:00",
+    "home": "CREATIVE PROJECT",
+    "away": "SANFERDOG",
+    "score": [
+     "2",
+     "2"
+    ],
+    "result": "E",
+    "url": "https://www.competize.com/es/matches/view/9084237"
+   }
+  ],
+  "head_to_head": [
+   {
+    "date": "2026-04-16T21:15:00",
+    "home": "SANFERDOG",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "2",
+     "2"
+    ],
+    "result": "E",
+    "url": "https://www.competize.com/es/matches/view/8894610"
+   },
+   {
+    "date": "2026-03-17T20:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "5",
+     "1"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8894586"
+   },
+   {
+    "date": "2026-01-08T21:15:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "6",
+     "7"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8692579"
+   },
+   {
+    "date": "2025-10-14T20:30:00",
+    "home": "SANFERDOG",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "7",
+     "2"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8692555"
+   },
+   {
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
     "score": [
      "6",
      "2"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079530"
+    "url": "https://www.competize.com/es/matches/view/8029725"
    },
    {
-    "date": "2026-09-19T19:00:00",
-    "home": "LOS DE SIEMPRE FC",
-    "away": "CDE FORUSIA",
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
     "score": [
-     "0",
-     "4"
+     "6",
+     "2"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079527"
+    "url": "https://www.competize.com/es/matches/view/8029725"
+   },
+   {
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "6",
+     "2"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029725"
+   },
+   {
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "6",
+     "2"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029725"
+   },
+   {
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "6",
+     "2"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029725"
+   },
+   {
+    "date": "2025-03-24T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "SANFERDOG",
+    "score": [
+     "6",
+     "2"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029725"
+   },
+   {
+    "date": "2024-11-28T22:30:00",
+    "home": "SANFERDOG",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "9",
+     "3"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8029598"
    }
-  ],
-  "head_to_head": []
+  ]
  }
 }
