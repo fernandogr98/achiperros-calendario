@@ -421,6 +421,146 @@
   "referee": "JAVIER Almagro",
   "report": ""
  },
+ "9079543": {
+  "away": [
+   {
+    "name": "MIGUEL ANGEL MUÑOZ",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 1
+    }
+   },
+   {
+    "name": "RUBEN MUÑOZ",
+    "num": "3",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SERGIO MUÑOZ",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "ALONSO DIAZ",
+    "num": "8",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "FRANCISCO BILEKERA",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "RUBEN GONZÁLEZ",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO ACEITUNO",
+    "num": "20",
+    "stats": {}
+   },
+   {
+    "name": "IVAN RUIZ",
+    "num": "30",
+    "stats": {
+     "Gol": 2,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "EDUARDO GARCÍA",
+    "num": "47",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "ÁLVARO SILOCHI",
+    "num": "97",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   }
+  ],
+  "fetched": "2026-10-18",
+  "home": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 4
+    }
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {}
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "referee": "Jaime Ibañez Martínez",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
