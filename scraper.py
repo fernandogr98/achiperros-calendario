@@ -57,7 +57,12 @@ def _check_blocked(r: requests.Response) -> None:
 
 
 def fetch_fixtures(session: requests.Session, team_id: int | str = TEAM_ID) -> str:
-    """Historial completo de partidos de un equipo (pestaña «Partidos» de Competize)."""
+    """Historial completo de partidos de un equipo (pestaña «Partidos» de Competize).
+
+    Competize pagina los resultados (25 por página). Se usa el endpoint
+    `ajaxFilterMatchesTab` con `sortBy=date_desc` (más recientes primero) y se
+    recorren todas las páginas hasta agotarlas, concatenando el HTML.
+    """
     team_url = f"{BASE}/team/view/{team_id}"
     if not any("csrf" in c.name for c in session.cookies):
         first = session.get(TEAM_URL, timeout=30)
@@ -66,15 +71,34 @@ def fetch_fixtures(session: requests.Session, team_id: int | str = TEAM_ID) -> s
     token = next((c.value for c in session.cookies if "csrf" in c.name), None)
     if not token:
         raise RuntimeError("No se encontró la cookie CSRF de Competize")
-    r = session.post(
-        f"{BASE}/team/loadFixturesTab",
-        data={"csrf_token_competize_production": token, "team": team_id,
-              "idEvent": 0, "idOrganiser": 0, "idSeason": 0},
-        headers={"X-Requested-With": "XMLHttpRequest", "Referer": team_url},
-        timeout=30,
-    )
-    r.raise_for_status()
-    return r.text
+
+    pages: list[str] = []
+    for page in range(1, 11):  # límite de seguridad: máx 10 páginas
+        r = session.post(
+            f"{BASE}/team/ajaxFilterMatchesTab",
+            data={"csrf_token_competize_production": token, "page": page, "team": team_id,
+                  "sortBy": "date_desc", "matchDate": 0, "status": -1,
+                  "idEvent": 0, "idOrganiser": 0, "idSeason": 0},
+            headers={"X-Requested-With": "XMLHttpRequest", "Referer": team_url},
+            timeout=30,
+        )
+        r.raise_for_status()
+        if not BeautifulSoup(r.text, "html.parser").select(".match-round"):
+            break  # página sin partidos: fin de la paginación
+        pages.append(r.text)
+
+    if not pages:
+        # Fallback al endpoint original por si el de filtrado cambia de nombre
+        r = session.post(
+            f"{BASE}/team/loadFixturesTab",
+            data={"csrf_token_competize_production": token, "team": team_id,
+                  "idEvent": 0, "idOrganiser": 0, "idSeason": 0},
+            headers={"X-Requested-With": "XMLHttpRequest", "Referer": team_url},
+            timeout=30,
+        )
+        r.raise_for_status()
+        return r.text
+    return "\n".join(pages)
 
 
 def parse_matches(html: str) -> list[dict]:
@@ -240,6 +264,12 @@ def main():
 
     all_matches = [m for m in parse_matches(fetch_fixtures(session)) if TEAM_NAME in (m["home"], m["away"])]
     matches = [m for m in all_matches if m["start"].date() >= since]
+
+    if not matches:
+        # Fail-safe: si no se extraen partidos de la temporada actual (p. ej. cambio
+        # de HTML o bloqueo), NO sobrescribir el calendario ni borrar eventos de Google.
+        print("AVISO: 0 partidos en la temporada actual. Se mantiene el calendario anterior.")
+        return
 
     cache = json.loads(CACHE_FILE.read_text(encoding="utf-8")) if CACHE_FILE.exists() else {}
     for m in matches:
