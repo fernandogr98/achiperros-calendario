@@ -197,6 +197,23 @@
   .alert.warn { background: var(--gold-soft); border-color: rgba(239,190,36,.35); }
   .alert.ok { background: rgba(60,207,122,.08); border-color: rgba(60,207,122,.3); }
   .alert small { display: block; color: var(--muted); margin-top: 2px; }
+  /* Tarjetas: desplegable + chips */
+  .cards-details { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); margin-bottom: 8px; }
+  .cards-details summary {
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer; padding: 12px 14px; font-size: 14px; font-weight: 600;
+    list-style: none; user-select: none; color: var(--text);
+  }
+  .cards-details summary::-webkit-details-marker { display: none; }
+  .cards-details summary::after { content: "▾"; margin-left: auto; color: var(--muted); transition: transform .15s ease; }
+  .cards-details[open] summary::after { transform: rotate(180deg); }
+  .cards-details .chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 2px 14px 14px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px;
+    border-radius: 999px; font-size: 13px; font-weight: 500;
+    background: var(--gold-soft); border: 1px solid rgba(239,190,36,.35); color: var(--text);
+  }
+  .chip.red { background: rgba(239,90,76,.12); border-color: rgba(239,90,76,.35); }
   .form { display: flex; gap: 5px; }
   .form .badge { width: 26px; height: 26px; font-size: 12px; }
   .kv { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 12px 0 4px; }

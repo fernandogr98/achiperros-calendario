@@ -162,18 +162,25 @@
     data.players.forEach(p => Object.entries(p.por_competicion).forEach(([comp, c]) => {
       if (c.amarillas || c.rojas) carded.push({ name: p.name, comp, ...c });
     }));
-    carded.sort((a, b) => b.amarillas - a.amarillas || b.rojas - a.rojas);
-    carded.forEach(c => {
-      const near = YELLOW_LIMIT && c.amarillas % YELLOW_LIMIT === YELLOW_LIMIT - 1;
-      const a = el("div", "alert " + (c.rojas ? "" : "warn"));
-      const parts = [];
-      if (c.amarillas) parts.push(`${c.amarillas} amarilla${c.amarillas > 1 ? "s" : ""}`);
-      if (c.rojas) parts.push(`${c.rojas} roja${c.rojas > 1 ? "s" : ""}`);
-      const body = el("div");
-      body.append(el("b", null, `${c.rojas ? "🟥" : "🟨"} ${title(c.name)} · ${parts.join(" y ")}`),
-                  el("small", null, short(c.comp) + (near ? " · ⚠️ a 1 amarilla de sanción" : "")));
-      a.append(body); box.appendChild(a);
-    });
+    carded.sort((a, b) => b.amarillas - a.amarillas || b.rojas - a.rojas || a.name.localeCompare(b.name));
+
+    if (carded.length) {
+      const totalAma = carded.reduce((s, c) => s + (c.amarillas || 0), 0);
+      const totalRoja = carded.reduce((s, c) => s + (c.rojas || 0), 0);
+      const det = el("details", "cards-details");
+      const resumen = [`${carded.length} amonestado${carded.length > 1 ? "s" : ""}`];
+      if (totalAma) resumen.push(`${totalAma} amarilla${totalAma > 1 ? "s" : ""}`);
+      if (totalRoja) resumen.push(`${totalRoja} roja${totalRoja > 1 ? "s" : ""}`);
+      det.appendChild(el("summary", null, `🟨 ${resumen.join(" · ")}`));
+      const chips = el("div", "chips");
+      carded.forEach(c => {
+        const icon = c.rojas ? "🟥" : "🟨";
+        const n = (c.rojas ? c.rojas : c.amarillas) || 0;
+        chips.appendChild(el("span", "chip" + (c.rojas ? " red" : ""), `${icon} ${title(c.name)}${n > 1 ? " ×" + n : ""}`));
+      });
+      det.appendChild(chips);
+      box.appendChild(det);
+    }
 
     if (!official.length && !carded.length) {
       const a = el("div", "alert ok"); a.append(el("b", null, "✅ Sin tarjetas ni sanciones esta temporada")); box.appendChild(a);
