@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T13:00+02:00",
+ "updated": "2026-10-19T15:01+02:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -307,127 +307,127 @@
       },
       {
        "Posición": 16,
+       "Nombre": "JUAN CARLOS SELDAS",
+       "Equipo": "BURDEL KING",
+       "Part.": 4,
+       "Goles": 3
+      },
+      {
+       "Posición": 17,
        "Nombre": "IVAN DÍAZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 17,
+       "Posición": 18,
        "Nombre": "CARLOS CABANYES",
        "Equipo": "BURDEL KING",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 18,
+       "Posición": 19,
        "Nombre": "SAÚL VALERA",
        "Equipo": "SEITO DURO FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 19,
+       "Posición": 20,
        "Nombre": "RUBEN MARTINEZ",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 20,
+       "Posición": 21,
        "Nombre": "MARCOS ROMÁN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 21,
+       "Posición": 22,
        "Nombre": "MARCOS CAMBÓN",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 22,
+       "Posición": 23,
        "Nombre": "IVAN LEÓN",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 23,
+       "Posición": 24,
        "Nombre": "IVAN GUTIERREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 24,
+       "Posición": 25,
        "Nombre": "DANIEL RAMÓN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 25,
+       "Posición": 26,
        "Nombre": "ÓSCAR LOZANO",
        "Equipo": "SEITO DURO FC",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 26,
+       "Posición": 27,
        "Nombre": "ÁLVARO GAGO",
        "Equipo": "PORRATHINAIKOS",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 27,
+       "Posición": 28,
        "Nombre": "SERGIO VALLEJO",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 28,
+       "Posición": 29,
        "Nombre": "SERGIO SÁNCHEZ",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 29,
+       "Posición": 30,
        "Nombre": "SERGIO MORAN",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 30,
+       "Posición": 31,
        "Nombre": "PABLO QUINTANA",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 31,
+       "Posición": 32,
        "Nombre": "MARCOS ZAMBRANO",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 32,
+       "Posición": 33,
        "Nombre": "JUANJO PEREZ",
        "Equipo": "LOS PATXIS FC",
-       "Part.": 4,
-       "Goles": 2
-      },
-      {
-       "Posición": 33,
-       "Nombre": "JUAN CARLOS SELDAS",
-       "Equipo": "BURDEL KING",
        "Part.": 4,
        "Goles": 2
       },
