@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T15:30",
+ "updated": "2026-10-20T17:30",
  "competitions": [
   {
    "id": "409114",
@@ -699,9 +699,50 @@
      ]
     },
     {
+     "id": "1871372",
+     "name": "MONSINES FC",
+     "pos": 2,
+     "pj": 3,
+     "g": 2,
+     "e": 0,
+     "p": 1,
+     "gf": 21,
+     "gc": 11,
+     "dg": 10,
+     "pts": 6,
+     "form": [
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "MONSINES FC",
+       "score": "7-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T21:15:00",
+       "home": "MONSINES FC",
+       "away": "BARRIO SÉSAMO",
+       "score": "11-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-19T22:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "MONSINES FC",
+       "score": "4-6",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
-     "pos": 2,
+     "pos": 3,
      "pj": 2,
      "g": 2,
      "e": 0,
@@ -732,9 +773,50 @@
      ]
     },
     {
+     "id": "1871444",
+     "name": "ALLIGATORS",
+     "pos": 4,
+     "pj": 3,
+     "g": 2,
+     "e": 0,
+     "p": 1,
+     "gf": 18,
+     "gc": 15,
+     "dg": 3,
+     "pts": 6,
+     "form": [
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-19T21:15:00",
+       "home": "ALLIGATORS",
+       "away": "BETA - PUBLIX CF",
+       "score": "8-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 3,
+     "pos": 5,
      "pj": 2,
      "g": 1,
      "e": 1,
@@ -767,7 +849,7 @@
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 4,
+     "pos": 6,
      "pj": 2,
      "g": 1,
      "e": 1,
@@ -800,18 +882,19 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 5,
-     "pj": 2,
+     "pos": 7,
+     "pj": 3,
      "g": 1,
      "e": 1,
-     "p": 0,
-     "gf": 8,
-     "gc": 7,
-     "dg": 1,
+     "p": 1,
+     "gf": 12,
+     "gc": 13,
+     "dg": -1,
      "pts": 4,
      "form": [
       "V",
-      "E"
+      "E",
+      "D"
      ],
      "matches": [
       {
@@ -827,46 +910,20 @@
        "away": "FONTANERÍA RUBIO",
        "score": "4-4",
        "result": "E"
-      }
-     ]
-    },
-    {
-     "id": "1871372",
-     "name": "MONSINES FC",
-     "pos": 6,
-     "pj": 2,
-     "g": 1,
-     "e": 0,
-     "p": 1,
-     "gf": 15,
-     "gc": 7,
-     "dg": 8,
-     "pts": 3,
-     "form": [
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "MONSINES FC",
-       "score": "7-4",
-       "result": "D"
       },
       {
-       "date": "2026-10-07T21:15:00",
-       "home": "MONSINES FC",
-       "away": "BARRIO SÉSAMO",
-       "score": "11-0",
-       "result": "V"
+       "date": "2026-10-19T22:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "MONSINES FC",
+       "score": "4-6",
+       "result": "D"
       }
      ]
     },
     {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 7,
+     "pos": 8,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -899,7 +956,7 @@
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 8,
+     "pos": 9,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -932,7 +989,7 @@
     {
      "id": "2806044",
      "name": "CDE FORUSIA",
-     "pos": 9,
+     "pos": 10,
      "pj": 2,
      "g": 1,
      "e": 0,
@@ -959,39 +1016,6 @@
        "away": "BAR CON PAN Y TODO NAVALCARNERO",
        "score": "7-6",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "1871444",
-     "name": "ALLIGATORS",
-     "pos": 10,
-     "pj": 2,
-     "g": 1,
-     "e": 0,
-     "p": 1,
-     "gf": 10,
-     "gc": 13,
-     "dg": -3,
-     "pts": 3,
-     "form": [
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "D"
       }
      ]
     },
@@ -1029,42 +1053,9 @@
      ]
     },
     {
-     "id": "30142",
-     "name": "BETA - PUBLIX CF",
-     "pos": 12,
-     "pj": 2,
-     "g": 0,
-     "e": 0,
-     "p": 2,
-     "gf": 4,
-     "gc": 16,
-     "dg": -12,
-     "pts": 0,
-     "form": [
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T22:15:00",
-       "home": "BAR CON PAN Y TODO NAVALCARNERO",
-       "away": "BETA - PUBLIX CF",
-       "score": "9-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-06T21:15:00",
-       "home": "BETA - PUBLIX CF",
-       "away": "POLEMICAS APARTE FC",
-       "score": "1-7",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "30160",
      "name": "BARRIO SÉSAMO",
-     "pos": 13,
+     "pos": 12,
      "pj": 2,
      "g": 0,
      "e": 0,
@@ -1097,7 +1088,7 @@
     {
      "id": "2739966",
      "name": "F.C SKBIA-2",
-     "pos": 14,
+     "pos": 13,
      "pj": 2,
      "g": 0,
      "e": 0,
@@ -1123,6 +1114,47 @@
        "home": "F.C SKBIA-2",
        "away": "PUB OSCAR F.C.",
        "score": "2-9",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "30142",
+     "name": "BETA - PUBLIX CF",
+     "pos": 14,
+     "pj": 3,
+     "g": 0,
+     "e": 0,
+     "p": 3,
+     "gf": 6,
+     "gc": 24,
+     "dg": -18,
+     "pts": 0,
+     "form": [
+      "D",
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T22:15:00",
+       "home": "BAR CON PAN Y TODO NAVALCARNERO",
+       "away": "BETA - PUBLIX CF",
+       "score": "9-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-06T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "POLEMICAS APARTE FC",
+       "score": "1-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-19T21:15:00",
+       "home": "ALLIGATORS",
+       "away": "BETA - PUBLIX CF",
+       "score": "8-2",
        "result": "D"
       }
      ]
