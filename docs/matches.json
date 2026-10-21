@@ -850,5 +850,143 @@
   ],
   "referee": "Jesús Navarro Pérez",
   "report": ""
+ },
+ "9087042": {
+  "away": [
+   {
+    "name": "SANTIAGO PINTO",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 4
+    }
+   },
+   {
+    "name": "LUIS DAVID BLÁZQUEZ",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO AROCA",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "FRANCISCO FERNÁNDEZ",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO BRAVO",
+    "num": "8",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "SANTIAGO CORVILLO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO AGRAMONTE",
+    "num": "11",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "LUIS MARTÍNEZ",
+    "num": "12",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO GÓMEZ",
+    "num": "13",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "fetched": "2026-10-21",
+  "home": [
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 1,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {
+     "Gol recibido": 2
+    }
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "Sergio De la iglesia de la iglesia",
+  "report": ""
  }
 }
