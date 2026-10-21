@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T23:00",
+ "updated": "2026-10-21T23:30",
  "competitions": [
   {
    "id": "409114",
@@ -1052,9 +1052,50 @@
      ]
     },
     {
+     "id": "2739966",
+     "name": "F.C SKBIA-2",
+     "pos": 11,
+     "pj": 3,
+     "g": 1,
+     "e": 0,
+     "p": 2,
+     "gf": 14,
+     "gc": 22,
+     "dg": -8,
+     "pts": 3,
+     "form": [
+      "D",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T22:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "F.C SKBIA-2",
+       "score": "11-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-05T22:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "PUB OSCAR F.C.",
+       "score": "2-9",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-21T21:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "F.C SKBIA-2",
+       "score": "2-11",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 11,
+     "pos": 12,
      "pj": 2,
      "g": 0,
      "e": 1,
@@ -1085,75 +1126,9 @@
      ]
     },
     {
-     "id": "30160",
-     "name": "BARRIO SÉSAMO",
-     "pos": 12,
-     "pj": 2,
-     "g": 0,
-     "e": 0,
-     "p": 2,
-     "gf": 2,
-     "gc": 15,
-     "dg": -13,
-     "pts": 0,
-     "form": [
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T22:15:00",
-       "home": "BARRIO SÉSAMO",
-       "away": "RECRELEGENS F.C.",
-       "score": "2-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-07T21:15:00",
-       "home": "MONSINES FC",
-       "away": "BARRIO SÉSAMO",
-       "score": "11-0",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2739966",
-     "name": "F.C SKBIA-2",
-     "pos": 13,
-     "pj": 2,
-     "g": 0,
-     "e": 0,
-     "p": 2,
-     "gf": 3,
-     "gc": 20,
-     "dg": -17,
-     "pts": 0,
-     "form": [
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T22:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "F.C SKBIA-2",
-       "score": "11-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-05T22:15:00",
-       "home": "F.C SKBIA-2",
-       "away": "PUB OSCAR F.C.",
-       "score": "2-9",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "30142",
      "name": "BETA - PUBLIX CF",
-     "pos": 14,
+     "pos": 13,
      "pj": 3,
      "g": 0,
      "e": 0,
@@ -1187,6 +1162,47 @@
        "home": "ALLIGATORS",
        "away": "BETA - PUBLIX CF",
        "score": "8-2",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "30160",
+     "name": "BARRIO SÉSAMO",
+     "pos": 14,
+     "pj": 3,
+     "g": 0,
+     "e": 0,
+     "p": 3,
+     "gf": 4,
+     "gc": 26,
+     "dg": -22,
+     "pts": 0,
+     "form": [
+      "D",
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T22:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "RECRELEGENS F.C.",
+       "score": "2-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T21:15:00",
+       "home": "MONSINES FC",
+       "away": "BARRIO SÉSAMO",
+       "score": "11-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-21T21:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "F.C SKBIA-2",
+       "score": "2-11",
        "result": "D"
       }
      ]
