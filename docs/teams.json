@@ -1,14 +1,71 @@
 {
- "updated": "2026-10-24T19:00",
+ "updated": "2026-10-24T19:30",
  "competitions": [
   {
    "id": "409114",
    "name": "FINDE",
    "teams": [
     {
+     "id": "2332139",
+     "name": "BURDEL KING",
+     "pos": 1,
+     "pj": 5,
+     "g": 4,
+     "e": 0,
+     "p": 1,
+     "gf": 30,
+     "gc": 12,
+     "dg": 18,
+     "pts": 12,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T12:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "BURDEL KING",
+       "score": "0-12",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T19:00:00",
+       "home": "BURDEL KING",
+       "away": "COCA JUNIORS",
+       "score": "8-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T16:00:00",
+       "home": "SEITO DURO FC",
+       "away": "BURDEL KING",
+       "score": "2-3",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538194",
      "name": "CDE FORUSIA",
-     "pos": 1,
+     "pos": 2,
      "pj": 4,
      "g": 4,
      "e": 0,
@@ -57,20 +114,21 @@
     {
      "id": "2724454",
      "name": "SEITO DURO FC",
-     "pos": 2,
-     "pj": 4,
+     "pos": 3,
+     "pj": 5,
      "g": 4,
      "e": 0,
-     "p": 0,
-     "gf": 20,
-     "gc": 10,
-     "dg": 10,
+     "p": 1,
+     "gf": 22,
+     "gc": 13,
+     "dg": 9,
      "pts": 12,
      "form": [
       "V",
       "V",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -100,55 +158,13 @@
        "away": "SEITO DURO FC",
        "score": "4-5",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332139",
-     "name": "BURDEL KING",
-     "pos": 3,
-     "pj": 4,
-     "g": 3,
-     "e": 0,
-     "p": 1,
-     "gf": 27,
-     "gc": 10,
-     "dg": 17,
-     "pts": 9,
-     "form": [
-      "D",
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "D"
       },
       {
-       "date": "2026-10-04T12:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "date": "2026-10-24T16:00:00",
+       "home": "SEITO DURO FC",
        "away": "BURDEL KING",
-       "score": "0-12",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-10T18:00:00",
-       "home": "BURDEL KING",
-       "away": "BARÇA MURAI",
-       "score": "4-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T19:00:00",
-       "home": "BURDEL KING",
-       "away": "COCA JUNIORS",
-       "score": "8-3",
-       "result": "V"
+       "score": "2-3",
+       "result": "D"
       }
      ]
     },
@@ -292,9 +308,66 @@
      ]
     },
     {
+     "id": "2723836",
+     "name": "LOS DE SIEMPRE FC",
+     "pos": 7,
+     "pj": 5,
+     "g": 2,
+     "e": 1,
+     "p": 2,
+     "gf": 14,
+     "gc": 16,
+     "dg": -2,
+     "pts": 7,
+     "form": [
+      "D",
+      "D",
+      "V",
+      "E",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-09-26T17:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "6-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T21:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "5-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-24T17:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "GALÁCTICOS FC",
+       "score": "5-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870362",
      "name": "PORRATHINAIKOS",
-     "pos": 7,
+     "pos": 8,
      "pj": 4,
      "g": 1,
      "e": 1,
@@ -341,69 +414,21 @@
      ]
     },
     {
-     "id": "2723836",
-     "name": "LOS DE SIEMPRE FC",
-     "pos": 8,
-     "pj": 4,
-     "g": 1,
-     "e": 1,
-     "p": 2,
-     "gf": 9,
-     "gc": 14,
-     "dg": -5,
-     "pts": 4,
-     "form": [
-      "D",
-      "D",
-      "V",
-      "E"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-09-26T17:00:00",
-       "home": "LEGIÓN SUR F.C.",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "6-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T21:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "5-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-16T21:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "1-1",
-       "result": "E"
-      }
-     ]
-    },
-    {
      "id": "1899890",
      "name": "GALÁCTICOS FC",
      "pos": 9,
-     "pj": 4,
+     "pj": 5,
      "g": 2,
      "e": 0,
-     "p": 2,
-     "gf": 20,
-     "gc": 11,
-     "dg": 9,
+     "p": 3,
+     "gf": 22,
+     "gc": 16,
+     "dg": 6,
      "pts": 3,
      "form": [
       "V",
       "V",
+      "D",
       "D"
      ],
      "matches": [
@@ -426,6 +451,13 @@
        "home": "GALÁCTICOS FC",
        "away": "SEITO DURO FC",
        "score": "4-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-24T17:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "GALÁCTICOS FC",
+       "score": "5-2",
        "result": "D"
       }
      ]
