@@ -1,14 +1,71 @@
 {
- "updated": "2026-10-24T23:30",
+ "updated": "2026-10-25T00:00",
  "competitions": [
   {
    "id": "409114",
    "name": "FINDE",
    "teams": [
     {
+     "id": "2538194",
+     "name": "CDE FORUSIA",
+     "pos": 1,
+     "pj": 5,
+     "g": 5,
+     "e": 0,
+     "p": 0,
+     "gf": 24,
+     "gc": 6,
+     "dg": 18,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-27T19:00:00",
+       "home": "CDE FORUSIA",
+       "away": "BASTARD MÜNCHEN",
+       "score": "6-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T16:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T21:00:00",
+       "home": "CDE FORUSIA",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "5-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2332139",
      "name": "BURDEL KING",
-     "pos": 1,
+     "pos": 2,
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -58,55 +115,6 @@
        "home": "SEITO DURO FC",
        "away": "BURDEL KING",
        "score": "2-3",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2538194",
-     "name": "CDE FORUSIA",
-     "pos": 2,
-     "pj": 4,
-     "g": 4,
-     "e": 0,
-     "p": 0,
-     "gf": 19,
-     "gc": 4,
-     "dg": 15,
-     "pts": 12,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-27T19:00:00",
-       "home": "CDE FORUSIA",
-       "away": "BASTARD MÜNCHEN",
-       "score": "6-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T16:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
        "result": "V"
       }
      ]
@@ -221,19 +229,20 @@
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
      "pos": 5,
-     "pj": 4,
+     "pj": 5,
      "g": 3,
      "e": 0,
-     "p": 1,
-     "gf": 23,
-     "gc": 11,
-     "dg": 12,
+     "p": 2,
+     "gf": 25,
+     "gc": 16,
+     "dg": 9,
      "pts": 9,
      "form": [
       "D",
       "V",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -263,6 +272,13 @@
        "away": "LOS PATXIS FC",
        "score": "12-1",
        "result": "V"
+      },
+      {
+       "date": "2026-10-24T21:00:00",
+       "home": "CDE FORUSIA",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "5-2",
+       "result": "D"
       }
      ]
     },
@@ -365,9 +381,66 @@
      ]
     },
     {
+     "id": "2538199",
+     "name": "SKUAD DEL GÜEBO",
+     "pos": 8,
+     "pj": 5,
+     "g": 2,
+     "e": 0,
+     "p": 3,
+     "gf": 23,
+     "gc": 22,
+     "dg": 1,
+     "pts": 6,
+     "form": [
+      "D",
+      "D",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T21:00:00",
+       "home": "COCA JUNIORS",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-09-27T12:00:00",
+       "home": "SKUAD DEL GÜEBO",
+       "away": "SEITO DURO FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T21:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "5-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-18T20:00:00",
+       "home": "SKUAD DEL GÜEBO",
+       "away": "BASTARD MÜNCHEN",
+       "score": "5-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T22:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "2-9",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870362",
      "name": "PORRATHINAIKOS",
-     "pos": 8,
+     "pos": 9,
      "pj": 4,
      "g": 1,
      "e": 1,
@@ -416,7 +489,7 @@
     {
      "id": "1899890",
      "name": "GALÁCTICOS FC",
-     "pos": 9,
+     "pos": 10,
      "pj": 5,
      "g": 2,
      "e": 0,
@@ -459,55 +532,6 @@
        "away": "GALÁCTICOS FC",
        "score": "5-2",
        "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2538199",
-     "name": "SKUAD DEL GÜEBO",
-     "pos": 10,
-     "pj": 4,
-     "g": 1,
-     "e": 0,
-     "p": 3,
-     "gf": 14,
-     "gc": 20,
-     "dg": -6,
-     "pts": 3,
-     "form": [
-      "D",
-      "D",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T21:00:00",
-       "home": "COCA JUNIORS",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "4-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-09-27T12:00:00",
-       "home": "SKUAD DEL GÜEBO",
-       "away": "SEITO DURO FC",
-       "score": "3-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T21:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "5-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-18T20:00:00",
-       "home": "SKUAD DEL GÜEBO",
-       "away": "BASTARD MÜNCHEN",
-       "score": "5-4",
-       "result": "V"
       }
      ]
     },
@@ -564,16 +588,17 @@
      "id": "2871925",
      "name": "LOS PATXIS FC",
      "pos": 12,
-     "pj": 4,
+     "pj": 5,
      "g": 0,
      "e": 1,
-     "p": 3,
-     "gf": 4,
-     "gc": 31,
-     "dg": -27,
+     "p": 4,
+     "gf": 6,
+     "gc": 40,
+     "dg": -34,
      "pts": 1,
      "form": [
       "E",
+      "D",
       "D",
       "D",
       "D"
@@ -605,6 +630,13 @@
        "home": "LEGIÓN SUR F.C.",
        "away": "LOS PATXIS FC",
        "score": "12-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-24T22:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "2-9",
        "result": "D"
       }
      ]
