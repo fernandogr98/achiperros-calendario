@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:00",
+ "updated": "2026-10-25T17:30",
  "competitions": [
   {
    "id": "409114",
@@ -63,9 +63,66 @@
      ]
     },
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 2,
+     "pj": 5,
+     "g": 4,
+     "e": 0,
+     "p": 1,
+     "gf": 41,
+     "gc": 12,
+     "dg": 29,
+     "pts": 12,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LOS PATXIS FC",
+       "score": "14-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-25T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "ACHIPERROS FC",
+       "score": "0-13",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2332139",
      "name": "BURDEL KING",
-     "pos": 2,
+     "pos": 3,
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -122,7 +179,7 @@
     {
      "id": "2724454",
      "name": "SEITO DURO FC",
-     "pos": 3,
+     "pos": 4,
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -172,55 +229,6 @@
        "home": "SEITO DURO FC",
        "away": "BURDEL KING",
        "score": "2-3",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 4,
-     "pj": 4,
-     "g": 3,
-     "e": 0,
-     "p": 1,
-     "gf": 28,
-     "gc": 12,
-     "dg": 16,
-     "pts": 9,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T16:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "LOS PATXIS FC",
-       "score": "14-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
        "result": "D"
       }
      ]
@@ -686,15 +694,16 @@
      "id": "2870268",
      "name": "PEÑA ATLETICA MOSTOLES",
      "pos": 14,
-     "pj": 3,
+     "pj": 4,
      "g": 0,
      "e": 0,
-     "p": 3,
+     "p": 4,
      "gf": 3,
-     "gc": 32,
-     "dg": -29,
+     "gc": 45,
+     "dg": -42,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D"
@@ -719,6 +728,13 @@
        "home": "PEÑA ATLETICA MOSTOLES",
        "away": "BURDEL KING",
        "score": "0-12",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-25T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "ACHIPERROS FC",
+       "score": "0-13",
        "result": "D"
       }
      ]

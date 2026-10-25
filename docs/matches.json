@@ -561,6 +561,152 @@
   "referee": "Jaime Ibañez Martínez",
   "report": ""
  },
+ "9079550": {
+  "away": [
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 1,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {
+     "Gol": 3
+    }
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {
+     "Gol": 2
+    }
+   }
+  ],
+  "fetched": "2026-10-25",
+  "home": [
+   {
+    "name": "JAVIER FERNÁNDEZ",
+    "num": "1",
+    "stats": {
+     "Gol": 1,
+     "Gol recibido": 6
+    }
+   },
+   {
+    "name": "JUSTO RICARDO BARROSO",
+    "num": "2",
+    "stats": {}
+   },
+   {
+    "name": "DAVID BARROSO",
+    "num": "3",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO MANUEL LOPEZ",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "CLAUDIO MIHAIL MOLEA",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO MOZAS",
+    "num": "13",
+    "stats": {
+     "Gol recibido": 7
+    }
+   },
+   {
+    "name": "FRANCISCO JAVIER CANO",
+    "num": "14",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "JORGE FERNÁNDEZ",
+    "num": "15",
+    "stats": {}
+   },
+   {
+    "name": "ADRIÁN CANO",
+    "num": "18",
+    "stats": {}
+   },
+   {
+    "name": "JUAN PABLO MARTIN",
+    "num": "21",
+    "stats": {}
+   },
+   {
+    "name": "ROBERT TRANDAFIR",
+    "num": "",
+    "stats": {}
+   }
+  ],
+  "referee": "",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
