@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:30",
+ "updated": "2026-10-25T18:00",
  "competitions": [
   {
    "id": "409114",
@@ -332,9 +332,66 @@
      ]
     },
     {
+     "id": "2870362",
+     "name": "PORRATHINAIKOS",
+     "pos": 7,
+     "pj": 5,
+     "g": 2,
+     "e": 1,
+     "p": 2,
+     "gf": 12,
+     "gc": 13,
+     "dg": -1,
+     "pts": 7,
+     "form": [
+      "V",
+      "D",
+      "D",
+      "E",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T16:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "PORRATHINAIKOS",
+       "score": "2-8",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T18:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "COCA JUNIORS",
+       "score": "1-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T20:00:00",
+       "home": "SEITO DURO FC",
+       "away": "PORRATHINAIKOS",
+       "score": "3-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-25T16:00:00",
+       "home": "BASTARD MÜNCHEN",
+       "away": "PORRATHINAIKOS",
+       "score": "0-1",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2723836",
      "name": "LOS DE SIEMPRE FC",
-     "pos": 7,
+     "pos": 8,
      "pj": 5,
      "g": 2,
      "e": 1,
@@ -391,7 +448,7 @@
     {
      "id": "2538199",
      "name": "SKUAD DEL GÜEBO",
-     "pos": 8,
+     "pos": 9,
      "pj": 5,
      "g": 2,
      "e": 0,
@@ -442,55 +499,6 @@
        "away": "SKUAD DEL GÜEBO",
        "score": "2-9",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2870362",
-     "name": "PORRATHINAIKOS",
-     "pos": 9,
-     "pj": 4,
-     "g": 1,
-     "e": 1,
-     "p": 2,
-     "gf": 11,
-     "gc": 13,
-     "dg": -2,
-     "pts": 4,
-     "form": [
-      "V",
-      "D",
-      "D",
-      "E"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T16:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "PORRATHINAIKOS",
-       "score": "2-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T18:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "COCA JUNIORS",
-       "score": "1-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T20:00:00",
-       "home": "SEITO DURO FC",
-       "away": "PORRATHINAIKOS",
-       "score": "3-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-16T21:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "1-1",
-       "result": "E"
       }
      ]
     },
@@ -547,16 +555,17 @@
      "id": "2870272",
      "name": "BASTARD MÜNCHEN",
      "pos": 11,
-     "pj": 4,
+     "pj": 5,
      "g": 0,
      "e": 1,
-     "p": 3,
+     "p": 4,
      "gf": 8,
-     "gc": 14,
-     "dg": -6,
+     "gc": 15,
+     "dg": -7,
      "pts": 1,
      "form": [
       "E",
+      "D",
       "D",
       "D",
       "D"
@@ -588,6 +597,13 @@
        "home": "SKUAD DEL GÜEBO",
        "away": "BASTARD MÜNCHEN",
        "score": "5-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-25T16:00:00",
+       "home": "BASTARD MÜNCHEN",
+       "away": "PORRATHINAIKOS",
+       "score": "0-1",
        "result": "D"
       }
      ]
