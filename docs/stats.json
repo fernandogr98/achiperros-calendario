@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T08:00+01:00",
+ "updated": "2026-10-25T14:31+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -2910,109 +2910,143 @@
   }
  ],
  "next_rival": {
-  "name": "PEÑA ATLETICA MOSTOLES",
-  "match_id": "9079550",
-  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
-  "date": "2026-10-25T13:00:00",
+  "name": "PUB OSCAR F.C.",
+  "match_id": "9087055",
+  "competition": "FÚTBOL 7 LABORAL 26/27",
+  "date": "2026-11-04T21:00:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
-  "home": false,
-  "url": "https://www.competize.com/es/matches/view/9079550",
-  "matchday": "Jornada 5",
+  "home": true,
+  "url": "https://www.competize.com/es/matches/view/9087055",
+  "matchday": "Jornada 4",
   "standing": {
-   "pos": 14,
-   "team": "PEÑA ATLETICA MOSTOLES",
-   "team_id": "2870268",
+   "pos": 2,
+   "team": "PUB OSCAR F.C.",
+   "team_id": "30129",
    "j": 3,
-   "g": 0,
+   "g": 3,
    "e": 0,
-   "p": 3,
-   "gf": 3,
-   "gc": 32,
-   "dg": -29,
-   "pts": 0
+   "p": 0,
+   "gf": 19,
+   "gc": 6,
+   "dg": 13,
+   "pts": 9
   },
-  "rival_id": "2870268",
+  "rival_id": "30129",
   "top_scorers": [
    {
-    "Posición": 86,
-    "Nombre": "CLAUDIO MIHAIL MOLEA",
-    "Equipo": "PEÑA ATLETICA MOSTOLES",
+    "Posición": 10,
+    "Nombre": "HUGO PEREZ",
+    "Equipo": "PUB OSCAR F.C.",
+    "Part.": 2,
+    "Goles": 5
+   },
+   {
+    "Posición": 17,
+    "Nombre": "SERGIO SARDINA",
+    "Equipo": "PUB OSCAR F.C.",
     "Part.": 3,
-    "Goles": 1
+    "Goles": 3
    },
    {
-    "Posición": 88,
-    "Nombre": "RUBEN GARCÍA",
-    "Equipo": "PEÑA ATLETICA MOSTOLES",
-    "Part.": 2,
-    "Goles": 1
-   },
-   {
-    "Posición": 92,
-    "Nombre": "ALEJANDRO FERNÁNDEZ",
-    "Equipo": "PEÑA ATLETICA MOSTOLES",
-    "Part.": 2,
-    "Goles": 1
+    "Posición": 21,
+    "Nombre": "DAVID GONZALEZ NUÑEZ",
+    "Equipo": "PUB OSCAR F.C.",
+    "Part.": 3,
+    "Goles": 3
    }
   ],
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-10-04T12:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "BURDEL KING",
+    "date": "2026-10-22T21:15:00",
+    "home": "PUB OSCAR F.C.",
+    "away": "CREATIVE PROJECT",
     "score": [
-     "0",
-     "12"
+     "3",
+     "0"
     ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079537"
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9087043"
    },
    {
-    "date": "2026-10-04T12:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "BURDEL KING",
+    "date": "2026-10-05T22:15:00",
+    "home": "F.C SKBIA-2",
+    "away": "PUB OSCAR F.C.",
     "score": [
-     "0",
-     "12"
+     "2",
+     "9"
     ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079537"
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9087040"
    },
    {
-    "date": "2026-10-04T12:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "BURDEL KING",
+    "date": "2026-09-30T21:15:00",
+    "home": "PUB OSCAR F.C.",
+    "away": "MONSINES FC",
     "score": [
-     "0",
-     "12"
+     "7",
+     "4"
     ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079537"
-   },
-   {
-    "date": "2026-10-04T12:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "BURDEL KING",
-    "score": [
-     "0",
-     "12"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079537"
-   },
-   {
-    "date": "2026-10-04T12:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "BURDEL KING",
-    "score": [
-     "0",
-     "12"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079537"
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9084238"
    }
   ],
-  "head_to_head": []
+  "head_to_head": [
+   {
+    "date": "2026-05-19T21:30:00",
+    "home": "PUB OSCAR F.C.",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "4",
+     "3"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8947943"
+   },
+   {
+    "date": "2025-11-25T21:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "PUB OSCAR F.C.",
+    "score": [
+     "0",
+     "0"
+    ],
+    "result": "E",
+    "url": "https://www.competize.com/es/matches/view/8741548"
+   },
+   {
+    "date": "2025-09-30T20:30:00",
+    "home": "PUB OSCAR F.C.",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "6",
+     "5"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8692475"
+   },
+   {
+    "date": "2025-01-28T20:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "PUB OSCAR F.C.",
+    "score": [
+     "1",
+     "3"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8029657"
+   },
+   {
+    "date": "2024-10-02T21:30:00",
+    "home": "PUB OSCAR F.C.",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "5",
+     "3"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/8029534"
+   }
+  ]
  }
 }
