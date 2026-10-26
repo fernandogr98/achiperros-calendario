@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T08:01+01:00",
+ "updated": "2026-10-26T11:01+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -405,36 +405,36 @@
       },
       {
        "Posición": 30,
-       "Nombre": "MARCOS ROMÁN",
-       "Equipo": "GALÁCTICOS FC",
-       "Part.": 4,
-       "Goles": 3
-      },
-      {
-       "Posición": 31,
        "Nombre": "MARCOS CAMBÓN",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 32,
+       "Posición": 31,
        "Nombre": "IVAN LEÓN",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 33,
+       "Posición": 32,
        "Nombre": "DANIEL RAMÓN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 34,
+       "Posición": 33,
        "Nombre": "SIRO IBARGOYEN",
        "Equipo": "PORRATHINAIKOS",
+       "Part.": 3,
+       "Goles": 3
+      },
+      {
+       "Posición": 34,
+       "Nombre": "MARCOS ROMÁN",
+       "Equipo": "GALÁCTICOS FC",
        "Part.": 3,
        "Goles": 3
       },
@@ -517,50 +517,50 @@
       },
       {
        "Posición": 46,
-       "Nombre": "DANIEL MALDONADO",
-       "Equipo": "GALÁCTICOS FC",
-       "Part.": 5,
-       "Goles": 2
-      },
-      {
-       "Posición": 47,
        "Nombre": "CARLOS RIBAGORDA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 5,
        "Goles": 2
       },
       {
-       "Posición": 48,
+       "Posición": 47,
        "Nombre": "VÍCTOR CENDRERO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 49,
+       "Posición": 48,
        "Nombre": "RUBEN RUBIO",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 50,
+       "Posición": 49,
        "Nombre": "JOHAN GOMEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 51,
+       "Posición": 50,
        "Nombre": "ISMAEL UTRERO",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 52,
+       "Posición": 51,
        "Nombre": "DAWID DARIUSZ CHRUSCIEL",
        "Equipo": "ACHIPERROS FC",
+       "Part.": 4,
+       "Goles": 2
+      },
+      {
+       "Posición": 52,
+       "Nombre": "DANIEL MALDONADO",
+       "Equipo": "GALÁCTICOS FC",
        "Part.": 4,
        "Goles": 2
       },
@@ -720,85 +720,85 @@
       },
       {
        "Posición": 75,
-       "Nombre": "MARCOS CEACERO",
-       "Equipo": "GALÁCTICOS FC",
-       "Part.": 4,
-       "Goles": 1
-      },
-      {
-       "Posición": 76,
        "Nombre": "MANUEL RAMÓN",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 77,
+       "Posición": 76,
        "Nombre": "JOSÉ MIGUEL MOLINA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 78,
+       "Posición": 77,
        "Nombre": "IGNACIO CRESPO",
        "Equipo": "BURDEL KING",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 79,
+       "Posición": 78,
        "Nombre": "GONZALO SAN ROMÁN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 80,
+       "Posición": 79,
        "Nombre": "DANIEL RODRÍGUEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 81,
+       "Posición": 80,
        "Nombre": "DANIEL IBÁÑEZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 82,
+       "Posición": 81,
        "Nombre": "CLAUDIO MIHAIL MOLEA",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 83,
+       "Posición": 82,
        "Nombre": "ALEJANDRO ÁLVAREZ",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 84,
+       "Posición": 83,
        "Nombre": "SERGIO MUÑOZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 85,
+       "Posición": 84,
        "Nombre": "MIGUEL ÁNGEL INIESTO",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 86,
+       "Posición": 85,
        "Nombre": "MARCOS SIRVENT",
        "Equipo": "SEITO DURO FC",
+       "Part.": 3,
+       "Goles": 1
+      },
+      {
+       "Posición": 86,
+       "Nombre": "MARCOS CEACERO",
+       "Equipo": "GALÁCTICOS FC",
        "Part.": 3,
        "Goles": 1
       },
