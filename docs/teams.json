@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T19:30",
+ "updated": "2026-10-26T23:00",
  "competitions": [
   {
    "id": "409114",
@@ -844,9 +844,58 @@
      ]
     },
     {
+     "id": "2332120",
+     "name": "SANFERDOG",
+     "pos": 3,
+     "pj": 4,
+     "g": 2,
+     "e": 1,
+     "p": 1,
+     "gf": 19,
+     "gc": 13,
+     "dg": 6,
+     "pts": 7,
+     "form": [
+      "E",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-26T21:15:00",
+       "home": "SANFERDOG",
+       "away": "BETA - PUBLIX CF",
+       "score": "4-3",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 3,
+     "pos": 4,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -887,7 +936,7 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 4,
+     "pos": 5,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -928,7 +977,7 @@
     {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 5,
+     "pos": 6,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -969,7 +1018,7 @@
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 6,
+     "pos": 7,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -1004,47 +1053,6 @@
        "away": "CDE FORUSIA",
        "score": "6-5",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332120",
-     "name": "SANFERDOG",
-     "pos": 7,
-     "pj": 3,
-     "g": 1,
-     "e": 1,
-     "p": 1,
-     "gf": 15,
-     "gc": 10,
-     "dg": 5,
-     "pts": 4,
-     "form": [
-      "E",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
-       "result": "D"
       }
      ]
     },
@@ -1257,15 +1265,16 @@
      "id": "30142",
      "name": "BETA - PUBLIX CF",
      "pos": 13,
-     "pj": 3,
+     "pj": 4,
      "g": 0,
      "e": 0,
-     "p": 3,
-     "gf": 6,
-     "gc": 24,
-     "dg": -18,
+     "p": 4,
+     "gf": 9,
+     "gc": 28,
+     "dg": -19,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D"
@@ -1290,6 +1299,13 @@
        "home": "ALLIGATORS",
        "away": "BETA - PUBLIX CF",
        "score": "8-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-26T21:15:00",
+       "home": "SANFERDOG",
+       "away": "BETA - PUBLIX CF",
+       "score": "4-3",
        "result": "D"
       }
      ]
