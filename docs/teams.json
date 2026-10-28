@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:00",
+ "updated": "2026-10-28T11:00",
  "competitions": [
   {
    "id": "409114",
@@ -844,9 +844,58 @@
      ]
     },
     {
+     "id": "2870356",
+     "name": "POLEMICAS APARTE FC",
+     "pos": 3,
+     "pj": 4,
+     "g": 3,
+     "e": 0,
+     "p": 1,
+     "gf": 19,
+     "gc": 15,
+     "dg": 4,
+     "pts": 9,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-06T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "POLEMICAS APARTE FC",
+       "score": "1-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-27T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "POLEMICAS APARTE FC",
+       "score": "3-4",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 3,
+     "pos": 4,
      "pj": 4,
      "g": 2,
      "e": 1,
@@ -895,7 +944,7 @@
     {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 4,
+     "pos": 5,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -936,7 +985,7 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 5,
+     "pos": 6,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -977,7 +1026,7 @@
     {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 6,
+     "pos": 7,
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -1016,42 +1065,50 @@
      ]
     },
     {
-     "id": "2870356",
-     "name": "POLEMICAS APARTE FC",
-     "pos": 7,
-     "pj": 3,
-     "g": 2,
-     "e": 0,
-     "p": 1,
-     "gf": 15,
-     "gc": 12,
-     "dg": 3,
-     "pts": 6,
+     "id": "2874265",
+     "name": "CREATIVE PROJECT",
+     "pos": 8,
+     "pj": 4,
+     "g": 1,
+     "e": 1,
+     "p": 2,
+     "gf": 20,
+     "gc": 14,
+     "dg": 6,
+     "pts": 4,
      "form": [
+      "E",
       "D",
-      "V",
+      "D",
       "V"
      ],
      "matches": [
       {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
        "result": "D"
       },
       {
-       "date": "2026-10-06T21:15:00",
-       "home": "BETA - PUBLIX CF",
-       "away": "POLEMICAS APARTE FC",
-       "score": "1-7",
-       "result": "V"
+       "date": "2026-10-22T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "CREATIVE PROJECT",
+       "score": "3-0",
+       "result": "D"
       },
       {
-       "date": "2026-10-20T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
+       "date": "2026-10-27T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "BARRIO SÉSAMO",
+       "score": "15-1",
        "result": "V"
       }
      ]
@@ -1059,7 +1116,7 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 8,
+     "pos": 9,
      "pj": 3,
      "g": 1,
      "e": 1,
@@ -1100,18 +1157,19 @@
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 9,
-     "pj": 3,
+     "pos": 10,
+     "pj": 4,
      "g": 1,
      "e": 1,
-     "p": 1,
-     "gf": 9,
-     "gc": 17,
-     "dg": -8,
+     "p": 2,
+     "gf": 12,
+     "gc": 21,
+     "dg": -9,
      "pts": 4,
      "form": [
       "V",
       "E",
+      "D",
       "D"
      ],
      "matches": [
@@ -1135,13 +1193,20 @@
        "away": "RECRELEGENS F.C.",
        "score": "11-1",
        "result": "D"
+      },
+      {
+       "date": "2026-10-27T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "POLEMICAS APARTE FC",
+       "score": "3-4",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2806044",
      "name": "CDE FORUSIA",
-     "pos": 10,
+     "pos": 11,
      "pj": 3,
      "g": 1,
      "e": 0,
@@ -1182,7 +1247,7 @@
     {
      "id": "2739966",
      "name": "F.C SKBIA-2",
-     "pos": 11,
+     "pos": 12,
      "pj": 3,
      "g": 1,
      "e": 0,
@@ -1217,47 +1282,6 @@
        "away": "F.C SKBIA-2",
        "score": "2-11",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2874265",
-     "name": "CREATIVE PROJECT",
-     "pos": 12,
-     "pj": 3,
-     "g": 0,
-     "e": 1,
-     "p": 2,
-     "gf": 5,
-     "gc": 13,
-     "dg": -8,
-     "pts": 1,
-     "form": [
-      "E",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-06T22:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "ACHIPERROS FC",
-       "score": "3-8",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-22T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "CREATIVE PROJECT",
-       "score": "3-0",
-       "result": "D"
       }
      ]
     },
@@ -1314,15 +1338,16 @@
      "id": "30160",
      "name": "BARRIO SÉSAMO",
      "pos": 14,
-     "pj": 3,
+     "pj": 4,
      "g": 0,
      "e": 0,
-     "p": 3,
-     "gf": 4,
-     "gc": 26,
-     "dg": -22,
+     "p": 4,
+     "gf": 5,
+     "gc": 41,
+     "dg": -36,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D"
@@ -1347,6 +1372,13 @@
        "home": "BARRIO SÉSAMO",
        "away": "F.C SKBIA-2",
        "score": "2-11",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-27T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "BARRIO SÉSAMO",
+       "score": "15-1",
        "result": "D"
       }
      ]
