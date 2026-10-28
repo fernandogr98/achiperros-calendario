@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:01",
+ "updated": "2026-10-29T00:31",
  "competitions": [
   {
    "id": "409114",
@@ -762,9 +762,58 @@
    "name": "LABORAL",
    "teams": [
     {
+     "id": "1327061",
+     "name": "BAR CON PAN Y TODO NAVALCARNERO",
+     "pos": 1,
+     "pj": 4,
+     "g": 3,
+     "e": 0,
+     "p": 1,
+     "gf": 32,
+     "gc": 12,
+     "dg": 20,
+     "pts": 9,
+     "form": [
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T22:15:00",
+       "home": "BAR CON PAN Y TODO NAVALCARNERO",
+       "away": "BETA - PUBLIX CF",
+       "score": "9-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-22T22:15:00",
+       "home": "BAR CON PAN Y TODO NAVALCARNERO",
+       "away": "RECRELEGENS F.C.",
+       "score": "11-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-28T22:15:00",
+       "home": "MONSINES FC",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "1-6",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538202",
      "name": "ACHIPERROS FC",
-     "pos": 1,
+     "pos": 2,
      "pj": 3,
      "g": 3,
      "e": 0,
@@ -805,7 +854,7 @@
     {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
-     "pos": 2,
+     "pos": 3,
      "pj": 3,
      "g": 3,
      "e": 0,
@@ -846,7 +895,7 @@
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 3,
+     "pos": 4,
      "pj": 4,
      "g": 3,
      "e": 0,
@@ -895,7 +944,7 @@
     {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 4,
+     "pos": 5,
      "pj": 4,
      "g": 2,
      "e": 1,
@@ -942,62 +991,22 @@
      ]
     },
     {
-     "id": "1327061",
-     "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 5,
-     "pj": 3,
-     "g": 2,
-     "e": 0,
-     "p": 1,
-     "gf": 26,
-     "gc": 11,
-     "dg": 15,
-     "pts": 6,
-     "form": [
-      "V",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T22:15:00",
-       "home": "BAR CON PAN Y TODO NAVALCARNERO",
-       "away": "BETA - PUBLIX CF",
-       "score": "9-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-07T22:15:00",
-       "home": "CDE FORUSIA",
-       "away": "BAR CON PAN Y TODO NAVALCARNERO",
-       "score": "7-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-22T22:15:00",
-       "home": "BAR CON PAN Y TODO NAVALCARNERO",
-       "away": "RECRELEGENS F.C.",
-       "score": "11-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "1871372",
      "name": "MONSINES FC",
      "pos": 6,
-     "pj": 3,
+     "pj": 4,
      "g": 2,
      "e": 0,
-     "p": 1,
-     "gf": 21,
-     "gc": 11,
-     "dg": 10,
+     "p": 2,
+     "gf": 22,
+     "gc": 17,
+     "dg": 5,
      "pts": 6,
      "form": [
       "D",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -1020,6 +1029,13 @@
        "away": "MONSINES FC",
        "score": "4-6",
        "result": "V"
+      },
+      {
+       "date": "2026-10-28T22:15:00",
+       "home": "MONSINES FC",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "1-6",
+       "result": "D"
       }
      ]
     },
