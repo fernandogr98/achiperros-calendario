@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:01+01:00",
+ "updated": "2026-10-29T23:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -1338,7 +1338,7 @@
    "id": "409666",
    "standings": [
     {
-     "pos": 1,
+     "pos": "1 FÚTBOL 7 LABORAL 26/27 - Fase oro",
      "team": "BAR CON PAN Y TODO NAVALCARNERO",
      "team_id": "1327061",
      "j": 4,
@@ -1351,7 +1351,7 @@
      "pts": 9
     },
     {
-     "pos": 2,
+     "pos": "2 FÚTBOL 7 LABORAL 26/27 - Fase oro",
      "team": "ACHIPERROS FC",
      "team_id": "2538202",
      "j": 3,
@@ -1364,7 +1364,7 @@
      "pts": 9
     },
     {
-     "pos": 3,
+     "pos": "3 FÚTBOL 7 LABORAL 26/27 - Fase oro",
      "team": "PUB OSCAR F.C.",
      "team_id": "30129",
      "j": 3,
@@ -1377,7 +1377,7 @@
      "pts": 9
     },
     {
-     "pos": 4,
+     "pos": "4 FÚTBOL 7 LABORAL 26/27 - Fase oro",
      "team": "POLEMICAS APARTE FC",
      "team_id": "2870356",
      "j": 4,
@@ -1390,7 +1390,7 @@
      "pts": 9
     },
     {
-     "pos": 5,
+     "pos": "5 FÚTBOL 7 LABORAL 26/27 - Fase plata",
      "team": "SANFERDOG",
      "team_id": "2332120",
      "j": 4,
@@ -1403,7 +1403,7 @@
      "pts": 7
     },
     {
-     "pos": 6,
+     "pos": "6 FÚTBOL 7 LABORAL 26/27 - Fase plata",
      "team": "MONSINES FC",
      "team_id": "1871372",
      "j": 4,
@@ -1416,7 +1416,7 @@
      "pts": 6
     },
     {
-     "pos": 7,
+     "pos": "7 FÚTBOL 7 LABORAL 26/27 - Fase plata",
      "team": "ALLIGATORS",
      "team_id": "1871444",
      "j": 3,
@@ -1429,7 +1429,7 @@
      "pts": 6
     },
     {
-     "pos": 8,
+     "pos": "8 FÚTBOL 7 LABORAL 26/27 - Fase plata",
      "team": "CREATIVE PROJECT",
      "team_id": "2874265",
      "j": 4,
@@ -3045,7 +3045,7 @@
   "url": "https://www.competize.com/es/matches/view/9087055",
   "matchday": "Jornada 4",
   "standing": {
-   "pos": 3,
+   "pos": "3 FÚTBOL 7 LABORAL 26/27 - Fase oro",
    "team": "PUB OSCAR F.C.",
    "team_id": "30129",
    "j": 3,
