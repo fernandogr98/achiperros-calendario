@@ -29,6 +29,22 @@ def _int(s: str):
         return s
 
 
+def _pos(s: str) -> tuple[int, str]:
+    """'1 FÚTBOL 7 LABORAL 26/27 - Fase oro' -> (1, 'Fase oro').
+
+    Competize a veces añade el nombre de la fase/grupo a la celda de posición;
+    devolvemos el número por un lado y la fase por otro (vacía si no la hay).
+    """
+    text = (s or "").strip()
+    m = re.match(r"(\d+)", text)
+    if not m:
+        return 999, text
+    pos = int(m.group(1))
+    rest = text[m.end():].strip()
+    phase = rest.rsplit(" - ", 1)[1].strip() if " - " in rest else rest
+    return pos, phase
+
+
 def _token(session: requests.Session) -> str:
     return next((c.value for c in session.cookies if "csrf" in c.name), "")
 
@@ -57,8 +73,9 @@ def _standings(soup: BeautifulSoup) -> list[dict]:
         if len(cells) < 10:
             continue
         link = tr.find("a", href=re.compile(r"team/view/\d+"))
+        pos, phase = _pos(cells[0])
         rows.append({
-            "pos": _int(cells[0]), "team": cells[1],
+            "pos": pos, "phase": phase, "team": cells[1],
             "team_id": re.search(r"team/view/(\d+)", link["href"]).group(1) if link else "",
             "j": _int(cells[2]), "g": _int(cells[3]), "e": _int(cells[4]), "p": _int(cells[5]),
             "gf": _int(cells[6]), "gc": _int(cells[7]), "dg": _int(cells[8]), "pts": _int(cells[9]),
