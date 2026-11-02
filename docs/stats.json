@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:02+01:00",
+ "updated": "2026-11-02T22:06+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -8,6 +8,7 @@
    "standings": [
     {
      "pos": 1,
+     "phase": "",
      "team": "CDE FORUSIA",
      "team_id": "2538194",
      "j": 5,
@@ -21,6 +22,7 @@
     },
     {
      "pos": 2,
+     "phase": "",
      "team": "ACHIPERROS FC",
      "team_id": "2538202",
      "j": 5,
@@ -34,6 +36,7 @@
     },
     {
      "pos": 3,
+     "phase": "",
      "team": "BURDEL KING",
      "team_id": "2332139",
      "j": 5,
@@ -47,6 +50,7 @@
     },
     {
      "pos": 4,
+     "phase": "",
      "team": "SEITO DURO FC",
      "team_id": "2724454",
      "j": 5,
@@ -60,6 +64,7 @@
     },
     {
      "pos": 5,
+     "phase": "",
      "team": "LEGIÓN SUR F.C.",
      "team_id": "2726443",
      "j": 5,
@@ -73,6 +78,7 @@
     },
     {
      "pos": 6,
+     "phase": "",
      "team": "COCA JUNIORS",
      "team_id": "1875645",
      "j": 4,
@@ -86,6 +92,7 @@
     },
     {
      "pos": 7,
+     "phase": "",
      "team": "PORRATHINAIKOS",
      "team_id": "2870362",
      "j": 5,
@@ -99,6 +106,7 @@
     },
     {
      "pos": 8,
+     "phase": "",
      "team": "LOS DE SIEMPRE FC",
      "team_id": "2723836",
      "j": 5,
@@ -112,6 +120,7 @@
     },
     {
      "pos": 9,
+     "phase": "",
      "team": "SKUAD DEL GÜEBO",
      "team_id": "2538199",
      "j": 5,
@@ -125,6 +134,7 @@
     },
     {
      "pos": 10,
+     "phase": "",
      "team": "GALÁCTICOS FC",
      "team_id": "1899890",
      "j": 5,
@@ -138,6 +148,7 @@
     },
     {
      "pos": 11,
+     "phase": "",
      "team": "BASTARD MÜNCHEN",
      "team_id": "2870272",
      "j": 5,
@@ -151,6 +162,7 @@
     },
     {
      "pos": 12,
+     "phase": "",
      "team": "LOS PATXIS FC",
      "team_id": "2871925",
      "j": 5,
@@ -164,6 +176,7 @@
     },
     {
      "pos": 13,
+     "phase": "",
      "team": "BARÇA MURAI",
      "team_id": "2870267",
      "j": 3,
@@ -177,6 +190,7 @@
     },
     {
      "pos": 14,
+     "phase": "",
      "team": "PEÑA ATLETICA MOSTOLES",
      "team_id": "2870268",
      "j": 4,
@@ -1338,7 +1352,8 @@
    "id": "409666",
    "standings": [
     {
-     "pos": "1 FÚTBOL 7 LABORAL 26/27 - Fase oro",
+     "pos": 1,
+     "phase": "Fase oro",
      "team": "BAR CON PAN Y TODO NAVALCARNERO",
      "team_id": "1327061",
      "j": 4,
@@ -1351,7 +1366,8 @@
      "pts": 9
     },
     {
-     "pos": "2 FÚTBOL 7 LABORAL 26/27 - Fase oro",
+     "pos": 2,
+     "phase": "Fase oro",
      "team": "ACHIPERROS FC",
      "team_id": "2538202",
      "j": 3,
@@ -1364,7 +1380,8 @@
      "pts": 9
     },
     {
-     "pos": "3 FÚTBOL 7 LABORAL 26/27 - Fase oro",
+     "pos": 3,
+     "phase": "Fase oro",
      "team": "PUB OSCAR F.C.",
      "team_id": "30129",
      "j": 3,
@@ -1377,7 +1394,8 @@
      "pts": 9
     },
     {
-     "pos": "4 FÚTBOL 7 LABORAL 26/27 - Fase oro",
+     "pos": 4,
+     "phase": "Fase oro",
      "team": "POLEMICAS APARTE FC",
      "team_id": "2870356",
      "j": 4,
@@ -1390,7 +1408,8 @@
      "pts": 9
     },
     {
-     "pos": "5 FÚTBOL 7 LABORAL 26/27 - Fase plata",
+     "pos": 5,
+     "phase": "Fase plata",
      "team": "SANFERDOG",
      "team_id": "2332120",
      "j": 4,
@@ -1403,7 +1422,8 @@
      "pts": 7
     },
     {
-     "pos": "6 FÚTBOL 7 LABORAL 26/27 - Fase plata",
+     "pos": 6,
+     "phase": "Fase plata",
      "team": "MONSINES FC",
      "team_id": "1871372",
      "j": 4,
@@ -1416,7 +1436,8 @@
      "pts": 6
     },
     {
-     "pos": "7 FÚTBOL 7 LABORAL 26/27 - Fase plata",
+     "pos": 7,
+     "phase": "Fase plata",
      "team": "ALLIGATORS",
      "team_id": "1871444",
      "j": 3,
@@ -1429,7 +1450,8 @@
      "pts": 6
     },
     {
-     "pos": "8 FÚTBOL 7 LABORAL 26/27 - Fase plata",
+     "pos": 8,
+     "phase": "Fase plata",
      "team": "F.C SKBIA-2",
      "team_id": "2739966",
      "j": 4,
@@ -1443,6 +1465,7 @@
     },
     {
      "pos": 9,
+     "phase": "",
      "team": "CREATIVE PROJECT",
      "team_id": "2874265",
      "j": 4,
@@ -1456,6 +1479,7 @@
     },
     {
      "pos": 10,
+     "phase": "",
      "team": "FONTANERÍA RUBIO",
      "team_id": "2332125",
      "j": 4,
@@ -1469,6 +1493,7 @@
     },
     {
      "pos": 11,
+     "phase": "",
      "team": "RECRELEGENS F.C.",
      "team_id": "2874263",
      "j": 4,
@@ -1482,6 +1507,7 @@
     },
     {
      "pos": 12,
+     "phase": "",
      "team": "CDE FORUSIA",
      "team_id": "2806044",
      "j": 3,
@@ -1495,6 +1521,7 @@
     },
     {
      "pos": 13,
+     "phase": "",
      "team": "BETA - PUBLIX CF",
      "team_id": "30142",
      "j": 4,
@@ -1508,6 +1535,7 @@
     },
     {
      "pos": 14,
+     "phase": "",
      "team": "BARRIO SÉSAMO",
      "team_id": "30160",
      "j": 4,
@@ -3052,7 +3080,8 @@
   "url": "https://www.competize.com/es/matches/view/9087055",
   "matchday": "Jornada 4",
   "standing": {
-   "pos": "3 FÚTBOL 7 LABORAL 26/27 - Fase oro",
+   "pos": 3,
+   "phase": "Fase oro",
    "team": "PUB OSCAR F.C.",
    "team_id": "30129",
    "j": 3,

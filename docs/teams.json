@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T08:01",
+ "updated": "2026-11-02T22:07",
  "competitions": [
   {
    "id": "409114",
@@ -9,6 +9,7 @@
      "id": "2538194",
      "name": "CDE FORUSIA",
      "pos": 1,
+     "phase": "",
      "pj": 5,
      "g": 5,
      "e": 0,
@@ -66,6 +67,7 @@
      "id": "2538202",
      "name": "ACHIPERROS FC",
      "pos": 2,
+     "phase": "",
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -123,6 +125,7 @@
      "id": "2332139",
      "name": "BURDEL KING",
      "pos": 3,
+     "phase": "",
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -180,6 +183,7 @@
      "id": "2724454",
      "name": "SEITO DURO FC",
      "pos": 4,
+     "phase": "",
      "pj": 5,
      "g": 4,
      "e": 0,
@@ -237,6 +241,7 @@
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
      "pos": 5,
+     "phase": "",
      "pj": 5,
      "g": 3,
      "e": 0,
@@ -294,6 +299,7 @@
      "id": "1875645",
      "name": "COCA JUNIORS",
      "pos": 6,
+     "phase": "",
      "pj": 4,
      "g": 3,
      "e": 0,
@@ -335,6 +341,7 @@
      "id": "2870362",
      "name": "PORRATHINAIKOS",
      "pos": 7,
+     "phase": "",
      "pj": 5,
      "g": 2,
      "e": 1,
@@ -392,6 +399,7 @@
      "id": "2723836",
      "name": "LOS DE SIEMPRE FC",
      "pos": 8,
+     "phase": "",
      "pj": 5,
      "g": 2,
      "e": 1,
@@ -449,6 +457,7 @@
      "id": "2538199",
      "name": "SKUAD DEL GÜEBO",
      "pos": 9,
+     "phase": "",
      "pj": 5,
      "g": 2,
      "e": 0,
@@ -506,6 +515,7 @@
      "id": "1899890",
      "name": "GALÁCTICOS FC",
      "pos": 10,
+     "phase": "",
      "pj": 5,
      "g": 2,
      "e": 0,
@@ -555,6 +565,7 @@
      "id": "2870272",
      "name": "BASTARD MÜNCHEN",
      "pos": 11,
+     "phase": "",
      "pj": 5,
      "g": 0,
      "e": 1,
@@ -612,6 +623,7 @@
      "id": "2871925",
      "name": "LOS PATXIS FC",
      "pos": 12,
+     "phase": "",
      "pj": 5,
      "g": 0,
      "e": 1,
@@ -669,6 +681,7 @@
      "id": "2870267",
      "name": "BARÇA MURAI",
      "pos": 13,
+     "phase": "",
      "pj": 3,
      "g": 0,
      "e": 0,
@@ -710,6 +723,7 @@
      "id": "2870268",
      "name": "PEÑA ATLETICA MOSTOLES",
      "pos": 14,
+     "phase": "",
      "pj": 4,
      "g": 0,
      "e": 0,
@@ -765,6 +779,7 @@
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
      "pos": 1,
+     "phase": "Fase oro",
      "pj": 4,
      "g": 3,
      "e": 0,
@@ -814,6 +829,7 @@
      "id": "2538202",
      "name": "ACHIPERROS FC",
      "pos": 2,
+     "phase": "Fase oro",
      "pj": 3,
      "g": 3,
      "e": 0,
@@ -855,6 +871,7 @@
      "id": "30129",
      "name": "PUB OSCAR F.C.",
      "pos": 3,
+     "phase": "Fase oro",
      "pj": 3,
      "g": 3,
      "e": 0,
@@ -896,6 +913,7 @@
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
      "pos": 4,
+     "phase": "Fase oro",
      "pj": 4,
      "g": 3,
      "e": 0,
@@ -945,6 +963,7 @@
      "id": "2332120",
      "name": "SANFERDOG",
      "pos": 5,
+     "phase": "Fase plata",
      "pj": 4,
      "g": 2,
      "e": 1,
@@ -994,6 +1013,7 @@
      "id": "1871372",
      "name": "MONSINES FC",
      "pos": 6,
+     "phase": "Fase plata",
      "pj": 4,
      "g": 2,
      "e": 0,
@@ -1043,6 +1063,7 @@
      "id": "1871444",
      "name": "ALLIGATORS",
      "pos": 7,
+     "phase": "Fase plata",
      "pj": 3,
      "g": 2,
      "e": 0,
@@ -1081,9 +1102,60 @@
      ]
     },
     {
+     "id": "2739966",
+     "name": "F.C SKBIA-2",
+     "pos": 8,
+     "phase": "Fase plata",
+     "pj": 4,
+     "g": 2,
+     "e": 0,
+     "p": 2,
+     "gf": 16,
+     "gc": 23,
+     "dg": -7,
+     "pts": 6,
+     "form": [
+      "D",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T22:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "F.C SKBIA-2",
+       "score": "11-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-05T22:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "PUB OSCAR F.C.",
+       "score": "2-9",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-21T21:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "F.C SKBIA-2",
+       "score": "2-11",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-29T21:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "FONTANERÍA RUBIO",
+       "score": "2-1",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 8,
+     "pos": 9,
+     "phase": "",
      "pj": 4,
      "g": 1,
      "e": 1,
@@ -1132,18 +1204,20 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 9,
-     "pj": 3,
+     "pos": 10,
+     "phase": "",
+     "pj": 4,
      "g": 1,
      "e": 1,
-     "p": 1,
-     "gf": 12,
-     "gc": 13,
-     "dg": -1,
+     "p": 2,
+     "gf": 13,
+     "gc": 15,
+     "dg": -2,
      "pts": 4,
      "form": [
       "V",
       "E",
+      "D",
       "D"
      ],
      "matches": [
@@ -1167,13 +1241,21 @@
        "away": "MONSINES FC",
        "score": "4-6",
        "result": "D"
+      },
+      {
+       "date": "2026-10-29T21:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "FONTANERÍA RUBIO",
+       "score": "2-1",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 10,
+     "pos": 11,
+     "phase": "",
      "pj": 4,
      "g": 1,
      "e": 1,
@@ -1222,7 +1304,8 @@
     {
      "id": "2806044",
      "name": "CDE FORUSIA",
-     "pos": 11,
+     "pos": 12,
+     "phase": "",
      "pj": 3,
      "g": 1,
      "e": 0,
@@ -1261,50 +1344,10 @@
      ]
     },
     {
-     "id": "2739966",
-     "name": "F.C SKBIA-2",
-     "pos": 12,
-     "pj": 3,
-     "g": 1,
-     "e": 0,
-     "p": 2,
-     "gf": 14,
-     "gc": 22,
-     "dg": -8,
-     "pts": 3,
-     "form": [
-      "D",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T22:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "F.C SKBIA-2",
-       "score": "11-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-05T22:15:00",
-       "home": "F.C SKBIA-2",
-       "away": "PUB OSCAR F.C.",
-       "score": "2-9",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-21T21:15:00",
-       "home": "BARRIO SÉSAMO",
-       "away": "F.C SKBIA-2",
-       "score": "2-11",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "30142",
      "name": "BETA - PUBLIX CF",
      "pos": 13,
+     "phase": "",
      "pj": 4,
      "g": 0,
      "e": 0,
@@ -1354,6 +1397,7 @@
      "id": "30160",
      "name": "BARRIO SÉSAMO",
      "pos": 14,
+     "phase": "",
      "pj": 4,
      "g": 0,
      "e": 0,
