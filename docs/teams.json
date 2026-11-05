@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:00",
+ "updated": "2026-11-05T23:30",
  "competitions": [
   {
    "id": "409114",
@@ -1080,18 +1080,19 @@
      "name": "ALLIGATORS",
      "pos": 7,
      "phase": "Fase plata",
-     "pj": 3,
+     "pj": 4,
      "g": 2,
      "e": 0,
-     "p": 1,
-     "gf": 18,
-     "gc": 15,
-     "dg": 3,
+     "p": 2,
+     "gf": 24,
+     "gc": 23,
+     "dg": 1,
      "pts": 6,
      "form": [
       "V",
       "D",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -1114,14 +1115,71 @@
        "away": "BETA - PUBLIX CF",
        "score": "8-2",
        "result": "V"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "2806044",
+     "name": "CDE FORUSIA",
+     "pos": 8,
+     "phase": "Fase plata",
+     "pj": 4,
+     "g": 2,
+     "e": 0,
+     "p": 2,
+     "gf": 23,
+     "gc": 22,
+     "dg": 1,
+     "pts": 6,
+     "form": [
+      "D",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "V"
       }
      ]
     },
     {
      "id": "2739966",
      "name": "F.C SKBIA-2",
-     "pos": 8,
-     "phase": "Fase plata",
+     "pos": 9,
+     "phase": "",
      "pj": 4,
      "g": 2,
      "e": 0,
@@ -1170,7 +1228,7 @@
     {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 9,
+     "pos": 10,
      "phase": "",
      "pj": 4,
      "g": 1,
@@ -1220,7 +1278,7 @@
     {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 10,
+     "pos": 11,
      "phase": "",
      "pj": 4,
      "g": 1,
@@ -1270,7 +1328,7 @@
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 11,
+     "pos": 12,
      "phase": "",
      "pj": 4,
      "g": 1,
@@ -1313,48 +1371,6 @@
        "home": "RECRELEGENS F.C.",
        "away": "POLEMICAS APARTE FC",
        "score": "3-4",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2806044",
-     "name": "CDE FORUSIA",
-     "pos": 12,
-     "phase": "",
-     "pj": 3,
-     "g": 1,
-     "e": 0,
-     "p": 2,
-     "gf": 15,
-     "gc": 16,
-     "dg": -1,
-     "pts": 3,
-     "form": [
-      "D",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-07T22:15:00",
-       "home": "CDE FORUSIA",
-       "away": "BAR CON PAN Y TODO NAVALCARNERO",
-       "score": "7-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
        "result": "D"
       }
      ]
