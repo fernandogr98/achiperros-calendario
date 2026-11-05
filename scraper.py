@@ -284,6 +284,14 @@ def main():
     _cookie_env = os.environ.get("COMPETIZE_COOKIES_FILE")
     if _cookie_env and Path(_cookie_env).exists():
         session.cookies.update(json.loads(Path(_cookie_env).read_text(encoding="utf-8")))
+    # Resultados de partidos "pospuestos" que sí tienen marcador (Competize no los cuenta)
+    postponed = {}
+    _pr_env = os.environ.get("POSTPONED_RESULTS_FILE")
+    if _pr_env and Path(_pr_env).exists():
+        try:
+            postponed = json.loads(Path(_pr_env).read_text(encoding="utf-8"))
+        except Exception:
+            postponed = {}
     since = season_start(date.today())
 
     all_matches = [m for m in parse_matches(fetch_fixtures(session)) if TEAM_NAME in (m["home"], m["away"])]
@@ -340,7 +348,7 @@ def main():
     # Clasificaciones, rankings, sanciones, estadísticas y ficha del rival (no debe tumbar el calendario)
     try:
         data = stats.build(session, TEAM_NAME, TEAM_ID, matches, all_matches, details,
-                           fetch_fixtures, parse_matches, since)
+                           fetch_fixtures, parse_matches, since, postponed)
         STATS_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"Estadísticas: {len(data['competitions'])} competiciones, {len(data['players'])} jugadores, "
               f"rival: {(data['next_rival'] or {}).get('name', '-')}")

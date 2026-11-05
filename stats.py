@@ -83,6 +83,57 @@ def _standings(soup: BeautifulSoup) -> list[dict]:
     return rows
 
 
+def apply_postponed_results(standings: list[dict], results: list[dict]) -> list[dict]:
+    """Ajusta la clasificación con resultados de partidos 'pospuestos' y la re-ordena.
+
+    Competize no contabiliza los partidos 'Pospuesto' en su tabla, aunque su detalle sí tenga
+    marcador. Aquí sumamos esos resultados a los registros de ambos equipos y reordenamos por
+    fase → puntos → diferencia de goles → goles a favor. Devuelve una lista nueva.
+    """
+    if not results:
+        return standings
+
+    def _n(v) -> int:
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
+
+    by_team = {r["team"]: dict(r) for r in standings}
+    for res in results:
+        h = by_team.get(res.get("home"))
+        a = by_team.get(res.get("away"))
+        if not h or not a:
+            continue
+        hs, as_ = _n(res.get("home_score")), _n(res.get("away_score"))
+        for row, gf, ga in ((h, hs, as_), (a, as_, hs)):
+            row["j"] = _n(row.get("j")) + 1
+            row["gf"] = _n(row.get("gf")) + gf
+            row["gc"] = _n(row.get("gc")) + ga
+            row["dg"] = row["gf"] - row["gc"]
+        if hs > as_:
+            h["g"] = _n(h.get("g")) + 1
+            h["pts"] = _n(h.get("pts")) + 3
+            a["p"] = _n(a.get("p")) + 1
+        elif hs < as_:
+            a["g"] = _n(a.get("g")) + 1
+            a["pts"] = _n(a.get("pts")) + 3
+            h["p"] = _n(h.get("p")) + 1
+        else:
+            h["e"] = _n(h.get("e")) + 1
+            a["e"] = _n(a.get("e")) + 1
+            h["pts"] = _n(h.get("pts")) + 1
+            a["pts"] = _n(a.get("pts")) + 1
+
+    phase_order = {"Fase oro": 0, "Fase plata": 1}
+    ordered = sorted(by_team.values(), key=lambda r: (
+        phase_order.get(r.get("phase", ""), 2),
+        -_n(r.get("pts")), -_n(r.get("dg")), -_n(r.get("gf"))))
+    for i, r in enumerate(ordered, 1):
+        r["pos"] = i
+    return ordered
+
+
 def _sanctions(soup: BeautifulSoup) -> list[dict]:
     out = []
     for rnd in soup.select("#competition-section-punishments .punishments-round"):
@@ -122,9 +173,12 @@ def _rankings(session: requests.Session, comp: dict) -> dict:
     return out
 
 
-def competition_data(session: requests.Session, comp: dict) -> dict:
+def competition_data(session: requests.Session, comp: dict, postponed_results: list | None = None) -> dict:
     soup = BeautifulSoup(session.get(comp["url"], timeout=30).text, "html.parser")
-    data = {**comp, "standings": _standings(soup), "sanctions": _sanctions(soup)}
+    standings = _standings(soup)
+    if postponed_results:
+        standings = apply_postponed_results(standings, postponed_results)
+    data = {**comp, "standings": standings, "sanctions": _sanctions(soup)}
     try:
         data["rankings"] = _rankings(session, comp)
     except Exception as exc:
@@ -211,7 +265,8 @@ def rival_card(session, fetch_team_fixtures, parse_matches, team: str, next_matc
 
 
 def build(session, team: str, team_id: int, season_matches: list[dict], all_matches: list[dict],
-          details: dict, fetch_team_fixtures, parse_matches, since: date) -> dict:
+          details: dict, fetch_team_fixtures, parse_matches, since: date,
+          postponed_results: dict | None = None) -> dict:
     comps = {}
     for m in season_matches:
         if m.get("competition_url"):
@@ -220,7 +275,7 @@ def build(session, team: str, team_id: int, season_matches: list[dict], all_matc
     competitions = []
     for c in comps.values():
         try:
-            competitions.append(competition_data(session, c))
+            competitions.append(competition_data(session, c, (postponed_results or {}).get(c["id"])))
         except Exception as exc:
             print(f"Aviso: sin datos de {c['name']}: {exc}")
 
