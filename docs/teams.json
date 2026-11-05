@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:00",
+ "updated": "2026-11-05T09:27",
  "competitions": [
   {
    "id": "409114",
@@ -776,9 +776,59 @@
    "name": "LABORAL",
    "teams": [
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 1,
+     "phase": "Fase oro",
+     "pj": 4,
+     "g": 4,
+     "e": 0,
+     "p": 0,
+     "gf": 27,
+     "gc": 8,
+     "dg": 19,
+     "pts": 12,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T22:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "F.C SKBIA-2",
+       "score": "11-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-04T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "PUB OSCAR F.C.",
+       "score": "4-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 1,
+     "pos": 2,
      "phase": "Fase oro",
      "pj": 4,
      "g": 3,
@@ -826,64 +876,23 @@
      ]
     },
     {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 2,
-     "phase": "Fase oro",
-     "pj": 3,
-     "g": 3,
-     "e": 0,
-     "p": 0,
-     "gf": 23,
-     "gc": 6,
-     "dg": 17,
-     "pts": 9,
-     "form": [
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T22:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "F.C SKBIA-2",
-       "score": "11-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-06T22:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "ACHIPERROS FC",
-       "score": "3-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
      "pos": 3,
      "phase": "Fase oro",
-     "pj": 3,
+     "pj": 4,
      "g": 3,
      "e": 0,
-     "p": 0,
-     "gf": 19,
-     "gc": 6,
-     "dg": 13,
+     "p": 1,
+     "gf": 21,
+     "gc": 10,
+     "dg": 11,
      "pts": 9,
      "form": [
       "V",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -906,6 +915,13 @@
        "away": "CREATIVE PROJECT",
        "score": "3-0",
        "result": "V"
+      },
+      {
+       "date": "2026-11-04T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "PUB OSCAR F.C.",
+       "score": "4-2",
+       "result": "D"
       }
      ]
     },

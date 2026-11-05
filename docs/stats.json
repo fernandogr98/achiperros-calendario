@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T08:00+01:00",
+ "updated": "2026-11-05T09:27+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -1354,6 +1354,20 @@
     {
      "pos": 1,
      "phase": "Fase oro",
+     "team": "ACHIPERROS FC",
+     "team_id": "2538202",
+     "j": 4,
+     "g": 4,
+     "e": 0,
+     "p": 0,
+     "gf": 27,
+     "gc": 8,
+     "dg": 19,
+     "pts": 12
+    },
+    {
+     "pos": 2,
+     "phase": "Fase oro",
      "team": "BAR CON PAN Y TODO NAVALCARNERO",
      "team_id": "1327061",
      "j": 4,
@@ -1366,31 +1380,17 @@
      "pts": 9
     },
     {
-     "pos": 2,
-     "phase": "Fase oro",
-     "team": "ACHIPERROS FC",
-     "team_id": "2538202",
-     "j": 3,
-     "g": 3,
-     "e": 0,
-     "p": 0,
-     "gf": 23,
-     "gc": 6,
-     "dg": 17,
-     "pts": 9
-    },
-    {
      "pos": 3,
      "phase": "Fase oro",
      "team": "PUB OSCAR F.C.",
      "team_id": "30129",
-     "j": 3,
+     "j": 4,
      "g": 3,
      "e": 0,
-     "p": 0,
-     "gf": 19,
-     "gc": 6,
-     "dg": 13,
+     "p": 1,
+     "gf": 21,
+     "gc": 10,
+     "dg": 11,
      "pts": 9
     },
     {
