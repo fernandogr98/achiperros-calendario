@@ -120,6 +120,9 @@ def parse_matches(html: str) -> list[dict]:
                 continue
             score = [s.get_text(strip=True) for s in card.select(".match-round-scoreboard span")]
             score = [s for s in score if s]
+            status_el = card.select_one(".match-round-score")
+            status = status_el.get_text(strip=True) if status_el else ""
+            postponed = any(w in status.lower() for w in ("pospuesto", "aplazado", "suspendido"))
             group = card.select_one(".info-group")
             venue = card.select_one(".match-round-venue")
             matches.append({
@@ -132,6 +135,7 @@ def parse_matches(html: str) -> list[dict]:
                 "away": names[1],
                 "score": score if len(score) == 2 else None,
                 "venue": venue.get_text(strip=True) if venue else "",
+                "postponed": postponed,
             })
     return matches
 
@@ -173,6 +177,26 @@ def match_details(session: requests.Session, match: dict) -> dict:
         "report": report,
         "fetched": date.today().isoformat(),
     }
+
+
+def _score_from_detail(session: requests.Session, match: dict) -> list | None:
+    """Marcador real de un partido marcado 'Pospuesto' en la lista pero con resultado en su detalle.
+
+    Competize a veces tiene un conflicto de datos (resultado + estado 'pospuesto' a la vez):
+    la lista muestra 'Pospuesto' en lugar del marcador, pero la página de detalle sí lo tiene.
+    Devuelve ['goles_local', 'goles_visitante'] o None si no hay marcador.
+    """
+    view = session.get(match["url"], headers={"Referer": TEAM_URL}, timeout=30).text
+    soup = BeautifulSoup(view, "html.parser")
+    for span in soup.select(".match-scoreboard"):
+        txt = span.get_text(" ", strip=True)
+        m = re.fullmatch(r"(\d+)\s*[-–—:]\s*(\d+)", txt)
+        if m:
+            return [m.group(1), m.group(2)]
+    # fallback: dos spans numéricos (local y visitante)
+    nums = [s.get_text(strip=True) for s in soup.select(".match-scoreboard")
+            if s.get_text(strip=True).isdigit()]
+    return [nums[0], nums[1]] if len(nums) >= 2 else None
 
 
 def esc(text: str) -> str:
@@ -278,6 +302,19 @@ def main():
         info = cache[m["id"]]
         m["competition"], m["competition_url"], m["competition_id"] = info["name"], info["url"], info["id"]
     CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+    # Partidos "pospuestos" en la lista pero con resultado real en el detalle
+    # (conflicto de datos de Competize: resultado + estado "pospuesto" a la vez).
+    now = datetime.now()
+    for m in matches:
+        if not m.get("postponed") or m["score"] or m["start"] >= now:
+            continue
+        try:
+            sc = _score_from_detail(session, m)
+            if sc:
+                m["score"] = sc
+        except Exception as exc:
+            print(f"Aviso: sin marcador de detalle para {m['id']}: {exc}")
 
     # Detalle de partidos jugados (goles, tarjetas...). Se refresca durante 4 días tras el partido,
     # porque el organizador a veces mete las estadísticas con retraso.
