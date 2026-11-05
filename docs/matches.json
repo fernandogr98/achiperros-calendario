@@ -1134,5 +1134,168 @@
   ],
   "referee": "Jaime Ibañez Martínez",
   "report": ""
+ },
+ "9087055": {
+  "away": [
+   {
+    "name": "SERGIO SARDINA",
+    "num": "",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "JAVIER LOBON",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 4
+    }
+   },
+   {
+    "name": "DANIEL HERNÁNDEZ",
+    "num": "5",
+    "stats": {
+     "Tarjeta Amarilla": 2
+    }
+   },
+   {
+    "name": "JONATHAN FORTES",
+    "num": "6",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "RONNY VICENT VELASQUEZ",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "DAVID GONZÁLEZ ESTEBAN",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "MARIO MENENDEZ",
+    "num": "9",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "DAVID GONZALEZ NUÑEZ",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "HUGO PEREZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "MIGUEL ANGEL MARTINEZ",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "DAVID PEREZAGUA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "CARLOS DIAZ",
+    "num": "20",
+    "stats": {}
+   },
+   {
+    "name": "ADRIAN COLMENERO",
+    "num": "23",
+    "stats": {}
+   },
+   {
+    "name": "EKAITZ ECHEVARRIA",
+    "num": "33",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-11-05",
+  "home": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 2
+    }
+   },
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 2,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "referee": "Sergio De la iglesia de la iglesia",
+  "report": ""
  }
 }

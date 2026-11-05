@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T00:30+01:00",
+ "updated": "2026-11-05T06:19+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -2705,8 +2705,8 @@
   {
    "name": "ÁLVARO PASCUAL",
    "num": "18",
-   "pj": 8,
-   "goles": 17,
+   "pj": 9,
+   "goles": 18,
    "mvp": 4,
    "asist": 0,
    "amarillas": 0,
@@ -2720,8 +2720,8 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
-     "goles": 9,
+     "pj": 4,
+     "goles": 10,
      "amarillas": 0,
      "rojas": 0
     }
@@ -2730,7 +2730,7 @@
   {
    "name": "DANIEL BAJO",
    "num": "10",
-   "pj": 8,
+   "pj": 9,
    "goles": 8,
    "mvp": 1,
    "asist": 0,
@@ -2745,7 +2745,32 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
+     "goles": 3,
+     "amarillas": 0,
+     "rojas": 0
+    }
+   }
+  },
+  {
+   "name": "VÍCTOR HUGO KARASKIEWICZ",
+   "num": "11",
+   "pj": 9,
+   "goles": 7,
+   "mvp": 3,
+   "asist": 0,
+   "amarillas": 0,
+   "rojas": 0,
+   "azules": 0,
+   "por_competicion": {
+    "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN": {
+     "pj": 5,
+     "goles": 4,
+     "amarillas": 0,
+     "rojas": 0
+    },
+    "FÚTBOL 7 LABORAL 26/27": {
+     "pj": 4,
      "goles": 3,
      "amarillas": 0,
      "rojas": 0
@@ -2755,7 +2780,7 @@
   {
    "name": "RODRIGO ALONSO",
    "num": "9",
-   "pj": 8,
+   "pj": 9,
    "goles": 7,
    "mvp": 0,
    "asist": 0,
@@ -2770,33 +2795,8 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 4,
-     "amarillas": 0,
-     "rojas": 0
-    }
-   }
-  },
-  {
-   "name": "VÍCTOR HUGO KARASKIEWICZ",
-   "num": "11",
-   "pj": 8,
-   "goles": 5,
-   "mvp": 2,
-   "asist": 0,
-   "amarillas": 0,
-   "rojas": 0,
-   "azules": 0,
-   "por_competicion": {
-    "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN": {
-     "pj": 5,
-     "goles": 4,
-     "amarillas": 0,
-     "rojas": 0
-    },
-    "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
-     "goles": 1,
      "amarillas": 0,
      "rojas": 0
     }
@@ -2805,8 +2805,8 @@
   {
    "name": "FERNANDO GALLARDO",
    "num": "8",
-   "pj": 8,
-   "goles": 4,
+   "pj": 9,
+   "goles": 5,
    "mvp": 0,
    "asist": 0,
    "amarillas": 0,
@@ -2820,8 +2820,8 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
-     "goles": 0,
+     "pj": 4,
+     "goles": 1,
      "amarillas": 0,
      "rojas": 0
     }
@@ -2830,7 +2830,7 @@
   {
    "name": "VÍCTOR ALCARAZ",
    "num": "33",
-   "pj": 7,
+   "pj": 8,
    "goles": 4,
    "mvp": 0,
    "asist": 0,
@@ -2845,7 +2845,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 3,
      "amarillas": 0,
      "rojas": 0
@@ -2855,7 +2855,7 @@
   {
    "name": "ADRIÁN SIERRA",
    "num": "19",
-   "pj": 8,
+   "pj": 9,
    "goles": 3,
    "mvp": 0,
    "asist": 0,
@@ -2870,7 +2870,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 0,
      "amarillas": 0,
      "rojas": 0
@@ -2880,7 +2880,7 @@
   {
    "name": "VÍCTOR CENDRERO",
    "num": "89",
-   "pj": 7,
+   "pj": 8,
    "goles": 3,
    "mvp": 0,
    "asist": 0,
@@ -2895,7 +2895,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 1,
      "amarillas": 0,
      "rojas": 0
@@ -2905,7 +2905,7 @@
   {
    "name": "SEBASTIÁN GALEANO",
    "num": "29",
-   "pj": 6,
+   "pj": 7,
    "goles": 3,
    "mvp": 0,
    "asist": 0,
@@ -2914,7 +2914,7 @@
    "azules": 0,
    "por_competicion": {
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 1,
      "amarillas": 0,
      "rojas": 0
@@ -2949,7 +2949,7 @@
   {
    "name": "DAWID DARIUSZ CHRUSCIEL",
    "num": "78",
-   "pj": 7,
+   "pj": 8,
    "goles": 2,
    "mvp": 0,
    "asist": 0,
@@ -2964,7 +2964,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 0,
      "amarillas": 0,
      "rojas": 0
@@ -2974,7 +2974,7 @@
   {
    "name": "ROBERTO RIVAS",
    "num": "22",
-   "pj": 7,
+   "pj": 8,
    "goles": 2,
    "mvp": 0,
    "asist": 0,
@@ -2989,7 +2989,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 3,
+     "pj": 4,
      "goles": 1,
      "amarillas": 0,
      "rojas": 0
@@ -3024,7 +3024,7 @@
   {
    "name": "SERGIO RIVERA",
    "num": "7",
-   "pj": 2,
+   "pj": 3,
    "goles": 1,
    "mvp": 0,
    "asist": 0,
@@ -3033,7 +3033,7 @@
    "azules": 0,
    "por_competicion": {
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 1,
+     "pj": 2,
      "goles": 0,
      "amarillas": 0,
      "rojas": 0
@@ -3049,7 +3049,7 @@
   {
    "name": "DIEGO MANZANO",
    "num": "1",
-   "pj": 4,
+   "pj": 5,
    "goles": 0,
    "mvp": 0,
    "asist": 0,
@@ -3064,7 +3064,7 @@
      "rojas": 0
     },
     "FÚTBOL 7 LABORAL 26/27": {
-     "pj": 2,
+     "pj": 3,
      "goles": 0,
      "amarillas": 1,
      "rojas": 0
