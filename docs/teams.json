@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:00",
+ "updated": "2026-11-08T17:30",
  "competitions": [
   {
    "id": "409114",
@@ -252,9 +252,59 @@
      ]
     },
     {
+     "id": "1875645",
+     "name": "COCA JUNIORS",
+     "pos": 5,
+     "phase": "",
+     "pj": 5,
+     "g": 4,
+     "e": 0,
+     "p": 1,
+     "gf": 33,
+     "gc": 13,
+     "dg": 20,
+     "pts": 12,
+     "form": [
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T21:00:00",
+       "home": "COCA JUNIORS",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T18:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "COCA JUNIORS",
+       "score": "1-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T19:00:00",
+       "home": "BURDEL KING",
+       "away": "COCA JUNIORS",
+       "score": "8-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-08T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "COCA JUNIORS",
+       "score": "1-16",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870362",
      "name": "PORRATHINAIKOS",
-     "pos": 5,
+     "pos": 6,
      "phase": "",
      "pj": 6,
      "g": 3,
@@ -319,7 +369,7 @@
     {
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
-     "pos": 6,
+     "pos": 7,
      "phase": "",
      "pj": 5,
      "g": 3,
@@ -370,48 +420,6 @@
        "home": "CDE FORUSIA",
        "away": "LEGIÓN SUR F.C.",
        "score": "5-2",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "1875645",
-     "name": "COCA JUNIORS",
-     "pos": 7,
-     "phase": "",
-     "pj": 4,
-     "g": 3,
-     "e": 0,
-     "p": 1,
-     "gf": 17,
-     "gc": 12,
-     "dg": 5,
-     "pts": 9,
-     "form": [
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T21:00:00",
-       "home": "COCA JUNIORS",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "4-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T18:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "COCA JUNIORS",
-       "score": "1-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T19:00:00",
-       "home": "BURDEL KING",
-       "away": "COCA JUNIORS",
-       "score": "8-3",
        "result": "D"
       }
      ]
@@ -782,15 +790,16 @@
      "name": "PEÑA ATLETICA MOSTOLES",
      "pos": 14,
      "phase": "",
-     "pj": 4,
+     "pj": 5,
      "g": 0,
      "e": 0,
-     "p": 4,
-     "gf": 3,
-     "gc": 45,
-     "dg": -42,
+     "p": 5,
+     "gf": 4,
+     "gc": 61,
+     "dg": -57,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D",
@@ -823,6 +832,13 @@
        "home": "PEÑA ATLETICA MOSTOLES",
        "away": "ACHIPERROS FC",
        "score": "0-13",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-08T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "COCA JUNIORS",
+       "score": "1-16",
        "result": "D"
       }
      ]
