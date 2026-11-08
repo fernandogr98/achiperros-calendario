@@ -1,14 +1,79 @@
 {
- "updated": "2026-11-08T11:00",
+ "updated": "2026-11-08T13:00",
  "competitions": [
   {
    "id": "409114",
    "name": "FINDE",
    "teams": [
     {
+     "id": "2332139",
+     "name": "BURDEL KING",
+     "pos": 1,
+     "phase": "",
+     "pj": 6,
+     "g": 5,
+     "e": 0,
+     "p": 1,
+     "gf": 39,
+     "gc": 13,
+     "dg": 26,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T12:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "BURDEL KING",
+       "score": "0-12",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T19:00:00",
+       "home": "BURDEL KING",
+       "away": "COCA JUNIORS",
+       "score": "8-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T16:00:00",
+       "home": "SEITO DURO FC",
+       "away": "BURDEL KING",
+       "score": "2-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-07T18:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "9-1",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538194",
      "name": "CDE FORUSIA",
-     "pos": 1,
+     "pos": 2,
      "phase": "",
      "pj": 5,
      "g": 5,
@@ -64,9 +129,74 @@
      ]
     },
     {
+     "id": "2724454",
+     "name": "SEITO DURO FC",
+     "pos": 3,
+     "phase": "",
+     "pj": 6,
+     "g": 5,
+     "e": 0,
+     "p": 1,
+     "gf": 24,
+     "gc": 14,
+     "dg": 10,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-25T22:00:00",
+       "home": "SEITO DURO FC",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "5-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-27T12:00:00",
+       "home": "SKUAD DEL GÜEBO",
+       "away": "SEITO DURO FC",
+       "score": "3-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-03T20:00:00",
+       "home": "SEITO DURO FC",
+       "away": "PORRATHINAIKOS",
+       "score": "3-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-18T19:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "SEITO DURO FC",
+       "score": "4-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T16:00:00",
+       "home": "SEITO DURO FC",
+       "away": "BURDEL KING",
+       "score": "2-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-07T17:00:00",
+       "home": "BARÇA MURAI",
+       "away": "SEITO DURO FC",
+       "score": "1-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538202",
      "name": "ACHIPERROS FC",
-     "pos": 2,
+     "pos": 4,
      "phase": "",
      "pj": 5,
      "g": 4,
@@ -122,125 +252,74 @@
      ]
     },
     {
-     "id": "2332139",
-     "name": "BURDEL KING",
-     "pos": 3,
+     "id": "2870362",
+     "name": "PORRATHINAIKOS",
+     "pos": 5,
      "phase": "",
-     "pj": 5,
-     "g": 4,
-     "e": 0,
-     "p": 1,
-     "gf": 30,
-     "gc": 12,
-     "dg": 18,
-     "pts": 12,
+     "pj": 6,
+     "g": 3,
+     "e": 1,
+     "p": 2,
+     "gf": 19,
+     "gc": 17,
+     "dg": 2,
+     "pts": 10,
      "form": [
       "D",
-      "V",
-      "V",
+      "D",
+      "E",
       "V",
       "V"
      ],
      "matches": [
       {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-04T12:00:00",
+       "date": "2026-09-19T16:00:00",
        "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "BURDEL KING",
-       "score": "0-12",
+       "away": "PORRATHINAIKOS",
+       "score": "2-8",
        "result": "V"
       },
       {
-       "date": "2026-10-10T18:00:00",
-       "home": "BURDEL KING",
-       "away": "BARÇA MURAI",
-       "score": "4-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T19:00:00",
-       "home": "BURDEL KING",
+       "date": "2026-09-26T18:00:00",
+       "home": "PORRATHINAIKOS",
        "away": "COCA JUNIORS",
-       "score": "8-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T16:00:00",
-       "home": "SEITO DURO FC",
-       "away": "BURDEL KING",
-       "score": "2-3",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2724454",
-     "name": "SEITO DURO FC",
-     "pos": 4,
-     "phase": "",
-     "pj": 5,
-     "g": 4,
-     "e": 0,
-     "p": 1,
-     "gf": 22,
-     "gc": 13,
-     "dg": 9,
-     "pts": 12,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-25T22:00:00",
-       "home": "SEITO DURO FC",
-       "away": "LEGIÓN SUR F.C.",
-       "score": "5-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-27T12:00:00",
-       "home": "SKUAD DEL GÜEBO",
-       "away": "SEITO DURO FC",
-       "score": "3-7",
-       "result": "V"
+       "score": "1-7",
+       "result": "D"
       },
       {
        "date": "2026-10-03T20:00:00",
        "home": "SEITO DURO FC",
        "away": "PORRATHINAIKOS",
        "score": "3-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-18T19:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "SEITO DURO FC",
-       "score": "4-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T16:00:00",
-       "home": "SEITO DURO FC",
-       "away": "BURDEL KING",
-       "score": "2-3",
        "result": "D"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-25T16:00:00",
+       "home": "BASTARD MÜNCHEN",
+       "away": "PORRATHINAIKOS",
+       "score": "0-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-07T15:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS PATXIS FC",
+       "score": "7-4",
+       "result": "V"
       }
      ]
     },
     {
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
-     "pos": 5,
+     "pos": 6,
      "phase": "",
      "pj": 5,
      "g": 3,
@@ -298,7 +377,7 @@
     {
      "id": "1875645",
      "name": "COCA JUNIORS",
-     "pos": 6,
+     "pos": 7,
      "phase": "",
      "pj": 4,
      "g": 3,
@@ -338,82 +417,24 @@
      ]
     },
     {
-     "id": "2870362",
-     "name": "PORRATHINAIKOS",
-     "pos": 7,
-     "phase": "",
-     "pj": 5,
-     "g": 2,
-     "e": 1,
-     "p": 2,
-     "gf": 12,
-     "gc": 13,
-     "dg": -1,
-     "pts": 7,
-     "form": [
-      "V",
-      "D",
-      "D",
-      "E",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T16:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "PORRATHINAIKOS",
-       "score": "2-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T18:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "COCA JUNIORS",
-       "score": "1-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T20:00:00",
-       "home": "SEITO DURO FC",
-       "away": "PORRATHINAIKOS",
-       "score": "3-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-16T21:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "1-1",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-25T16:00:00",
-       "home": "BASTARD MÜNCHEN",
-       "away": "PORRATHINAIKOS",
-       "score": "0-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "2723836",
      "name": "LOS DE SIEMPRE FC",
      "pos": 8,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 2,
      "e": 1,
-     "p": 2,
-     "gf": 14,
-     "gc": 16,
-     "dg": -2,
+     "p": 3,
+     "gf": 15,
+     "gc": 25,
+     "dg": -10,
      "pts": 7,
      "form": [
       "D",
-      "D",
       "V",
       "E",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -450,6 +471,13 @@
        "away": "GALÁCTICOS FC",
        "score": "5-2",
        "result": "V"
+      },
+      {
+       "date": "2026-11-07T18:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "9-1",
+       "result": "D"
       }
      ]
     },
@@ -639,16 +667,16 @@
      "name": "LOS PATXIS FC",
      "pos": 12,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 0,
      "e": 1,
-     "p": 4,
-     "gf": 6,
-     "gc": 40,
-     "dg": -34,
+     "p": 5,
+     "gf": 10,
+     "gc": 47,
+     "dg": -37,
      "pts": 1,
      "form": [
-      "E",
+      "D",
       "D",
       "D",
       "D",
@@ -689,6 +717,13 @@
        "away": "SKUAD DEL GÜEBO",
        "score": "2-9",
        "result": "D"
+      },
+      {
+       "date": "2026-11-07T15:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS PATXIS FC",
+       "score": "7-4",
+       "result": "D"
       }
      ]
     },
@@ -697,15 +732,16 @@
      "name": "BARÇA MURAI",
      "pos": 13,
      "phase": "",
-     "pj": 3,
+     "pj": 4,
      "g": 0,
      "e": 0,
-     "p": 3,
-     "gf": 5,
-     "gc": 14,
-     "dg": -9,
+     "p": 4,
+     "gf": 6,
+     "gc": 16,
+     "dg": -10,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D"
@@ -730,6 +766,13 @@
        "home": "BURDEL KING",
        "away": "BARÇA MURAI",
        "score": "4-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-07T17:00:00",
+       "home": "BARÇA MURAI",
+       "away": "SEITO DURO FC",
+       "score": "1-2",
        "result": "D"
       }
      ]
