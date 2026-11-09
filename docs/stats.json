@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T23:00+01:00",
+ "updated": "2026-11-09T01:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -2408,65 +2408,65 @@
       },
       {
        "Posición": 5,
+       "Nombre": "DIEGO LOPEZ",
+       "Equipo": "COCA JUNIORS",
+       "Part.": 2,
+       "Goles encajados": 2
+      },
+      {
+       "Posición": 6,
        "Nombre": "DANIEL MIGUEL",
        "Equipo": "BURDEL KING",
        "Part.": 5,
        "Goles encajados": 3
       },
       {
-       "Posición": 6,
+       "Posición": 7,
        "Nombre": "JOSÉ BERNARDO PÉREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 4,
        "Goles encajados": 3
       },
       {
-       "Posición": 7,
+       "Posición": 8,
        "Nombre": "FRANCISCO JAVIER VELAZQUEZ",
        "Equipo": "PORRATHINAIKOS",
        "Part.": 6,
        "Goles encajados": 4
       },
       {
-       "Posición": 8,
+       "Posición": 9,
        "Nombre": "MIGUEL FRANCISCO FERRER",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 5,
        "Goles encajados": 4
       },
       {
-       "Posición": 9,
+       "Posición": 10,
        "Nombre": "DIEGO MANZANO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 2,
        "Goles encajados": 4
       },
       {
-       "Posición": 10,
+       "Posición": 11,
        "Nombre": "MARCO TAPIA",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 5,
        "Goles encajados": 5
       },
       {
-       "Posición": 11,
+       "Posición": 12,
        "Nombre": "JAVIER FERNÁNDEZ",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 2,
        "Goles encajados": 6
       },
       {
-       "Posición": 12,
+       "Posición": 13,
        "Nombre": "GUILLERMO MARCOS",
        "Equipo": "LOS PATXIS FC",
        "Part.": 6,
-       "Goles encajados": 7
-      },
-      {
-       "Posición": 13,
-       "Nombre": "ALEJANDRO MOZAS",
-       "Equipo": "PEÑA ATLETICA MOSTOLES",
-       "Part.": 5,
        "Goles encajados": 7
       },
       {
@@ -2475,6 +2475,13 @@
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 5,
        "Goles encajados": 12
+      },
+      {
+       "Posición": 15,
+       "Nombre": "ALEJANDRO MOZAS",
+       "Equipo": "PEÑA ATLETICA MOSTOLES",
+       "Part.": 5,
+       "Goles encajados": 23
       }
      ]
     },
