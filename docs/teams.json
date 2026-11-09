@@ -1,14 +1,79 @@
 {
- "updated": "2026-11-09T15:00",
+ "updated": "2026-11-09T23:01",
  "competitions": [
   {
    "id": "409114",
    "name": "FINDE",
    "teams": [
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 1,
+     "phase": "",
+     "pj": 6,
+     "g": 5,
+     "e": 0,
+     "p": 1,
+     "gf": 50,
+     "gc": 12,
+     "dg": 38,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LOS PATXIS FC",
+       "score": "14-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-25T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "ACHIPERROS FC",
+       "score": "0-13",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-08T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "9-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2332139",
      "name": "BURDEL KING",
-     "pos": 1,
+     "pos": 2,
      "phase": "",
      "pj": 6,
      "g": 5,
@@ -73,7 +138,7 @@
     {
      "id": "2538194",
      "name": "CDE FORUSIA",
-     "pos": 2,
+     "pos": 3,
      "phase": "",
      "pj": 5,
      "g": 5,
@@ -131,7 +196,7 @@
     {
      "id": "2724454",
      "name": "SEITO DURO FC",
-     "pos": 3,
+     "pos": 4,
      "phase": "",
      "pj": 6,
      "g": 5,
@@ -189,64 +254,6 @@
        "home": "BARÇA MURAI",
        "away": "SEITO DURO FC",
        "score": "1-2",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 4,
-     "phase": "",
-     "pj": 5,
-     "g": 4,
-     "e": 0,
-     "p": 1,
-     "gf": 41,
-     "gc": 12,
-     "dg": 29,
-     "pts": 12,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T16:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "LOS PATXIS FC",
-       "score": "14-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-25T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "ACHIPERROS FC",
-       "score": "0-13",
        "result": "V"
       }
      ]
@@ -371,19 +378,19 @@
      "name": "LEGIÓN SUR F.C.",
      "pos": 7,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 3,
      "e": 0,
-     "p": 2,
+     "p": 3,
      "gf": 25,
-     "gc": 16,
-     "dg": 9,
+     "gc": 25,
+     "dg": 0,
      "pts": 9,
      "form": [
+      "V",
+      "V",
+      "V",
       "D",
-      "V",
-      "V",
-      "V",
       "D"
      ],
      "matches": [
@@ -420,6 +427,13 @@
        "home": "CDE FORUSIA",
        "away": "LEGIÓN SUR F.C.",
        "score": "5-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-08T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "9-0",
        "result": "D"
       }
      ]

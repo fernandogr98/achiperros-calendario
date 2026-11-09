@@ -707,6 +707,118 @@
   "referee": "Victor gomez bueno",
   "report": ""
  },
+ "9079557": {
+  "away": [
+   {
+    "name": "MARCOS BODEGA",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO SÁNCHEZ",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "MARCOS ZAMBRANO",
+    "num": "11",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "MARCO TAPIA",
+    "num": "13",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO MORAN",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "PABLO PARRA",
+    "num": "23",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO MARCOS",
+    "num": "99",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-11-09",
+  "home": [
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {
+     "Gol": 3,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   }
+  ],
+  "referee": "Andres Gonzalez",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
