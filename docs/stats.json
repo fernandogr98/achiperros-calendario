@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T21:30+01:00",
+ "updated": "2026-11-10T23:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -1473,6 +1473,20 @@
     {
      "pos": 1,
      "phase": "Fase oro",
+     "team": "BAR CON PAN Y TODO NAVALCARNERO",
+     "team_id": "1327061",
+     "j": 5,
+     "g": 4,
+     "e": 0,
+     "p": 1,
+     "gf": 38,
+     "gc": 13,
+     "dg": 25,
+     "pts": 12
+    },
+    {
+     "pos": 2,
+     "phase": "Fase oro",
      "team": "ACHIPERROS FC",
      "team_id": "2538202",
      "j": 4,
@@ -1485,21 +1499,21 @@
      "pts": 12
     },
     {
-     "pos": 2,
+     "pos": 3,
      "phase": "Fase oro",
-     "team": "BAR CON PAN Y TODO NAVALCARNERO",
-     "team_id": "1327061",
-     "j": 4,
+     "team": "ALLIGATORS",
+     "team_id": "1871444",
+     "j": 5,
      "g": 3,
      "e": 0,
-     "p": 1,
-     "gf": 32,
-     "gc": 12,
-     "dg": 20,
+     "p": 2,
+     "gf": 36,
+     "gc": 24,
+     "dg": 12,
      "pts": 9
     },
     {
-     "pos": 3,
+     "pos": 4,
      "phase": "Fase oro",
      "team": "PUB OSCAR F.C.",
      "team_id": "30129",
@@ -1513,8 +1527,8 @@
      "pts": 9
     },
     {
-     "pos": 4,
-     "phase": "Fase oro",
+     "pos": 5,
+     "phase": "Fase plata",
      "team": "POLEMICAS APARTE FC",
      "team_id": "2870356",
      "j": 4,
@@ -1527,7 +1541,7 @@
      "pts": 9
     },
     {
-     "pos": 5,
+     "pos": 6,
      "phase": "Fase plata",
      "team": "SANFERDOG",
      "team_id": "2332120",
@@ -1541,7 +1555,7 @@
      "pts": 7
     },
     {
-     "pos": 6,
+     "pos": 7,
      "phase": "Fase plata",
      "team": "MONSINES FC",
      "team_id": "1871372",
@@ -1552,20 +1566,6 @@
      "gf": 22,
      "gc": 17,
      "dg": 5,
-     "pts": 6
-    },
-    {
-     "pos": 7,
-     "phase": "Fase plata",
-     "team": "ALLIGATORS",
-     "team_id": "1871444",
-     "j": 4,
-     "g": 2,
-     "e": 0,
-     "p": 2,
-     "gf": 24,
-     "gc": 23,
-     "dg": 1,
      "pts": 6
     },
     {
@@ -1587,13 +1587,13 @@
      "phase": "",
      "team": "F.C SKBIA-2",
      "team_id": "2739966",
-     "j": 4,
+     "j": 5,
      "g": 2,
      "e": 0,
-     "p": 2,
-     "gf": 16,
-     "gc": 23,
-     "dg": -7,
+     "p": 3,
+     "gf": 17,
+     "gc": 29,
+     "dg": -12,
      "pts": 6
     },
     {
@@ -1629,13 +1629,13 @@
      "phase": "",
      "team": "RECRELEGENS F.C.",
      "team_id": "2874263",
-     "j": 4,
+     "j": 5,
      "g": 1,
      "e": 1,
-     "p": 2,
-     "gf": 12,
-     "gc": 21,
-     "dg": -9,
+     "p": 3,
+     "gf": 13,
+     "gc": 33,
+     "dg": -20,
      "pts": 4
     },
     {
@@ -1699,43 +1699,43 @@
        "Posición": 1,
        "Nombre": "JOSE LUIS GINÉS",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 4,
-       "Goles": 17
+       "Part.": 5,
+       "Goles": 18
       },
       {
        "Posición": 2,
+       "Nombre": "JOSE LUIS FUENTES",
+       "Equipo": "ALLIGATORS",
+       "Part.": 4,
+       "Goles": 11
+      },
+      {
+       "Posición": 3,
        "Nombre": "ÁLVARO PASCUAL",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 10
       },
       {
-       "Posición": 3,
+       "Posición": 4,
        "Nombre": "JESUS JAVIER RODRÍGUEZ",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 4,
        "Goles": 10
       },
       {
-       "Posición": 4,
+       "Posición": 5,
        "Nombre": "ISAAC GUERRERO",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 10
       },
       {
-       "Posición": 5,
+       "Posición": 6,
        "Nombre": "ALEX ALMAGRO",
        "Equipo": "ALLIGATORS",
        "Part.": 2,
        "Goles": 9
-      },
-      {
-       "Posición": 6,
-       "Nombre": "JOSE LUIS FUENTES",
-       "Equipo": "ALLIGATORS",
-       "Part.": 3,
-       "Goles": 8
       },
       {
        "Posición": 7,
@@ -1746,643 +1746,671 @@
       },
       {
        "Posición": 8,
+       "Nombre": "ANTONIO AGUADO",
+       "Equipo": "F.C SKBIA-2",
+       "Part.": 4,
+       "Goles": 7
+      },
+      {
+       "Posición": 9,
        "Nombre": "MIGUEL ÁNGEL FERNÁNDEZ",
        "Equipo": "MONSINES FC",
        "Part.": 4,
        "Goles": 6
       },
       {
-       "Posición": 9,
-       "Nombre": "ANTONIO AGUADO",
-       "Equipo": "F.C SKBIA-2",
-       "Part.": 3,
-       "Goles": 6
+       "Posición": 10,
+       "Nombre": "SERGIO RODRÍGUEZ",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 4,
+       "Goles": 5
       },
       {
-       "Posición": 10,
+       "Posición": 11,
        "Nombre": "SANTIAGO CORVILLO",
        "Equipo": "SANFERDOG",
        "Part.": 3,
        "Goles": 5
       },
       {
-       "Posición": 11,
+       "Posición": 12,
        "Nombre": "HUGO PEREZ",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 3,
        "Goles": 5
       },
       {
-       "Posición": 12,
+       "Posición": 13,
+       "Nombre": "JUAN CARLOS AYUSO",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 5,
+       "Goles": 4
+      },
+      {
+       "Posición": 14,
+       "Nombre": "ALEJANDRO UCENDO",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 5,
+       "Goles": 4
+      },
+      {
+       "Posición": 15,
        "Nombre": "SERGIO CAMACHO",
        "Equipo": "BARRIO SÉSAMO",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 13,
+       "Posición": 16,
        "Nombre": "RODRIGO ALONSO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 14,
+       "Posición": 17,
        "Nombre": "MIGUEL RUIZ",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 15,
+       "Posición": 18,
        "Nombre": "LUIS MARTÍNEZ",
        "Equipo": "SANFERDOG",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 16,
-       "Nombre": "JUAN CARLOS AYUSO",
-       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 4,
-       "Goles": 4
-      },
-      {
-       "Posición": 17,
+       "Posición": 19,
        "Nombre": "JOSE NIETO",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 18,
+       "Posición": 20,
        "Nombre": "DAVID NIETO",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 19,
+       "Posición": 21,
        "Nombre": "ALEJANDRO AGRAMONTE",
        "Equipo": "SANFERDOG",
        "Part.": 4,
        "Goles": 4
       },
       {
-       "Posición": 20,
+       "Posición": 22,
        "Nombre": "MARIO MENENDEZ",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 3,
        "Goles": 4
       },
       {
-       "Posición": 21,
+       "Posición": 23,
+       "Nombre": "DANIEL MARTÍN",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 3,
+       "Goles": 4
+      },
+      {
+       "Posición": 24,
        "Nombre": "JOSE BERNARDO PÉREZ",
        "Equipo": "MONSINES FC",
        "Part.": 1,
        "Goles": 4
       },
       {
-       "Posición": 22,
+       "Posición": 25,
        "Nombre": "FERNANDO VALENZUELA",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 1,
        "Goles": 4
       },
       {
-       "Posición": 23,
+       "Posición": 26,
+       "Nombre": "RODRIGO AGUERA",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 5,
+       "Goles": 3
+      },
+      {
+       "Posición": 27,
        "Nombre": "ÁNGEL DE BENITO",
        "Equipo": "F.C SKBIA-2",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 24,
+       "Posición": 28,
        "Nombre": "VÍCTOR HUGO KARASKIEWICZ",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 25,
+       "Posición": 29,
        "Nombre": "VÍCTOR ALCARAZ",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 26,
+       "Posición": 30,
        "Nombre": "SERGIO SARDINA",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 27,
-       "Nombre": "RODRIGO AGUERA",
-       "Equipo": "RECRELEGENS F.C.",
+       "Posición": 31,
+       "Nombre": "RICARDO ANTÚNEZ",
+       "Equipo": "ALLIGATORS",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 28,
+       "Posición": 32,
        "Nombre": "LUIS DAVID BLÁZQUEZ",
        "Equipo": "SANFERDOG",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 29,
+       "Posición": 33,
+       "Nombre": "DIEGO GALLEGO",
+       "Equipo": "ALLIGATORS",
+       "Part.": 4,
+       "Goles": 3
+      },
+      {
+       "Posición": 34,
        "Nombre": "DAVID GONZALEZ NUÑEZ",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 30,
+       "Posición": 35,
        "Nombre": "DANIEL BAJO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 3
       },
       {
-       "Posición": 31,
-       "Nombre": "ALEJANDRO UCENDO",
-       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 4,
-       "Goles": 3
-      },
-      {
-       "Posición": 32,
-       "Nombre": "SERGIO RODRÍGUEZ",
-       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 3,
-       "Goles": 3
-      },
-      {
-       "Posición": 33,
+       "Posición": 36,
        "Nombre": "MIGUEL ÁNGEL ORTEGA",
        "Equipo": "MONSINES FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 34,
+       "Posición": 37,
        "Nombre": "JOSÉ ANTONIO GARCÍA",
        "Equipo": "ALLIGATORS",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 35,
+       "Posición": 38,
        "Nombre": "DAVID REDONDO",
        "Equipo": "MONSINES FC",
        "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 36,
-       "Nombre": "DANIEL MARTÍN",
-       "Equipo": "RECRELEGENS F.C.",
-       "Part.": 2,
+       "Posición": 39,
+       "Nombre": "ANTONIO CASAS",
+       "Equipo": "ALLIGATORS",
+       "Part.": 3,
        "Goles": 3
       },
       {
-       "Posición": 37,
+       "Posición": 40,
        "Nombre": "CARLOS GUTIERREZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 1,
        "Goles": 3
       },
       {
-       "Posición": 38,
+       "Posición": 41,
        "Nombre": "RODRIGO ÁLVAREZ",
        "Equipo": "F.C SKBIA-2",
-       "Part.": 4,
+       "Part.": 5,
        "Goles": 2
       },
       {
-       "Posición": 39,
+       "Posición": 42,
+       "Nombre": "RAFAEL LOZANO",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 5,
+       "Goles": 2
+      },
+      {
+       "Posición": 43,
+       "Nombre": "JULIÁN ÁLVAREZ",
+       "Equipo": "F.C SKBIA-2",
+       "Part.": 5,
+       "Goles": 2
+      },
+      {
+       "Posición": 44,
+       "Nombre": "CHRISTIAN CASTRO",
+       "Equipo": "F.C SKBIA-2",
+       "Part.": 5,
+       "Goles": 2
+      },
+      {
+       "Posición": 45,
        "Nombre": "RAUL RUIZ",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 40,
-       "Nombre": "RAFAEL LOZANO",
-       "Equipo": "RECRELEGENS F.C.",
-       "Part.": 4,
-       "Goles": 2
-      },
-      {
-       "Posición": 41,
+       "Posición": 46,
        "Nombre": "MARCO AGUADO",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 42,
-       "Nombre": "JULIÁN ÁLVAREZ",
-       "Equipo": "F.C SKBIA-2",
+       "Posición": 47,
+       "Nombre": "BORJA GARCÍA",
+       "Equipo": "ALLIGATORS",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 43,
-       "Nombre": "CHRISTIAN CASTRO",
-       "Equipo": "F.C SKBIA-2",
-       "Part.": 4,
-       "Goles": 2
-      },
-      {
-       "Posición": 44,
+       "Posición": 48,
        "Nombre": "ALVARO SÁNCHEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 45,
+       "Posición": 49,
        "Nombre": "ALBERTO GARRIDO",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 4,
        "Goles": 2
       },
       {
-       "Posición": 46,
+       "Posición": 50,
        "Nombre": "VÍCTOR LORANCA",
        "Equipo": "ALLIGATORS",
        "Part.": 3,
        "Goles": 2
       },
       {
-       "Posición": 47,
+       "Posición": 51,
        "Nombre": "ROMAN CASTILLO",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 3,
        "Goles": 2
       },
       {
-       "Posición": 48,
+       "Posición": 52,
+       "Nombre": "JUAN NAVAS",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 3,
+       "Goles": 2
+      },
+      {
+       "Posición": 53,
        "Nombre": "JOSE OSCAR VILA",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 3,
        "Goles": 2
       },
       {
-       "Posición": 49,
-       "Nombre": "DIEGO GALLEGO",
-       "Equipo": "ALLIGATORS",
-       "Part.": 3,
-       "Goles": 2
-      },
-      {
-       "Posición": 50,
+       "Posición": 54,
        "Nombre": "DAVID PEREZ",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 3,
        "Goles": 2
       },
       {
-       "Posición": 51,
-       "Nombre": "SANTIAGO REDOYA",
-       "Equipo": "FONTANERÍA RUBIO",
-       "Part.": 2,
-       "Goles": 2
-      },
-      {
-       "Posición": 52,
-       "Nombre": "ANTONIO CASAS",
-       "Equipo": "ALLIGATORS",
-       "Part.": 2,
-       "Goles": 2
-      },
-      {
-       "Posición": 53,
-       "Nombre": "ALEJANDRO MARTINEZ",
-       "Equipo": "RECRELEGENS F.C.",
-       "Part.": 2,
-       "Goles": 2
-      },
-      {
-       "Posición": 54,
-       "Nombre": "ADRIAN TIZÓN",
-       "Equipo": "MONSINES FC",
-       "Part.": 2,
-       "Goles": 2
-      },
-      {
        "Posición": 55,
-       "Nombre": "ADRIAN JIMÉNEZ",
-       "Equipo": "CDE FORUSIA",
-       "Part.": 2,
+       "Nombre": "CARLOS JAVIER QUINTANA",
+       "Equipo": "ALLIGATORS",
+       "Part.": 3,
        "Goles": 2
       },
       {
        "Posición": 56,
        "Nombre": "ÁLVARO ADAME",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 1,
+       "Part.": 2,
        "Goles": 2
       },
       {
        "Posición": 57,
+       "Nombre": "SANTIAGO REDOYA",
+       "Equipo": "FONTANERÍA RUBIO",
+       "Part.": 2,
+       "Goles": 2
+      },
+      {
+       "Posición": 58,
+       "Nombre": "ALEJANDRO MARTINEZ",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 2,
+       "Goles": 2
+      },
+      {
+       "Posición": 59,
+       "Nombre": "ADRIAN TIZÓN",
+       "Equipo": "MONSINES FC",
+       "Part.": 2,
+       "Goles": 2
+      },
+      {
+       "Posición": 60,
+       "Nombre": "ADRIAN JIMÉNEZ",
+       "Equipo": "CDE FORUSIA",
+       "Part.": 2,
+       "Goles": 2
+      },
+      {
+       "Posición": 61,
+       "Nombre": "JAIR AVILA",
+       "Equipo": "F.C SKBIA-2",
+       "Part.": 5,
+       "Goles": 1
+      },
+      {
+       "Posición": 62,
+       "Nombre": "ANTONIO J. CANOVAS",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 5,
+       "Goles": 1
+      },
+      {
+       "Posición": 63,
        "Nombre": "ÁLVARO SANCHEZ",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 58,
+       "Posición": 64,
        "Nombre": "VÍCTOR CENDRERO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 59,
+       "Posición": 65,
        "Nombre": "SERGIO RODRÍGUEZ",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 60,
+       "Posición": 66,
        "Nombre": "SEBASTIÁN GALEANO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 61,
+       "Posición": 67,
        "Nombre": "RUBEN GONZÁLEZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 62,
+       "Posición": 68,
        "Nombre": "RODRIGO GÓMEZ",
        "Equipo": "SANFERDOG",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 63,
+       "Posición": 69,
        "Nombre": "ROBERTO RIVAS",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 64,
+       "Posición": 70,
        "Nombre": "JUAN SANZ",
        "Equipo": "MONSINES FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 65,
+       "Posición": 71,
        "Nombre": "JORGE CARRASCO",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 66,
+       "Posición": 72,
        "Nombre": "JHONATAN BENJUMEA",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 67,
+       "Posición": 73,
        "Nombre": "JESUS SANTAMARIA",
        "Equipo": "BETA - PUBLIX CF",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 68,
+       "Posición": 74,
        "Nombre": "JAVIER VAQUERO",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 69,
-       "Nombre": "JAIR AVILA",
-       "Equipo": "F.C SKBIA-2",
+       "Posición": 75,
+       "Nombre": "ISMAEL PACHECO",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 70,
+       "Posición": 76,
        "Nombre": "GILBERTO MOREL",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 71,
+       "Posición": 77,
        "Nombre": "FRANCISCO DE LA RED",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 72,
+       "Posición": 78,
        "Nombre": "FRANCISCO AGUILERA",
        "Equipo": "MONSINES FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 73,
+       "Posición": 79,
        "Nombre": "FERNANDO GALLARDO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 74,
+       "Posición": 80,
        "Nombre": "FERMIN DEL BOSQUE",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 75,
+       "Posición": 81,
        "Nombre": "ENRIQUE ORTIZ",
        "Equipo": "BARRIO SÉSAMO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 76,
+       "Posición": 82,
        "Nombre": "DIEGO DOMÍNGUEZ",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 77,
+       "Posición": 83,
        "Nombre": "DAVID PEREZAGUA",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 78,
-       "Nombre": "ANTONIO J. CANOVAS",
-       "Equipo": "RECRELEGENS F.C.",
+       "Posición": 84,
+       "Nombre": "ANTONIO DENIS FARCAS",
+       "Equipo": "ALLIGATORS",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 79,
+       "Posición": 85,
        "Nombre": "ANDRÉS REY",
        "Equipo": "MONSINES FC",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 80,
+       "Posición": 86,
        "Nombre": "ALVARO ARANGO",
        "Equipo": "RECRELEGENS F.C.",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 81,
+       "Posición": 87,
        "Nombre": "ADOLFO PALOMARES",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 82,
+       "Posición": 88,
        "Nombre": "ÁNGEL RUIZ",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 83,
-       "Nombre": "RICARDO ANTÚNEZ",
-       "Equipo": "ALLIGATORS",
-       "Part.": 3,
-       "Goles": 1
-      },
-      {
-       "Posición": 84,
+       "Posición": 89,
        "Nombre": "JOSE AITOR VAQUERO",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 85,
+       "Posición": 90,
        "Nombre": "ISMAEL PÉREZ",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 86,
+       "Posición": 91,
        "Nombre": "ERIC RAJA",
        "Equipo": "CDE FORUSIA",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 87,
+       "Posición": 92,
        "Nombre": "EKAITZ ECHEVARRIA",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 88,
+       "Posición": 93,
        "Nombre": "CESAR SANZ",
        "Equipo": "MONSINES FC",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 89,
+       "Posición": 94,
        "Nombre": "CARLOS DIAZ",
        "Equipo": "PUB OSCAR F.C.",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 90,
-       "Nombre": "BORJA GARCÍA",
-       "Equipo": "ALLIGATORS",
-       "Part.": 3,
-       "Goles": 1
-      },
-      {
-       "Posición": 91,
+       "Posición": 95,
        "Nombre": "BORJA CALVO",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 92,
+       "Posición": 96,
        "Nombre": "BERNARDO ORTEGA",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 93,
+       "Posición": 97,
        "Nombre": "ANDRES GONZALEZ",
        "Equipo": "FONTANERÍA RUBIO",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 94,
+       "Posición": 98,
        "Nombre": "RUBEN DE MIGUEL",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 95,
-       "Nombre": "JUAN NAVAS",
-       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 2,
-       "Goles": 1
-      },
-      {
-       "Posición": 96,
+       "Posición": 99,
        "Nombre": "JAVIER LÓPEZ",
        "Equipo": "SANFERDOG",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 97,
+       "Posición": 100,
+       "Nombre": "FRANCISCO CONTRERAS",
+       "Equipo": "ALLIGATORS",
+       "Part.": 2,
+       "Goles": 1
+      },
+      {
+       "Posición": 101,
        "Nombre": "ALEJANDRO CARLOS",
        "Equipo": "CREATIVE PROJECT",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 98,
+       "Posición": 102,
        "Nombre": "LORENZO JEREZ",
        "Equipo": "ALLIGATORS",
        "Part.": 1,
        "Goles": 1
       },
       {
-       "Posición": 99,
+       "Posición": 103,
        "Nombre": "CHAFIK AMRANI",
        "Equipo": "SANFERDOG",
        "Part.": 1,
@@ -2424,7 +2452,7 @@
        "Posición": 4,
        "Nombre": "ANTONIO JOSÉ SERRANO",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 2,
+       "Part.": 3,
        "Goles encajados": 3
       },
       {
@@ -2487,7 +2515,7 @@
        "Posición": 13,
        "Nombre": "DIEGO GALLEGO",
        "Equipo": "ALLIGATORS",
-       "Part.": 3,
+       "Part.": 4,
        "Goles encajados": 8
       },
       {
@@ -2543,7 +2571,7 @@
        "Posición": 21,
        "Nombre": "MANUEL CAPILLA",
        "Equipo": "F.C SKBIA-2",
-       "Part.": 4,
+       "Part.": 5,
        "Goles encajados": 23
       }
      ]
@@ -2559,36 +2587,36 @@
      "rows": [
       {
        "Posición": 1,
+       "Nombre": "JOSE LUIS GINÉS",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 5,
+       "MVP": 3
+      },
+      {
+       "Posición": 2,
        "Nombre": "ÁLVARO PASCUAL",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "MVP": 3
       },
       {
-       "Posición": 2,
-       "Nombre": "JOSE LUIS GINÉS",
-       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Posición": 3,
+       "Nombre": "JOSE LUIS FUENTES",
+       "Equipo": "ALLIGATORS",
        "Part.": 4,
-       "MVP": 3
+       "MVP": 2
       },
       {
-       "Posición": 3,
+       "Posición": 4,
        "Nombre": "JESUS JAVIER RODRÍGUEZ",
        "Equipo": "POLEMICAS APARTE FC",
        "Part.": 4,
        "MVP": 2
       },
       {
-       "Posición": 4,
+       "Posición": 5,
        "Nombre": "SANTIAGO CORVILLO",
        "Equipo": "SANFERDOG",
-       "Part.": 3,
-       "MVP": 2
-      },
-      {
-       "Posición": 5,
-       "Nombre": "JOSE LUIS FUENTES",
-       "Equipo": "ALLIGATORS",
        "Part.": 3,
        "MVP": 2
       },
@@ -2601,29 +2629,29 @@
       },
       {
        "Posición": 7,
+       "Nombre": "RAFAEL LOZANO",
+       "Equipo": "RECRELEGENS F.C.",
+       "Part.": 5,
+       "MVP": 1
+      },
+      {
+       "Posición": 8,
        "Nombre": "ÁNGEL DE BENITO",
        "Equipo": "F.C SKBIA-2",
        "Part.": 4,
        "MVP": 1
       },
       {
-       "Posición": 8,
+       "Posición": 9,
        "Nombre": "VÍCTOR HUGO KARASKIEWICZ",
        "Equipo": "ACHIPERROS FC",
        "Part.": 4,
        "MVP": 1
       },
       {
-       "Posición": 9,
+       "Posición": 10,
        "Nombre": "SANTIAGO PINTO",
        "Equipo": "SANFERDOG",
-       "Part.": 4,
-       "MVP": 1
-      },
-      {
-       "Posición": 10,
-       "Nombre": "RAFAEL LOZANO",
-       "Equipo": "RECRELEGENS F.C.",
        "Part.": 4,
        "MVP": 1
       },
@@ -2643,48 +2671,62 @@
       },
       {
        "Posición": 13,
+       "Nombre": "ISMAEL PACHECO",
+       "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+       "Part.": 4,
+       "MVP": 1
+      },
+      {
+       "Posición": 14,
        "Nombre": "ISAAC GUERRERO",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "MVP": 1
       },
       {
-       "Posición": 14,
+       "Posición": 15,
        "Nombre": "ANTONIO AGUADO",
        "Equipo": "F.C SKBIA-2",
-       "Part.": 3,
-       "MVP": 1
-      },
-      {
-       "Posición": 15,
-       "Nombre": "ENMANUEL LOPETE",
-       "Equipo": "CREATIVE PROJECT",
-       "Part.": 2,
+       "Part.": 4,
        "MVP": 1
       },
       {
        "Posición": 16,
        "Nombre": "DANIEL MARTÍN",
        "Equipo": "RECRELEGENS F.C.",
-       "Part.": 2,
+       "Part.": 3,
        "MVP": 1
       },
       {
        "Posición": 17,
        "Nombre": "ANTONIO JOSÉ SERRANO",
        "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-       "Part.": 2,
+       "Part.": 3,
        "MVP": 1
       },
       {
        "Posición": 18,
+       "Nombre": "ANTONIO CASAS",
+       "Equipo": "ALLIGATORS",
+       "Part.": 3,
+       "MVP": 1
+      },
+      {
+       "Posición": 19,
+       "Nombre": "ENMANUEL LOPETE",
+       "Equipo": "CREATIVE PROJECT",
+       "Part.": 2,
+       "MVP": 1
+      },
+      {
+       "Posición": 20,
        "Nombre": "ALEJANDRO MARTINEZ",
        "Equipo": "RECRELEGENS F.C.",
        "Part.": 2,
        "MVP": 1
       },
       {
-       "Posición": 19,
+       "Posición": 21,
        "Nombre": "JOSE BERNARDO PÉREZ",
        "Equipo": "MONSINES FC",
        "Part.": 1,
@@ -3265,14 +3307,14 @@
   "rival_id": "30160",
   "top_scorers": [
    {
-    "Posición": 12,
+    "Posición": 15,
     "Nombre": "SERGIO CAMACHO",
     "Equipo": "BARRIO SÉSAMO",
     "Part.": 4,
     "Goles": 4
    },
    {
-    "Posición": 75,
+    "Posición": 81,
     "Nombre": "ENRIQUE ORTIZ",
     "Equipo": "BARRIO SÉSAMO",
     "Part.": 4,
