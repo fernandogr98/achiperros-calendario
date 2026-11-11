@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:00",
+ "updated": "2026-11-11T23:30",
  "competitions": [
   {
    "id": "409114",
@@ -1204,9 +1204,67 @@
      ]
     },
     {
+     "id": "2806044",
+     "name": "CDE FORUSIA",
+     "pos": 7,
+     "phase": "Fase plata",
+     "pj": 5,
+     "g": 3,
+     "e": 0,
+     "p": 2,
+     "gf": 32,
+     "gc": 26,
+     "dg": 6,
+     "pts": 9,
+     "form": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-11T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "CDE FORUSIA",
+       "score": "4-9",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 7,
+     "pos": 8,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1258,56 +1316,6 @@
        "away": "MONSINES FC",
        "score": "5-10",
        "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2806044",
-     "name": "CDE FORUSIA",
-     "pos": 8,
-     "phase": "Fase plata",
-     "pj": 4,
-     "g": 2,
-     "e": 0,
-     "p": 2,
-     "gf": 23,
-     "gc": 22,
-     "dg": 1,
-     "pts": 6,
-     "form": [
-      "D",
-      "V",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-07T22:15:00",
-       "home": "CDE FORUSIA",
-       "away": "BAR CON PAN Y TODO NAVALCARNERO",
-       "score": "7-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-05T21:15:00",
-       "home": "CDE FORUSIA",
-       "away": "ALLIGATORS",
-       "score": "8-6",
-       "result": "V"
       }
      ]
     },
@@ -1532,15 +1540,16 @@
      "name": "BETA - PUBLIX CF",
      "pos": 13,
      "phase": "",
-     "pj": 4,
+     "pj": 5,
      "g": 0,
      "e": 0,
-     "p": 4,
-     "gf": 9,
-     "gc": 28,
-     "dg": -19,
+     "p": 5,
+     "gf": 13,
+     "gc": 37,
+     "dg": -24,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D",
@@ -1573,6 +1582,13 @@
        "home": "SANFERDOG",
        "away": "BETA - PUBLIX CF",
        "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-11T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "CDE FORUSIA",
+       "score": "4-9",
        "result": "D"
       }
      ]
