@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T08:00",
+ "updated": "2026-11-11T11:00",
  "competitions": [
   {
    "id": "409114",
@@ -972,9 +972,67 @@
      ]
     },
     {
+     "id": "2332120",
+     "name": "SANFERDOG",
+     "pos": 3,
+     "phase": "Fase oro",
+     "pj": 5,
+     "g": 3,
+     "e": 1,
+     "p": 1,
+     "gf": 26,
+     "gc": 17,
+     "dg": 9,
+     "pts": 10,
+     "form": [
+      "E",
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-26T21:15:00",
+       "home": "SANFERDOG",
+       "away": "BETA - PUBLIX CF",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-10T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "SANFERDOG",
+       "score": "4-7",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 3,
+     "pos": 4,
      "phase": "Fase oro",
      "pj": 5,
      "g": 3,
@@ -1030,22 +1088,81 @@
      ]
     },
     {
-     "id": "30129",
-     "name": "PUB OSCAR F.C.",
-     "pos": 4,
-     "phase": "Fase oro",
-     "pj": 4,
+     "id": "1871372",
+     "name": "MONSINES FC",
+     "pos": 5,
+     "phase": "Fase plata",
+     "pj": 5,
      "g": 3,
      "e": 0,
-     "p": 1,
-     "gf": 21,
-     "gc": 10,
-     "dg": 11,
+     "p": 2,
+     "gf": 32,
+     "gc": 22,
+     "dg": 10,
+     "pts": 9,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "MONSINES FC",
+       "score": "7-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T21:15:00",
+       "home": "MONSINES FC",
+       "away": "BARRIO SÉSAMO",
+       "score": "11-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-19T22:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "MONSINES FC",
+       "score": "4-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-28T22:15:00",
+       "home": "MONSINES FC",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "1-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-10T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "MONSINES FC",
+       "score": "5-10",
+       "result": "V"
+      }
+     ]
+    },
+    {
+     "id": "30129",
+     "name": "PUB OSCAR F.C.",
+     "pos": 6,
+     "phase": "Fase plata",
+     "pj": 5,
+     "g": 3,
+     "e": 0,
+     "p": 2,
+     "gf": 25,
+     "gc": 17,
+     "dg": 8,
      "pts": 9,
      "form": [
       "V",
       "V",
       "V",
+      "D",
       "D"
      ],
      "matches": [
@@ -1076,27 +1193,35 @@
        "away": "PUB OSCAR F.C.",
        "score": "4-2",
        "result": "D"
+      },
+      {
+       "date": "2026-11-10T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "SANFERDOG",
+       "score": "4-7",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 5,
+     "pos": 7,
      "phase": "Fase plata",
-     "pj": 4,
+     "pj": 5,
      "g": 3,
      "e": 0,
-     "p": 1,
-     "gf": 19,
-     "gc": 15,
-     "dg": 4,
+     "p": 2,
+     "gf": 24,
+     "gc": 25,
+     "dg": -1,
      "pts": 9,
      "form": [
       "D",
       "V",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -1126,105 +1251,12 @@
        "away": "POLEMICAS APARTE FC",
        "score": "3-4",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332120",
-     "name": "SANFERDOG",
-     "pos": 6,
-     "phase": "Fase plata",
-     "pj": 4,
-     "g": 2,
-     "e": 1,
-     "p": 1,
-     "gf": 19,
-     "gc": 13,
-     "dg": 6,
-     "pts": 7,
-     "form": [
-      "E",
-      "V",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
       },
       {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-26T21:15:00",
-       "home": "SANFERDOG",
-       "away": "BETA - PUBLIX CF",
-       "score": "4-3",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "1871372",
-     "name": "MONSINES FC",
-     "pos": 7,
-     "phase": "Fase plata",
-     "pj": 4,
-     "g": 2,
-     "e": 0,
-     "p": 2,
-     "gf": 22,
-     "gc": 17,
-     "dg": 5,
-     "pts": 6,
-     "form": [
-      "D",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T21:15:00",
-       "home": "PUB OSCAR F.C.",
+       "date": "2026-11-10T22:15:00",
+       "home": "POLEMICAS APARTE FC",
        "away": "MONSINES FC",
-       "score": "7-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-07T21:15:00",
-       "home": "MONSINES FC",
-       "away": "BARRIO SÉSAMO",
-       "score": "11-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-19T22:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "MONSINES FC",
-       "score": "4-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-28T22:15:00",
-       "home": "MONSINES FC",
-       "away": "BAR CON PAN Y TODO NAVALCARNERO",
-       "score": "1-6",
+       "score": "5-10",
        "result": "D"
       }
      ]
