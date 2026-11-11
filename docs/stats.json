@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:00+01:00",
+ "updated": "2026-11-11T23:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -3303,104 +3303,110 @@
   }
  ],
  "next_rival": {
-  "name": "BARRIO SÉSAMO",
-  "match_id": "9087057",
-  "competition": "FÚTBOL 7 LABORAL 26/27",
-  "date": "2026-11-11T22:15:00",
+  "name": "COCA JUNIORS",
+  "match_id": "9079564",
+  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
+  "date": "2026-11-14T21:00:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
   "home": false,
-  "url": "https://www.competize.com/es/matches/view/9087057",
-  "matchday": "Jornada 5",
+  "url": "https://www.competize.com/es/matches/view/9079564",
+  "matchday": "Jornada 7",
   "standing": {
-   "pos": 14,
+   "pos": 5,
    "phase": "",
-   "team": "BARRIO SÉSAMO",
-   "team_id": "30160",
-   "j": 4,
-   "g": 0,
+   "team": "COCA JUNIORS",
+   "team_id": "1875645",
+   "j": 5,
+   "g": 4,
    "e": 0,
-   "p": 4,
-   "gf": 5,
-   "gc": 41,
-   "dg": -36,
-   "pts": 0
+   "p": 1,
+   "gf": 33,
+   "gc": 13,
+   "dg": 20,
+   "pts": 12
   },
-  "rival_id": "30160",
+  "rival_id": "1875645",
   "top_scorers": [
    {
-    "Posición": 22,
-    "Nombre": "SERGIO CAMACHO",
-    "Equipo": "BARRIO SÉSAMO",
+    "Posición": 2,
+    "Nombre": "DANIEL SUÁREZ",
+    "Equipo": "COCA JUNIORS",
     "Part.": 4,
-    "Goles": 4
+    "Goles": 12
    },
    {
-    "Posición": 86,
-    "Nombre": "ENRIQUE ORTIZ",
-    "Equipo": "BARRIO SÉSAMO",
+    "Posición": 12,
+    "Nombre": "JOSÉ BERNARDO PÉREZ",
+    "Equipo": "COCA JUNIORS",
     "Part.": 4,
-    "Goles": 1
+    "Goles": 6
+   },
+   {
+    "Posición": 17,
+    "Nombre": "JUAN LUIS PIQUERAS",
+    "Equipo": "COCA JUNIORS",
+    "Part.": 3,
+    "Goles": 5
    }
   ],
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-10-27T22:15:00",
-    "home": "CREATIVE PROJECT",
-    "away": "BARRIO SÉSAMO",
+    "date": "2026-11-08T13:00:00",
+    "home": "PEÑA ATLETICA MOSTOLES",
+    "away": "COCA JUNIORS",
     "score": [
-     "15",
-     "1"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9087054"
-   },
-   {
-    "date": "2026-10-21T21:15:00",
-    "home": "BARRIO SÉSAMO",
-    "away": "F.C SKBIA-2",
-    "score": [
-     "2",
-     "11"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9087044"
-   },
-   {
-    "date": "2026-10-07T21:15:00",
-    "home": "MONSINES FC",
-    "away": "BARRIO SÉSAMO",
-    "score": [
-     "11",
-     "0"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9087039"
-   },
-   {
-    "date": "2026-09-29T22:15:00",
-    "home": "BARRIO SÉSAMO",
-    "away": "RECRELEGENS F.C.",
-    "score": [
-     "2",
-     "4"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9085152"
-   }
-  ],
-  "head_to_head": [
-   {
-    "date": "2024-12-03T20:30:00",
-    "home": "ACHIPERROS FC",
-    "away": "BARRIO SÉSAMO",
-    "score": [
-     "6",
-     "0"
+     "1",
+     "16"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029613"
+    "url": "https://www.competize.com/es/matches/view/9079563"
+   },
+   {
+    "date": "2026-11-08T13:00:00",
+    "home": "PEÑA ATLETICA MOSTOLES",
+    "away": "COCA JUNIORS",
+    "score": [
+     "1",
+     "16"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079563"
+   },
+   {
+    "date": "2026-11-08T13:00:00",
+    "home": "PEÑA ATLETICA MOSTOLES",
+    "away": "COCA JUNIORS",
+    "score": [
+     "1",
+     "16"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079563"
+   },
+   {
+    "date": "2026-11-08T13:00:00",
+    "home": "PEÑA ATLETICA MOSTOLES",
+    "away": "COCA JUNIORS",
+    "score": [
+     "1",
+     "16"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079563"
+   },
+   {
+    "date": "2026-11-08T13:00:00",
+    "home": "PEÑA ATLETICA MOSTOLES",
+    "away": "COCA JUNIORS",
+    "score": [
+     "1",
+     "16"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079563"
    }
-  ]
+  ],
+  "head_to_head": []
  }
 }
