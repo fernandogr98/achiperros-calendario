@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T20:31",
+ "updated": "2026-11-12T22:31",
  "competitions": [
   {
    "id": "409114",
@@ -1320,9 +1320,67 @@
      ]
     },
     {
+     "id": "2874265",
+     "name": "CREATIVE PROJECT",
+     "pos": 9,
+     "phase": "",
+     "pj": 5,
+     "g": 2,
+     "e": 1,
+     "p": 2,
+     "gf": 36,
+     "gc": 18,
+     "dg": 18,
+     "pts": 7,
+     "form": [
+      "E",
+      "D",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-22T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "CREATIVE PROJECT",
+       "score": "3-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-27T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "BARRIO SÉSAMO",
+       "score": "15-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-12T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CREATIVE PROJECT",
+       "score": "4-16",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2739966",
      "name": "F.C SKBIA-2",
-     "pos": 9,
+     "pos": 10,
      "phase": "",
      "pj": 5,
      "g": 2,
@@ -1378,71 +1436,22 @@
      ]
     },
     {
-     "id": "2874265",
-     "name": "CREATIVE PROJECT",
-     "pos": 10,
-     "phase": "",
-     "pj": 4,
-     "g": 1,
-     "e": 1,
-     "p": 2,
-     "gf": 20,
-     "gc": 14,
-     "dg": 6,
-     "pts": 4,
-     "form": [
-      "E",
-      "D",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-06T22:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "ACHIPERROS FC",
-       "score": "3-8",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-22T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "CREATIVE PROJECT",
-       "score": "3-0",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-27T22:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "BARRIO SÉSAMO",
-       "score": "15-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
      "pos": 11,
      "phase": "",
-     "pj": 4,
+     "pj": 5,
      "g": 1,
      "e": 1,
-     "p": 2,
-     "gf": 13,
-     "gc": 15,
-     "dg": -2,
+     "p": 3,
+     "gf": 17,
+     "gc": 31,
+     "dg": -14,
      "pts": 4,
      "form": [
       "V",
       "E",
+      "D",
       "D",
       "D"
      ],
@@ -1473,6 +1482,13 @@
        "home": "F.C SKBIA-2",
        "away": "FONTANERÍA RUBIO",
        "score": "2-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-12T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CREATIVE PROJECT",
+       "score": "4-16",
        "result": "D"
       }
      ]
