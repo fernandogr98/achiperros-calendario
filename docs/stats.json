@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T08:01+01:00",
+ "updated": "2026-11-14T00:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -3331,108 +3331,108 @@
   }
  ],
  "next_rival": {
-  "name": "COCA JUNIORS",
-  "match_id": "9079564",
-  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
-  "date": "2026-11-13T22:15:00",
+  "name": "FONTANERÍA RUBIO",
+  "match_id": "9087068",
+  "competition": "FÚTBOL 7 LABORAL 26/27",
+  "date": "2026-11-17T21:15:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
-  "home": false,
-  "url": "https://www.competize.com/es/matches/view/9079564",
-  "matchday": "Jornada 7",
+  "home": true,
+  "url": "https://www.competize.com/es/matches/view/9087068",
+  "matchday": "Jornada 6",
   "standing": {
-   "pos": 5,
+   "pos": 11,
    "phase": "",
-   "team": "COCA JUNIORS",
-   "team_id": "1875645",
+   "team": "FONTANERÍA RUBIO",
+   "team_id": "2332125",
    "j": 5,
-   "g": 4,
-   "e": 0,
-   "p": 1,
-   "gf": 33,
-   "gc": 13,
-   "dg": 20,
-   "pts": 12
+   "g": 1,
+   "e": 1,
+   "p": 3,
+   "gf": 17,
+   "gc": 31,
+   "dg": -14,
+   "pts": 4
   },
-  "rival_id": "1875645",
+  "rival_id": "2332125",
   "top_scorers": [
    {
-    "Posición": 2,
-    "Nombre": "DANIEL SUÁREZ",
-    "Equipo": "COCA JUNIORS",
-    "Part.": 4,
-    "Goles": 12
-   },
-   {
-    "Posición": 12,
-    "Nombre": "JOSÉ BERNARDO PÉREZ",
-    "Equipo": "COCA JUNIORS",
-    "Part.": 4,
-    "Goles": 6
-   },
-   {
-    "Posición": 17,
-    "Nombre": "JUAN LUIS PIQUERAS",
-    "Equipo": "COCA JUNIORS",
-    "Part.": 3,
+    "Posición": 15,
+    "Nombre": "MIGUEL RUIZ",
+    "Equipo": "FONTANERÍA RUBIO",
+    "Part.": 5,
     "Goles": 5
+   },
+   {
+    "Posición": 21,
+    "Nombre": "RAUL RUIZ",
+    "Equipo": "FONTANERÍA RUBIO",
+    "Part.": 5,
+    "Goles": 4
+   },
+   {
+    "Posición": 56,
+    "Nombre": "DIEGO DOMÍNGUEZ",
+    "Equipo": "FONTANERÍA RUBIO",
+    "Part.": 5,
+    "Goles": 2
    }
   ],
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-11-08T13:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "COCA JUNIORS",
+    "date": "2026-11-12T21:15:00",
+    "home": "FONTANERÍA RUBIO",
+    "away": "CREATIVE PROJECT",
     "score": [
-     "1",
+     "4",
      "16"
     ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079563"
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/9087058"
    },
    {
-    "date": "2026-11-08T13:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "COCA JUNIORS",
+    "date": "2026-10-29T21:15:00",
+    "home": "F.C SKBIA-2",
+    "away": "FONTANERÍA RUBIO",
     "score": [
-     "1",
-     "16"
+     "2",
+     "1"
     ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079563"
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/9087053"
    },
    {
-    "date": "2026-11-08T13:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "COCA JUNIORS",
+    "date": "2026-10-19T22:15:00",
+    "home": "FONTANERÍA RUBIO",
+    "away": "MONSINES FC",
     "score": [
-     "1",
-     "16"
+     "4",
+     "6"
     ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079563"
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/9087045"
    },
    {
-    "date": "2026-11-08T13:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "COCA JUNIORS",
+    "date": "2026-10-08T21:15:00",
+    "home": "RECRELEGENS F.C.",
+    "away": "FONTANERÍA RUBIO",
     "score": [
-     "1",
-     "16"
+     "4",
+     "4"
     ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079563"
+    "result": "E",
+    "url": "https://www.competize.com/es/matches/view/9087038"
    },
    {
-    "date": "2026-11-08T13:00:00",
-    "home": "PEÑA ATLETICA MOSTOLES",
-    "away": "COCA JUNIORS",
+    "date": "2026-09-29T21:15:00",
+    "home": "FONTANERÍA RUBIO",
+    "away": "CDE FORUSIA",
     "score": [
-     "1",
-     "16"
+     "4",
+     "3"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079563"
+    "url": "https://www.competize.com/es/matches/view/9084235"
    }
   ],
   "head_to_head": []
