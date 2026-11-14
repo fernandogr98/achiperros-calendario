@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:00",
+ "updated": "2026-11-15T00:00",
  "competitions": [
   {
    "id": "409114",
@@ -82,20 +82,20 @@
      "name": "ACHIPERROS FC",
      "pos": 2,
      "phase": "",
-     "pj": 6,
+     "pj": 7,
      "g": 5,
-     "e": 0,
+     "e": 1,
      "p": 1,
-     "gf": 50,
-     "gc": 12,
+     "gf": 52,
+     "gc": 14,
      "dg": 38,
-     "pts": 15,
+     "pts": 16,
      "form": [
-      "V",
       "V",
       "D",
       "V",
-      "V"
+      "V",
+      "E"
      ],
      "matches": [
       {
@@ -139,6 +139,13 @@
        "away": "LEGIÓN SUR F.C.",
        "score": "9-0",
        "result": "V"
+      },
+      {
+       "date": "2026-11-13T22:15:00",
+       "home": "COCA JUNIORS",
+       "away": "ACHIPERROS FC",
+       "score": "2-2",
+       "result": "E"
       }
      ]
     },
@@ -270,19 +277,20 @@
      "name": "COCA JUNIORS",
      "pos": 5,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 4,
-     "e": 0,
+     "e": 1,
      "p": 1,
-     "gf": 33,
-     "gc": 13,
+     "gf": 35,
+     "gc": 15,
      "dg": 20,
-     "pts": 12,
+     "pts": 13,
      "form": [
       "V",
       "V",
       "D",
-      "V"
+      "V",
+      "E"
      ],
      "matches": [
       {
@@ -312,6 +320,13 @@
        "away": "COCA JUNIORS",
        "score": "1-16",
        "result": "V"
+      },
+      {
+       "date": "2026-11-13T22:15:00",
+       "home": "COCA JUNIORS",
+       "away": "ACHIPERROS FC",
+       "score": "2-2",
+       "result": "E"
       }
      ]
     },

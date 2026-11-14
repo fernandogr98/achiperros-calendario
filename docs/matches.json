@@ -819,6 +819,137 @@
   "referee": "Andres Gonzalez",
   "report": ""
  },
+ "9079564": {
+  "away": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {
+     "Tarjeta Roja": 1
+    }
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {
+     "MVP": 1
+    }
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-11-15",
+  "home": [
+   {
+    "name": "JESÚS CARIÑO",
+    "num": "2",
+    "stats": {}
+   },
+   {
+    "name": "IVAN GUTIERREZ",
+    "num": "6",
+    "stats": {}
+   },
+   {
+    "name": "ALEJANDRO SÁNCHEZ",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL SUÁREZ",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "JOSÉ BERNARDO PÉREZ",
+    "num": "18",
+    "stats": {}
+   },
+   {
+    "name": "JUAN LUIS PIQUERAS",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO DOMINGO",
+    "num": "69",
+    "stats": {}
+   },
+   {
+    "name": "STEFAN ROBERTO JOULIEN",
+    "num": "80",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
