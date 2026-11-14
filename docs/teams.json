@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T17:00",
+ "updated": "2026-11-14T18:30",
  "competitions": [
   {
    "id": "409114",
@@ -504,9 +504,74 @@
      ]
     },
     {
+     "id": "1899890",
+     "name": "GALÁCTICOS FC",
+     "pos": 9,
+     "phase": "",
+     "pj": 7,
+     "g": 3,
+     "e": 0,
+     "p": 4,
+     "gf": 30,
+     "gc": 20,
+     "dg": 10,
+     "pts": 6,
+     "form": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-02T21:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "PEÑA ATLETICA MOSTOLES",
+       "score": "12-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-18T19:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "SEITO DURO FC",
+       "score": "4-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-24T17:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "GALÁCTICOS FC",
+       "score": "5-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-07T16:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "BASTARD MÜNCHEN",
+       "score": "0-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-14T17:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "GALÁCTICOS FC",
+       "score": "1-8",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538199",
      "name": "SKUAD DEL GÜEBO",
-     "pos": 9,
+     "pos": 10,
      "phase": "",
      "pj": 5,
      "g": 2,
@@ -564,7 +629,7 @@
     {
      "id": "2870272",
      "name": "BASTARD MÜNCHEN",
-     "pos": 10,
+     "pos": 11,
      "phase": "",
      "pj": 6,
      "g": 1,
@@ -627,75 +692,17 @@
      ]
     },
     {
-     "id": "1899890",
-     "name": "GALÁCTICOS FC",
-     "pos": 11,
-     "phase": "",
-     "pj": 6,
-     "g": 2,
-     "e": 0,
-     "p": 4,
-     "gf": 22,
-     "gc": 19,
-     "dg": 3,
-     "pts": 3,
-     "form": [
-      "V",
-      "V",
-      "D",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-02T21:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "12-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-18T19:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "SEITO DURO FC",
-       "score": "4-5",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-24T17:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "GALÁCTICOS FC",
-       "score": "5-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-07T16:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "BASTARD MÜNCHEN",
-       "score": "0-3",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "2871925",
      "name": "LOS PATXIS FC",
      "pos": 12,
      "phase": "",
-     "pj": 6,
+     "pj": 7,
      "g": 0,
      "e": 1,
-     "p": 5,
-     "gf": 10,
-     "gc": 47,
-     "dg": -37,
+     "p": 6,
+     "gf": 11,
+     "gc": 55,
+     "dg": -44,
      "pts": 1,
      "form": [
       "D",
@@ -745,6 +752,13 @@
        "home": "PORRATHINAIKOS",
        "away": "LOS PATXIS FC",
        "score": "7-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-14T17:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "GALÁCTICOS FC",
+       "score": "1-8",
        "result": "D"
       }
      ]
