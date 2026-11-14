@@ -1,14 +1,86 @@
 {
- "updated": "2026-11-14T21:30",
+ "updated": "2026-11-14T22:00",
  "competitions": [
   {
    "id": "409114",
    "name": "FINDE",
    "teams": [
     {
+     "id": "2332139",
+     "name": "BURDEL KING",
+     "pos": 1,
+     "phase": "",
+     "pj": 7,
+     "g": 6,
+     "e": 0,
+     "p": 1,
+     "gf": 45,
+     "gc": 13,
+     "dg": 32,
+     "pts": 18,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T12:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "BURDEL KING",
+       "score": "0-12",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T19:00:00",
+       "home": "BURDEL KING",
+       "away": "COCA JUNIORS",
+       "score": "8-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T16:00:00",
+       "home": "SEITO DURO FC",
+       "away": "BURDEL KING",
+       "score": "2-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-07T18:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "9-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-14T19:00:00",
+       "home": "BASTARD MÜNCHEN",
+       "away": "BURDEL KING",
+       "score": "0-6",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538202",
      "name": "ACHIPERROS FC",
-     "pos": 1,
+     "pos": 2,
      "phase": "",
      "pj": 6,
      "g": 5,
@@ -66,71 +138,6 @@
        "home": "ACHIPERROS FC",
        "away": "LEGIÓN SUR F.C.",
        "score": "9-0",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2332139",
-     "name": "BURDEL KING",
-     "pos": 2,
-     "phase": "",
-     "pj": 6,
-     "g": 5,
-     "e": 0,
-     "p": 1,
-     "gf": 39,
-     "gc": 13,
-     "dg": 26,
-     "pts": 15,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-04T12:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "BURDEL KING",
-       "score": "0-12",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-10T18:00:00",
-       "home": "BURDEL KING",
-       "away": "BARÇA MURAI",
-       "score": "4-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T19:00:00",
-       "home": "BURDEL KING",
-       "away": "COCA JUNIORS",
-       "score": "8-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T16:00:00",
-       "home": "SEITO DURO FC",
-       "away": "BURDEL KING",
-       "score": "2-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-07T18:00:00",
-       "home": "BURDEL KING",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "9-1",
        "result": "V"
       }
      ]
@@ -631,20 +638,20 @@
      "name": "BASTARD MÜNCHEN",
      "pos": 11,
      "phase": "",
-     "pj": 6,
+     "pj": 7,
      "g": 1,
      "e": 1,
-     "p": 4,
+     "p": 5,
      "gf": 11,
-     "gc": 15,
-     "dg": -4,
+     "gc": 21,
+     "dg": -10,
      "pts": 4,
      "form": [
       "D",
       "D",
       "D",
-      "D",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -688,6 +695,13 @@
        "away": "BASTARD MÜNCHEN",
        "score": "0-3",
        "result": "V"
+      },
+      {
+       "date": "2026-11-14T19:00:00",
+       "home": "BASTARD MÜNCHEN",
+       "away": "BURDEL KING",
+       "score": "0-6",
+       "result": "D"
       }
      ]
     },
