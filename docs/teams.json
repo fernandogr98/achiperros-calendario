@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:00",
+ "updated": "2026-11-15T15:30",
  "competitions": [
   {
    "id": "409114",
@@ -396,22 +396,87 @@
      ]
     },
     {
-     "id": "2726443",
-     "name": "LEGIÓN SUR F.C.",
+     "id": "2538199",
+     "name": "SKUAD DEL GÜEBO",
      "pos": 7,
      "phase": "",
      "pj": 6,
      "g": 3,
      "e": 0,
      "p": 3,
-     "gf": 25,
-     "gc": 25,
-     "dg": 0,
+     "gf": 31,
+     "gc": 24,
+     "dg": 7,
+     "pts": 9,
+     "form": [
+      "D",
+      "D",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T21:00:00",
+       "home": "COCA JUNIORS",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-09-27T12:00:00",
+       "home": "SKUAD DEL GÜEBO",
+       "away": "SEITO DURO FC",
+       "score": "3-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T21:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "5-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-18T20:00:00",
+       "home": "SKUAD DEL GÜEBO",
+       "away": "BASTARD MÜNCHEN",
+       "score": "5-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T22:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "2-9",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-14T18:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "2-8",
+       "result": "V"
+      }
+     ]
+    },
+    {
+     "id": "2726443",
+     "name": "LEGIÓN SUR F.C.",
+     "pos": 8,
+     "phase": "",
+     "pj": 7,
+     "g": 3,
+     "e": 0,
+     "p": 4,
+     "gf": 27,
+     "gc": 33,
+     "dg": -6,
      "pts": 9,
      "form": [
       "V",
       "V",
-      "V",
+      "D",
       "D",
       "D"
      ],
@@ -457,13 +522,20 @@
        "away": "LEGIÓN SUR F.C.",
        "score": "9-0",
        "result": "D"
+      },
+      {
+       "date": "2026-11-14T18:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "2-8",
+       "result": "D"
       }
      ]
     },
     {
      "id": "2723836",
      "name": "LOS DE SIEMPRE FC",
-     "pos": 8,
+     "pos": 9,
      "phase": "",
      "pj": 6,
      "g": 2,
@@ -528,7 +600,7 @@
     {
      "id": "1899890",
      "name": "GALÁCTICOS FC",
-     "pos": 9,
+     "pos": 10,
      "phase": "",
      "pj": 7,
      "g": 3,
@@ -586,64 +658,6 @@
        "home": "LOS PATXIS FC",
        "away": "GALÁCTICOS FC",
        "score": "1-8",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2538199",
-     "name": "SKUAD DEL GÜEBO",
-     "pos": 10,
-     "phase": "",
-     "pj": 5,
-     "g": 2,
-     "e": 0,
-     "p": 3,
-     "gf": 23,
-     "gc": 22,
-     "dg": 1,
-     "pts": 6,
-     "form": [
-      "D",
-      "D",
-      "D",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T21:00:00",
-       "home": "COCA JUNIORS",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "4-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-09-27T12:00:00",
-       "home": "SKUAD DEL GÜEBO",
-       "away": "SEITO DURO FC",
-       "score": "3-7",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T21:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "5-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-18T20:00:00",
-       "home": "SKUAD DEL GÜEBO",
-       "away": "BASTARD MÜNCHEN",
-       "score": "5-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T22:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "2-9",
        "result": "V"
       }
      ]
