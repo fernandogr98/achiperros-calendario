@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:00",
+ "updated": "2026-11-17T23:00",
  "competitions": [
   {
    "id": "409114",
@@ -86,9 +86,9 @@
      "g": 6,
      "e": 0,
      "p": 1,
-     "gf": 40,
+     "gf": 43,
      "gc": 16,
-     "dg": 24,
+     "dg": 27,
      "pts": 18,
      "form": [
       "V",
@@ -144,72 +144,7 @@
        "date": "2026-11-15T14:00:00",
        "home": "SEITO DURO FC",
        "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "16-2",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2538194",
-     "name": "CDE FORUSIA",
-     "pos": 3,
-     "phase": "",
-     "pj": 6,
-     "g": 6,
-     "e": 0,
-     "p": 0,
-     "gf": 28,
-     "gc": 7,
-     "dg": 21,
-     "pts": 18,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-27T19:00:00",
-       "home": "CDE FORUSIA",
-       "away": "BASTARD MÜNCHEN",
-       "score": "6-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T16:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T21:00:00",
-       "home": "CDE FORUSIA",
-       "away": "LEGIÓN SUR F.C.",
-       "score": "5-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-15T15:00:00",
-       "home": "CDE FORUSIA",
-       "away": "PORRATHINAIKOS",
-       "score": "4-1",
+       "score": "19-2",
        "result": "V"
       }
      ]
@@ -217,7 +152,7 @@
     {
      "id": "2538202",
      "name": "ACHIPERROS FC",
-     "pos": 4,
+     "pos": 3,
      "phase": "",
      "pj": 7,
      "g": 5,
@@ -287,6 +222,71 @@
      ]
     },
     {
+     "id": "2538194",
+     "name": "CDE FORUSIA",
+     "pos": 4,
+     "phase": "",
+     "pj": 6,
+     "g": 5,
+     "e": 0,
+     "p": 1,
+     "gf": 24,
+     "gc": 9,
+     "dg": 15,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-27T19:00:00",
+       "home": "CDE FORUSIA",
+       "away": "BASTARD MÜNCHEN",
+       "score": "6-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T16:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T21:00:00",
+       "home": "CDE FORUSIA",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "5-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-15T15:00:00",
+       "home": "CDE FORUSIA",
+       "away": "PORRATHINAIKOS",
+       "score": "0-3",
+       "result": "D"
+      }
+     ]
+    },
+    {
      "id": "1875645",
      "name": "COCA JUNIORS",
      "pos": 5,
@@ -350,19 +350,19 @@
      "pos": 6,
      "phase": "",
      "pj": 7,
-     "g": 3,
+     "g": 4,
      "e": 1,
-     "p": 3,
-     "gf": 20,
-     "gc": 21,
-     "dg": -1,
-     "pts": 10,
+     "p": 2,
+     "gf": 22,
+     "gc": 17,
+     "dg": 5,
+     "pts": 13,
      "form": [
       "D",
       "E",
       "V",
       "V",
-      "D"
+      "V"
      ],
      "matches": [
       {
@@ -411,8 +411,8 @@
        "date": "2026-11-15T15:00:00",
        "home": "CDE FORUSIA",
        "away": "PORRATHINAIKOS",
-       "score": "4-1",
-       "result": "D"
+       "score": "0-3",
+       "result": "V"
       }
      ]
     },
@@ -902,8 +902,8 @@
      "e": 0,
      "p": 6,
      "gf": 6,
-     "gc": 77,
-     "dg": -71,
+     "gc": 80,
+     "dg": -74,
      "pts": 0,
      "form": [
       "D",
@@ -952,7 +952,7 @@
        "date": "2026-11-15T14:00:00",
        "home": "SEITO DURO FC",
        "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "16-2",
+       "score": "19-2",
        "result": "D"
       }
      ]
