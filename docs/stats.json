@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T00:00+01:00",
+ "updated": "2026-11-18T00:30+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
@@ -1757,20 +1757,12 @@
    ],
    "sanctions": [
     {
-     "round": "Jornada 4",
-     "date": "26 Oct 2026",
+     "round": "Jornada 6",
+     "date": "17 Nov 2026",
      "type": "Sanción",
-     "player": "ALEJANDRO BRAVO",
-     "match": "SANFERDOG vs BETA - PUBLIX CF",
-     "text": "El deportista ALEJANDRO BRAVO ha sido sancionado con 1 partido por el siguiente motivo: haber recibido una tarjeta roja en el partido SANFERDOG vs BETA - PUBLIX CF ."
-    },
-    {
-     "round": "Jornada 4",
-     "date": "05 Nov 2026",
-     "type": "Sanción",
-     "player": "ALEX ALMAGRO",
-     "match": "CDE FORUSIA vs ALLIGATORS",
-     "text": "El deportista ALEX ALMAGRO ha sido sancionado con 1 partido por el siguiente motivo: haber recibido una tarjeta roja en el partido CDE FORUSIA vs ALLIGATORS ."
+     "player": "ANDRES GONZALEZ",
+     "match": "ACHIPERROS FC vs FONTANERÍA RUBIO",
+     "text": "El deportista ANDRES GONZALEZ ha sido sancionado con 1 partido por el siguiente motivo: haber recibido una tarjeta roja en el partido ACHIPERROS FC vs FONTANERÍA RUBIO ."
     }
    ],
    "rankings": {
