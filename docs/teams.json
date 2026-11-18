@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T00:30",
+ "updated": "2026-11-18T01:00",
  "competitions": [
   {
    "id": "409114",
@@ -964,9 +964,67 @@
    "name": "LABORAL",
    "teams": [
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 1,
+     "phase": "Fase oro",
+     "pj": 5,
+     "g": 5,
+     "e": 0,
+     "p": 0,
+     "gf": 36,
+     "gc": 8,
+     "dg": 28,
+     "pts": 15,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T22:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "F.C SKBIA-2",
+       "score": "11-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-06T22:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "ACHIPERROS FC",
+       "score": "3-8",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-04T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "PUB OSCAR F.C.",
+       "score": "4-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-17T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "FONTANERÍA RUBIO",
+       "score": "9-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 1,
+     "pos": 2,
      "phase": "Fase oro",
      "pj": 5,
      "g": 4,
@@ -1022,51 +1080,66 @@
      ]
     },
     {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 2,
+     "id": "2870356",
+     "name": "POLEMICAS APARTE FC",
+     "pos": 3,
      "phase": "Fase oro",
-     "pj": 4,
+     "pj": 6,
      "g": 4,
      "e": 0,
-     "p": 0,
-     "gf": 27,
-     "gc": 8,
-     "dg": 19,
+     "p": 2,
+     "gf": 29,
+     "gc": 27,
+     "dg": 2,
      "pts": 12,
      "form": [
       "V",
       "V",
       "V",
+      "D",
       "V"
      ],
      "matches": [
       {
-       "date": "2026-09-30T22:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "F.C SKBIA-2",
-       "score": "11-1",
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-06T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "POLEMICAS APARTE FC",
+       "score": "1-7",
        "result": "V"
       },
       {
-       "date": "2026-10-06T22:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "ACHIPERROS FC",
-       "score": "3-8",
+       "date": "2026-10-20T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
        "result": "V"
       },
       {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
+       "date": "2026-10-27T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "POLEMICAS APARTE FC",
+       "score": "3-4",
        "result": "V"
       },
       {
-       "date": "2026-11-04T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "PUB OSCAR F.C.",
-       "score": "4-2",
+       "date": "2026-11-10T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "MONSINES FC",
+       "score": "5-10",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-17T22:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "POLEMICAS APARTE FC",
+       "score": "2-5",
        "result": "V"
       }
      ]
@@ -1074,7 +1147,7 @@
     {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 3,
+     "pos": 4,
      "phase": "Fase oro",
      "pj": 5,
      "g": 3,
@@ -1132,8 +1205,8 @@
     {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 4,
-     "phase": "Fase oro",
+     "pos": 5,
+     "phase": "Fase plata",
      "pj": 5,
      "g": 3,
      "e": 0,
@@ -1190,7 +1263,7 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 5,
+     "pos": 6,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1248,7 +1321,7 @@
     {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
-     "pos": 6,
+     "pos": 7,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1306,7 +1379,7 @@
     {
      "id": "2806044",
      "name": "CDE FORUSIA",
-     "pos": 7,
+     "pos": 8,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1358,64 +1431,6 @@
        "away": "CDE FORUSIA",
        "score": "4-9",
        "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "2870356",
-     "name": "POLEMICAS APARTE FC",
-     "pos": 8,
-     "phase": "Fase plata",
-     "pj": 5,
-     "g": 3,
-     "e": 0,
-     "p": 2,
-     "gf": 24,
-     "gc": 25,
-     "dg": -1,
-     "pts": 9,
-     "form": [
-      "D",
-      "V",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-06T21:15:00",
-       "home": "BETA - PUBLIX CF",
-       "away": "POLEMICAS APARTE FC",
-       "score": "1-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-27T21:15:00",
-       "home": "RECRELEGENS F.C.",
-       "away": "POLEMICAS APARTE FC",
-       "score": "3-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-10T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "MONSINES FC",
-       "score": "5-10",
-       "result": "D"
       }
      ]
     },
@@ -1482,19 +1497,19 @@
      "name": "F.C SKBIA-2",
      "pos": 10,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 2,
      "e": 0,
-     "p": 3,
-     "gf": 17,
-     "gc": 29,
-     "dg": -12,
+     "p": 4,
+     "gf": 19,
+     "gc": 34,
+     "dg": -15,
      "pts": 6,
      "form": [
       "D",
+      "V",
+      "V",
       "D",
-      "V",
-      "V",
       "D"
      ],
      "matches": [
@@ -1532,63 +1547,12 @@
        "away": "F.C SKBIA-2",
        "score": "6-1",
        "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2332125",
-     "name": "FONTANERÍA RUBIO",
-     "pos": 11,
-     "phase": "",
-     "pj": 5,
-     "g": 1,
-     "e": 1,
-     "p": 3,
-     "gf": 17,
-     "gc": 31,
-     "dg": -14,
-     "pts": 4,
-     "form": [
-      "V",
-      "E",
-      "D",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
-       "result": "V"
       },
       {
-       "date": "2026-10-08T21:15:00",
-       "home": "RECRELEGENS F.C.",
-       "away": "FONTANERÍA RUBIO",
-       "score": "4-4",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-19T22:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "MONSINES FC",
-       "score": "4-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-29T21:15:00",
+       "date": "2026-11-17T22:15:00",
        "home": "F.C SKBIA-2",
-       "away": "FONTANERÍA RUBIO",
-       "score": "2-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-12T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CREATIVE PROJECT",
-       "score": "4-16",
+       "away": "POLEMICAS APARTE FC",
+       "score": "2-5",
        "result": "D"
       }
      ]
@@ -1596,7 +1560,7 @@
     {
      "id": "2874263",
      "name": "RECRELEGENS F.C.",
-     "pos": 12,
+     "pos": 11,
      "phase": "",
      "pj": 5,
      "g": 1,
@@ -1647,6 +1611,71 @@
        "home": "ALLIGATORS",
        "away": "RECRELEGENS F.C.",
        "score": "12-1",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "2332125",
+     "name": "FONTANERÍA RUBIO",
+     "pos": 12,
+     "phase": "",
+     "pj": 6,
+     "g": 1,
+     "e": 1,
+     "p": 4,
+     "gf": 17,
+     "gc": 40,
+     "dg": -23,
+     "pts": 4,
+     "form": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-08T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "FONTANERÍA RUBIO",
+       "score": "4-4",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-19T22:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "MONSINES FC",
+       "score": "4-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-29T21:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "FONTANERÍA RUBIO",
+       "score": "2-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-12T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CREATIVE PROJECT",
+       "score": "4-16",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-17T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "FONTANERÍA RUBIO",
+       "score": "9-0",
        "result": "D"
       }
      ]

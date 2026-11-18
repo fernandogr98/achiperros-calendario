@@ -1540,5 +1540,134 @@
   ],
   "referee": "Sergio De la iglesia de la iglesia",
   "report": ""
+ },
+ "9087068": {
+  "away": [
+   {
+    "name": "JHONATAN BENJUMEA",
+    "num": "1",
+    "stats": {
+     "Gol recibido": 9,
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "DIEGO DOMÍNGUEZ",
+    "num": "6",
+    "stats": {}
+   },
+   {
+    "name": "MIGUEL RUIZ",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "RAUL RUIZ",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "SANTIAGO REDOYA",
+    "num": "12",
+    "stats": {}
+   },
+   {
+    "name": "LUIS ALBERTO PINO",
+    "num": "13",
+    "stats": {}
+   },
+   {
+    "name": "ÁNGEL RUIZ",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "ANDRES GONZALEZ",
+    "num": "20",
+    "stats": {
+     "Tarjeta Amarilla": 1,
+     "Tarjeta Roja": 1
+    }
+   },
+   {
+    "name": "JEAN CARLO CARDOZA",
+    "num": "28",
+    "stats": {}
+   },
+   {
+    "name": "IVÁN EUGENIO PARRA",
+    "num": "33",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-11-18",
+  "home": [
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 5,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {
+     "Gol": 2
+    }
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "referee": "",
+  "report": ""
  }
 }
