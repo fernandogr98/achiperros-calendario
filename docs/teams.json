@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T15:00",
+ "updated": "2026-11-18T17:00",
  "competitions": [
   {
    "id": "409114",
@@ -1022,9 +1022,74 @@
      ]
     },
     {
+     "id": "2332120",
+     "name": "SANFERDOG",
+     "pos": 2,
+     "phase": "Fase oro",
+     "pj": 6,
+     "g": 4,
+     "e": 1,
+     "p": 1,
+     "gf": 32,
+     "gc": 22,
+     "dg": 10,
+     "pts": 13,
+     "form": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-26T21:15:00",
+       "home": "SANFERDOG",
+       "away": "BETA - PUBLIX CF",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-10T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "SANFERDOG",
+       "score": "4-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-16T22:15:00",
+       "home": "SANFERDOG",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 2,
+     "pos": 3,
      "phase": "Fase oro",
      "pj": 5,
      "g": 4,
@@ -1080,10 +1145,75 @@
      ]
     },
     {
+     "id": "30129",
+     "name": "PUB OSCAR F.C.",
+     "pos": 4,
+     "phase": "Fase oro",
+     "pj": 6,
+     "g": 4,
+     "e": 0,
+     "p": 2,
+     "gf": 43,
+     "gc": 19,
+     "dg": 24,
+     "pts": 12,
+     "form": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-30T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "MONSINES FC",
+       "score": "7-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-05T22:15:00",
+       "home": "F.C SKBIA-2",
+       "away": "PUB OSCAR F.C.",
+       "score": "2-9",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-22T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "CREATIVE PROJECT",
+       "score": "3-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-04T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "PUB OSCAR F.C.",
+       "score": "4-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-10T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "SANFERDOG",
+       "score": "4-7",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-16T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "BARRIO SÉSAMO",
+       "score": "18-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 3,
-     "phase": "Fase oro",
+     "pos": 5,
+     "phase": "Fase plata",
      "pj": 6,
      "g": 4,
      "e": 0,
@@ -1145,67 +1275,9 @@
      ]
     },
     {
-     "id": "2332120",
-     "name": "SANFERDOG",
-     "pos": 4,
-     "phase": "Fase oro",
-     "pj": 5,
-     "g": 3,
-     "e": 1,
-     "p": 1,
-     "gf": 26,
-     "gc": 17,
-     "dg": 9,
-     "pts": 10,
-     "form": [
-      "E",
-      "V",
-      "D",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-26T21:15:00",
-       "home": "SANFERDOG",
-       "away": "BETA - PUBLIX CF",
-       "score": "4-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-10T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "SANFERDOG",
-       "score": "4-7",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 5,
+     "pos": 6,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1263,7 +1335,7 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 6,
+     "pos": 7,
      "phase": "Fase plata",
      "pj": 5,
      "g": 3,
@@ -1319,82 +1391,24 @@
      ]
     },
     {
-     "id": "30129",
-     "name": "PUB OSCAR F.C.",
-     "pos": 7,
-     "phase": "Fase plata",
-     "pj": 5,
-     "g": 3,
-     "e": 0,
-     "p": 2,
-     "gf": 25,
-     "gc": 17,
-     "dg": 8,
-     "pts": 9,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-30T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "MONSINES FC",
-       "score": "7-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-05T22:15:00",
-       "home": "F.C SKBIA-2",
-       "away": "PUB OSCAR F.C.",
-       "score": "2-9",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-22T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "CREATIVE PROJECT",
-       "score": "3-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-04T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "PUB OSCAR F.C.",
-       "score": "4-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-10T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "SANFERDOG",
-       "score": "4-7",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "2806044",
      "name": "CDE FORUSIA",
      "pos": 8,
      "phase": "Fase plata",
-     "pj": 5,
+     "pj": 6,
      "g": 3,
      "e": 0,
-     "p": 2,
-     "gf": 32,
-     "gc": 26,
-     "dg": 6,
+     "p": 3,
+     "gf": 37,
+     "gc": 32,
+     "dg": 5,
      "pts": 9,
      "form": [
-      "D",
       "V",
       "D",
       "V",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -1431,6 +1445,13 @@
        "away": "CDE FORUSIA",
        "score": "4-9",
        "result": "V"
+      },
+      {
+       "date": "2026-11-16T22:15:00",
+       "home": "SANFERDOG",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "D"
       }
      ]
     },
@@ -1743,15 +1764,16 @@
      "name": "BARRIO SÉSAMO",
      "pos": 14,
      "phase": "",
-     "pj": 4,
+     "pj": 5,
      "g": 0,
      "e": 0,
-     "p": 4,
-     "gf": 5,
-     "gc": 41,
-     "dg": -36,
+     "p": 5,
+     "gf": 7,
+     "gc": 59,
+     "dg": -52,
      "pts": 0,
      "form": [
+      "D",
       "D",
       "D",
       "D",
@@ -1784,6 +1806,13 @@
        "home": "CREATIVE PROJECT",
        "away": "BARRIO SÉSAMO",
        "score": "15-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-16T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "BARRIO SÉSAMO",
+       "score": "18-2",
        "result": "D"
       }
      ]
