@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:01",
+ "updated": "2026-11-19T23:01",
  "competitions": [
   {
    "id": "409114",
@@ -1217,9 +1217,74 @@
      ]
     },
     {
+     "id": "1871444",
+     "name": "ALLIGATORS",
+     "pos": 5,
+     "phase": "Fase plata",
+     "pj": 6,
+     "g": 4,
+     "e": 0,
+     "p": 2,
+     "gf": 40,
+     "gc": 26,
+     "dg": 14,
+     "pts": 12,
+     "form": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-19T21:15:00",
+       "home": "ALLIGATORS",
+       "away": "BETA - PUBLIX CF",
+       "score": "8-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-09T22:15:00",
+       "home": "ALLIGATORS",
+       "away": "RECRELEGENS F.C.",
+       "score": "12-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-19T21:15:00",
+       "home": "MONSINES FC",
+       "away": "ALLIGATORS",
+       "score": "2-4",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 5,
+     "pos": 6,
      "phase": "Fase plata",
      "pj": 6,
      "g": 4,
@@ -1284,7 +1349,7 @@
     {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 6,
+     "pos": 7,
      "phase": "Fase plata",
      "pj": 6,
      "g": 3,
@@ -1347,82 +1412,24 @@
      ]
     },
     {
-     "id": "1871444",
-     "name": "ALLIGATORS",
-     "pos": 7,
-     "phase": "Fase plata",
-     "pj": 5,
-     "g": 3,
-     "e": 0,
-     "p": 2,
-     "gf": 36,
-     "gc": 24,
-     "dg": 12,
-     "pts": 9,
-     "form": [
-      "V",
-      "D",
-      "V",
-      "D",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-19T21:15:00",
-       "home": "ALLIGATORS",
-       "away": "BETA - PUBLIX CF",
-       "score": "8-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-05T21:15:00",
-       "home": "CDE FORUSIA",
-       "away": "ALLIGATORS",
-       "score": "8-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-09T22:15:00",
-       "home": "ALLIGATORS",
-       "away": "RECRELEGENS F.C.",
-       "score": "12-1",
-       "result": "V"
-      }
-     ]
-    },
-    {
      "id": "1871372",
      "name": "MONSINES FC",
      "pos": 8,
      "phase": "Fase plata",
-     "pj": 5,
+     "pj": 6,
      "g": 3,
      "e": 0,
-     "p": 2,
-     "gf": 32,
-     "gc": 22,
-     "dg": 10,
+     "p": 3,
+     "gf": 34,
+     "gc": 26,
+     "dg": 8,
      "pts": 9,
      "form": [
-      "D",
       "V",
       "V",
       "D",
-      "V"
+      "V",
+      "D"
      ],
      "matches": [
       {
@@ -1459,6 +1466,13 @@
        "away": "MONSINES FC",
        "score": "5-10",
        "result": "V"
+      },
+      {
+       "date": "2026-11-19T21:15:00",
+       "home": "MONSINES FC",
+       "away": "ALLIGATORS",
+       "score": "2-4",
+       "result": "D"
       }
      ]
     },
