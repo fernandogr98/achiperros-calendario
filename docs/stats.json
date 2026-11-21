@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:00+01:00",
+ "updated": "2026-11-21T21:30+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -1596,14 +1596,14 @@
      "phase": "",
      "team": "BURDEL KING",
      "team_id": "2332139",
-     "j": 7,
-     "g": 6,
+     "j": 8,
+     "g": 7,
      "e": 0,
      "p": 1,
-     "gf": 45,
+     "gf": 53,
      "gc": 13,
-     "dg": 32,
-     "pts": 18
+     "dg": 40,
+     "pts": 21
     },
     {
      "pos": 2,
@@ -1764,13 +1764,13 @@
      "phase": "",
      "team": "LOS PATXIS FC",
      "team_id": "2871925",
-     "j": 7,
+     "j": 8,
      "g": 0,
      "e": 1,
-     "p": 6,
+     "p": 7,
      "gf": 11,
-     "gc": 55,
-     "dg": -44,
+     "gc": 63,
+     "dg": -52,
      "pts": 1
     },
     {
@@ -1856,7 +1856,7 @@
        "Posición": 5,
        "Nombre": "IZAN BOSQUET",
        "Equipo": "BURDEL KING",
-       "Part.": 7,
+       "Part.": 8,
        "Goles": 10
       },
       {
@@ -1884,7 +1884,7 @@
        "Posición": 9,
        "Nombre": "DAVID SAAVEDRA",
        "Equipo": "BURDEL KING",
-       "Part.": 7,
+       "Part.": 8,
        "Goles": 8
       },
       {
@@ -1919,7 +1919,7 @@
        "Posición": 14,
        "Nombre": "JAVIER RODRÍGUEZ",
        "Equipo": "BURDEL KING",
-       "Part.": 6,
+       "Part.": 7,
        "Goles": 6
       },
       {
@@ -1959,15 +1959,15 @@
       },
       {
        "Posición": 20,
-       "Nombre": "SIRO IBARGOYEN",
-       "Equipo": "PORRATHINAIKOS",
-       "Part.": 5,
+       "Nombre": "HECTOR TORREGROSA",
+       "Equipo": "BURDEL KING",
+       "Part.": 6,
        "Goles": 5
       },
       {
        "Posición": 21,
-       "Nombre": "HECTOR TORREGROSA",
-       "Equipo": "BURDEL KING",
+       "Nombre": "SIRO IBARGOYEN",
+       "Equipo": "PORRATHINAIKOS",
        "Part.": 5,
        "Goles": 5
       },
@@ -1987,15 +1987,15 @@
       },
       {
        "Posición": 24,
-       "Nombre": "PABLO QUINTANA",
-       "Equipo": "LOS DE SIEMPRE FC",
-       "Part.": 7,
+       "Nombre": "JUAN CARLOS SELDAS",
+       "Equipo": "BURDEL KING",
+       "Part.": 8,
        "Goles": 4
       },
       {
        "Posición": 25,
-       "Nombre": "JUAN CARLOS SELDAS",
-       "Equipo": "BURDEL KING",
+       "Nombre": "PABLO QUINTANA",
+       "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 7,
        "Goles": 4
       },
@@ -2008,43 +2008,43 @@
       },
       {
        "Posición": 27,
+       "Nombre": "CARLOS CABANYES",
+       "Equipo": "BURDEL KING",
+       "Part.": 7,
+       "Goles": 4
+      },
+      {
+       "Posición": 28,
        "Nombre": "SERGIO RODRIGO",
        "Equipo": "SKUAD DEL GÜEBO",
        "Part.": 6,
        "Goles": 4
       },
       {
-       "Posición": 28,
+       "Posición": 29,
        "Nombre": "RUBEN FONTANEZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 6,
        "Goles": 4
       },
       {
-       "Posición": 29,
+       "Posición": 30,
        "Nombre": "IVAN DÍAZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 6,
        "Goles": 4
       },
       {
-       "Posición": 30,
+       "Posición": 31,
        "Nombre": "GONZALO SAN ROMÁN",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 6,
        "Goles": 4
       },
       {
-       "Posición": 31,
+       "Posición": 32,
        "Nombre": "DANIEL RAMÓN",
        "Equipo": "GALÁCTICOS FC",
-       "Part.": 6,
-       "Goles": 4
-      },
-      {
-       "Posición": 32,
-       "Nombre": "CARLOS CABANYES",
-       "Equipo": "BURDEL KING",
        "Part.": 6,
        "Goles": 4
       },
@@ -2073,27 +2073,27 @@
        "Posición": 36,
        "Nombre": "SERGIO VALHONDO",
        "Equipo": "BURDEL KING",
-       "Part.": 7,
+       "Part.": 8,
        "Goles": 3
       },
       {
        "Posición": 37,
-       "Nombre": "SERGIO MORAN",
-       "Equipo": "LEGIÓN SUR F.C.",
-       "Part.": 7,
+       "Nombre": "MOISES SÁNCHEZ",
+       "Equipo": "LOS PATXIS FC",
+       "Part.": 8,
        "Goles": 3
       },
       {
        "Posición": 38,
-       "Nombre": "MOISES SÁNCHEZ",
+       "Nombre": "JUANJO PEREZ",
        "Equipo": "LOS PATXIS FC",
-       "Part.": 7,
+       "Part.": 8,
        "Goles": 3
       },
       {
        "Posición": 39,
-       "Nombre": "JUANJO PEREZ",
-       "Equipo": "LOS PATXIS FC",
+       "Nombre": "SERGIO MORAN",
+       "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 7,
        "Goles": 3
       },
@@ -2204,50 +2204,50 @@
       },
       {
        "Posición": 55,
+       "Nombre": "DARIO ALEGRE",
+       "Equipo": "LOS PATXIS FC",
+       "Part.": 7,
+       "Goles": 2
+      },
+      {
+       "Posición": 56,
+       "Nombre": "DANIEL MOLINA",
+       "Equipo": "LOS PATXIS FC",
+       "Part.": 7,
+       "Goles": 2
+      },
+      {
+       "Posición": 57,
+       "Nombre": "DANIEL MIGUEL",
+       "Equipo": "BURDEL KING",
+       "Part.": 7,
+       "Goles": 2
+      },
+      {
+       "Posición": 58,
        "Nombre": "CARLOS RIBAGORDA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 7,
        "Goles": 2
       },
       {
-       "Posición": 56,
+       "Posición": 59,
        "Nombre": "ÓSCAR LOZANO",
        "Equipo": "SEITO DURO FC",
        "Part.": 6,
        "Goles": 2
       },
       {
-       "Posición": 57,
+       "Posición": 60,
        "Nombre": "JOSE LUKE LULE",
        "Equipo": "LEGIÓN SUR F.C.",
        "Part.": 6,
        "Goles": 2
       },
       {
-       "Posición": 58,
+       "Posición": 61,
        "Nombre": "DAWID DARIUSZ CHRUSCIEL",
        "Equipo": "ACHIPERROS FC",
-       "Part.": 6,
-       "Goles": 2
-      },
-      {
-       "Posición": 59,
-       "Nombre": "DARIO ALEGRE",
-       "Equipo": "LOS PATXIS FC",
-       "Part.": 6,
-       "Goles": 2
-      },
-      {
-       "Posición": 60,
-       "Nombre": "DANIEL MOLINA",
-       "Equipo": "LOS PATXIS FC",
-       "Part.": 6,
-       "Goles": 2
-      },
-      {
-       "Posición": 61,
-       "Nombre": "DANIEL MIGUEL",
-       "Equipo": "BURDEL KING",
        "Part.": 6,
        "Goles": 2
       },
@@ -2344,36 +2344,36 @@
       },
       {
        "Posición": 75,
+       "Nombre": "ETHAN LAURI",
+       "Equipo": "LOS PATXIS FC",
+       "Part.": 8,
+       "Goles": 1
+      },
+      {
+       "Posición": 76,
        "Nombre": "RAUL RODRÍGUEZ",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 7,
        "Goles": 1
       },
       {
-       "Posición": 76,
+       "Posición": 77,
        "Nombre": "MIGUEL MUÑOZ",
        "Equipo": "PORRATHINAIKOS",
        "Part.": 7,
        "Goles": 1
       },
       {
-       "Posición": 77,
+       "Posición": 78,
        "Nombre": "JOSAPHAT ARAVENA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 7,
        "Goles": 1
       },
       {
-       "Posición": 78,
+       "Posición": 79,
        "Nombre": "FRANCISCO JAVIER VELAZQUEZ",
        "Equipo": "PORRATHINAIKOS",
-       "Part.": 7,
-       "Goles": 1
-      },
-      {
-       "Posición": 79,
-       "Nombre": "ETHAN LAURI",
-       "Equipo": "LOS PATXIS FC",
        "Part.": 7,
        "Goles": 1
       },
@@ -2470,71 +2470,71 @@
       },
       {
        "Posición": 93,
+       "Nombre": "MARIO ADRIAN OLMOS",
+       "Equipo": "BURDEL KING",
+       "Part.": 5,
+       "Goles": 1
+      },
+      {
+       "Posición": 94,
        "Nombre": "MARCOS CEACERO",
        "Equipo": "GALÁCTICOS FC",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 94,
+       "Posición": 95,
        "Nombre": "MANUEL RAMÓN",
        "Equipo": "ACHIPERROS FC",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 95,
+       "Posición": 96,
        "Nombre": "JOSÉ MIGUEL MOLINA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 96,
+       "Posición": 97,
        "Nombre": "JOSÉ BENJAMIN GUTAMA",
        "Equipo": "BASTARD MÜNCHEN",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 97,
+       "Posición": 98,
        "Nombre": "JESÚS CARIÑO",
        "Equipo": "COCA JUNIORS",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 98,
+       "Posición": 99,
        "Nombre": "IVAN ILLAN",
        "Equipo": "BARÇA MURAI",
        "Part.": 5,
        "Goles": 1
       },
       {
-       "Posición": 99,
+       "Posición": 100,
        "Nombre": "STEFAN ROBERTO JOULIEN",
        "Equipo": "COCA JUNIORS",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 100,
+       "Posición": 101,
        "Nombre": "SERGIO MUÑOZ",
        "Equipo": "CDE FORUSIA",
        "Part.": 4,
        "Goles": 1
       },
       {
-       "Posición": 101,
+       "Posición": 102,
        "Nombre": "RAUL BARTOLOME",
        "Equipo": "BARÇA MURAI",
-       "Part.": 4,
-       "Goles": 1
-      },
-      {
-       "Posición": 102,
-       "Nombre": "MARIO ADRIAN OLMOS",
-       "Equipo": "BURDEL KING",
        "Part.": 4,
        "Goles": 1
       },
@@ -2589,51 +2589,51 @@
       },
       {
        "Posición": 110,
+       "Nombre": "IGNACIO CRESPO",
+       "Equipo": "BURDEL KING",
+       "Part.": 3,
+       "Goles": 1
+      },
+      {
+       "Posición": 111,
        "Nombre": "EDUARDO GARCÍA",
        "Equipo": "CDE FORUSIA",
        "Part.": 3,
        "Goles": 1
       },
       {
-       "Posición": 111,
+       "Posición": 112,
        "Nombre": "RUBEN GARCÍA",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 112,
-       "Nombre": "IGNACIO CRESPO",
+       "Posición": 113,
+       "Nombre": "MARCOS RASO",
        "Equipo": "BURDEL KING",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 113,
+       "Posición": 114,
        "Nombre": "DANIEL MIRANDA",
        "Equipo": "BARÇA MURAI",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 114,
+       "Posición": 115,
        "Nombre": "ALEJANDRO FERNÁNDEZ",
        "Equipo": "PEÑA ATLETICA MOSTOLES",
        "Part.": 2,
        "Goles": 1
       },
       {
-       "Posición": 115,
+       "Posición": 116,
        "Nombre": "AARON GUTIERREZ",
        "Equipo": "COCA JUNIORS",
        "Part.": 2,
-       "Goles": 1
-      },
-      {
-       "Posición": 116,
-       "Nombre": "MARCOS RASO",
-       "Equipo": "BURDEL KING",
-       "Part.": 1,
        "Goles": 1
       }
      ]
@@ -2686,7 +2686,7 @@
        "Posición": 6,
        "Nombre": "DANIEL MIGUEL",
        "Equipo": "BURDEL KING",
-       "Part.": 6,
+       "Part.": 7,
        "Goles encajados": 3
       },
       {
@@ -2735,7 +2735,7 @@
        "Posición": 13,
        "Nombre": "GUILLERMO MARCOS",
        "Equipo": "LOS PATXIS FC",
-       "Part.": 7,
+       "Part.": 8,
        "Goles encajados": 7
       },
       {
@@ -2767,7 +2767,7 @@
        "Posición": 1,
        "Nombre": "IZAN BOSQUET",
        "Equipo": "BURDEL KING",
-       "Part.": 7,
+       "Part.": 8,
        "MVP": 3
       },
       {
@@ -2828,71 +2828,71 @@
       },
       {
        "Posición": 10,
+       "Nombre": "GUILLERMO MARCOS",
+       "Equipo": "LOS PATXIS FC",
+       "Part.": 8,
+       "MVP": 1
+      },
+      {
+       "Posición": 11,
+       "Nombre": "DAVID SAAVEDRA",
+       "Equipo": "BURDEL KING",
+       "Part.": 8,
+       "MVP": 1
+      },
+      {
+       "Posición": 12,
        "Nombre": "ÁLVARO PASCUAL",
        "Equipo": "ACHIPERROS FC",
        "Part.": 7,
        "MVP": 1
       },
       {
-       "Posición": 11,
+       "Posición": 13,
        "Nombre": "RODRIGO ALONSO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 7,
        "MVP": 1
       },
       {
-       "Posición": 12,
-       "Nombre": "GUILLERMO MARCOS",
-       "Equipo": "LOS PATXIS FC",
-       "Part.": 7,
-       "MVP": 1
-      },
-      {
-       "Posición": 13,
-       "Nombre": "DAVID SAAVEDRA",
+       "Posición": 14,
+       "Nombre": "DANIEL MIGUEL",
        "Equipo": "BURDEL KING",
        "Part.": 7,
        "MVP": 1
       },
       {
-       "Posición": 14,
+       "Posición": 15,
        "Nombre": "DANIEL BAJO",
        "Equipo": "ACHIPERROS FC",
        "Part.": 7,
        "MVP": 1
       },
       {
-       "Posición": 15,
+       "Posición": 16,
        "Nombre": "SAÚL VALERA",
        "Equipo": "SEITO DURO FC",
        "Part.": 6,
        "MVP": 1
       },
       {
-       "Posición": 16,
+       "Posición": 17,
        "Nombre": "RUBEN FONTANEZ",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 6,
        "MVP": 1
       },
       {
-       "Posición": 17,
+       "Posición": 18,
        "Nombre": "MARCOS CAMBÓN",
        "Equipo": "LOS DE SIEMPRE FC",
        "Part.": 6,
        "MVP": 1
       },
       {
-       "Posición": 18,
+       "Posición": 19,
        "Nombre": "DANIEL RAMÓN",
        "Equipo": "GALÁCTICOS FC",
-       "Part.": 6,
-       "MVP": 1
-      },
-      {
-       "Posición": 19,
-       "Nombre": "DANIEL MIGUEL",
-       "Equipo": "BURDEL KING",
        "Part.": 6,
        "MVP": 1
       },

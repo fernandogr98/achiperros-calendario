@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:01",
+ "updated": "2026-11-21T21:31",
  "competitions": [
   {
    "id": "409114",
@@ -10,14 +10,14 @@
      "name": "BURDEL KING",
      "pos": 1,
      "phase": "",
-     "pj": 7,
-     "g": 6,
+     "pj": 8,
+     "g": 7,
      "e": 0,
      "p": 1,
-     "gf": 45,
+     "gf": 53,
      "gc": 13,
-     "dg": 32,
-     "pts": 18,
+     "dg": 40,
+     "pts": 21,
      "form": [
       "V",
       "V",
@@ -73,6 +73,13 @@
        "home": "BASTARD MÜNCHEN",
        "away": "BURDEL KING",
        "score": "0-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-21T19:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS PATXIS FC",
+       "score": "8-0",
        "result": "V"
       }
      ]
@@ -825,13 +832,13 @@
      "name": "LOS PATXIS FC",
      "pos": 13,
      "phase": "",
-     "pj": 7,
+     "pj": 8,
      "g": 0,
      "e": 1,
-     "p": 6,
+     "p": 7,
      "gf": 11,
-     "gc": 55,
-     "dg": -44,
+     "gc": 63,
+     "dg": -52,
      "pts": 1,
      "form": [
       "D",
@@ -888,6 +895,13 @@
        "home": "LOS PATXIS FC",
        "away": "GALÁCTICOS FC",
        "score": "1-8",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-21T19:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS PATXIS FC",
+       "score": "8-0",
        "result": "D"
       }
      ]
