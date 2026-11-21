@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:00+01:00",
+ "updated": "2026-11-21T18:30+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -3536,132 +3536,209 @@
   }
  ],
  "next_rival": {
-  "name": "SKUAD DEL GÜEBO",
-  "match_id": "9079571",
-  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
-  "date": "2026-11-21T17:00:00",
+  "name": "BAR CON PAN Y TODO NAVALCARNERO",
+  "match_id": "9087072",
+  "competition": "FÚTBOL 7 LABORAL 26/27",
+  "date": "2026-11-23T21:15:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
-  "home": true,
-  "url": "https://www.competize.com/es/matches/view/9079571",
-  "matchday": "Jornada 8",
+  "home": false,
+  "url": "https://www.competize.com/es/matches/view/9087072",
+  "matchday": "Jornada 7",
   "standing": {
-   "pos": 7,
-   "phase": "",
-   "team": "SKUAD DEL GÜEBO",
-   "team_id": "2538199",
+   "pos": 4,
+   "phase": "Fase oro",
+   "team": "BAR CON PAN Y TODO NAVALCARNERO",
+   "team_id": "1327061",
    "j": 6,
-   "g": 3,
+   "g": 4,
    "e": 0,
-   "p": 3,
-   "gf": 31,
-   "gc": 24,
-   "dg": 7,
-   "pts": 9
+   "p": 2,
+   "gf": 42,
+   "gc": 22,
+   "dg": 20,
+   "pts": 12
   },
-  "rival_id": "2538199",
+  "rival_id": "1327061",
   "top_scorers": [
    {
-    "Posición": 3,
-    "Nombre": "AITOR LECHÓN",
-    "Equipo": "SKUAD DEL GÜEBO",
-    "Part.": 5,
-    "Goles": 13
-   },
-   {
-    "Posición": 27,
-    "Nombre": "SERGIO RODRIGO",
-    "Equipo": "SKUAD DEL GÜEBO",
+    "Posición": 1,
+    "Nombre": "JOSE LUIS GINÉS",
+    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
     "Part.": 6,
-    "Goles": 4
+    "Goles": 20
    },
    {
-    "Posición": 33,
-    "Nombre": "IVAN LEÓN",
-    "Equipo": "SKUAD DEL GÜEBO",
+    "Posición": 23,
+    "Nombre": "SERGIO RODRÍGUEZ",
+    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
     "Part.": 5,
+    "Goles": 5
+   },
+   {
+    "Posición": 31,
+    "Nombre": "JUAN CARLOS AYUSO",
+    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
+    "Part.": 6,
     "Goles": 4
    }
   ],
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-11-14T18:00:00",
-    "home": "LEGIÓN SUR F.C.",
-    "away": "SKUAD DEL GÜEBO",
+    "date": "2026-11-18T22:15:00",
+    "home": "CREATIVE PROJECT",
+    "away": "BAR CON PAN Y TODO NAVALCARNERO",
     "score": [
-     "2",
-     "8"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079570"
-   },
-   {
-    "date": "2026-10-24T22:00:00",
-    "home": "LOS PATXIS FC",
-    "away": "SKUAD DEL GÜEBO",
-    "score": [
-     "2",
-     "9"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079555"
-   },
-   {
-    "date": "2026-10-18T20:00:00",
-    "home": "SKUAD DEL GÜEBO",
-    "away": "BASTARD MÜNCHEN",
-    "score": [
-     "5",
+     "9",
      "4"
     ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9079545"
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/9087067"
    },
    {
-    "date": "2026-10-03T21:00:00",
-    "home": "LOS DE SIEMPRE FC",
-    "away": "SKUAD DEL GÜEBO",
+    "date": "2026-11-09T21:15:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "F.C SKBIA-2",
+    "score": [
+     "6",
+     "1"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9087059"
+   },
+   {
+    "date": "2026-10-28T22:15:00",
+    "home": "MONSINES FC",
+    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "score": [
+     "1",
+     "6"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9087052"
+   },
+   {
+    "date": "2026-10-22T22:15:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "RECRELEGENS F.C.",
+    "score": [
+     "11",
+     "1"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9087046"
+   },
+   {
+    "date": "2026-10-07T22:15:00",
+    "home": "CDE FORUSIA",
+    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "score": [
+     "7",
+     "6"
+    ],
+    "result": "D",
+    "url": "https://www.competize.com/es/matches/view/9087037"
+   }
+  ],
+  "head_to_head": [
+   {
+    "date": "2026-01-19T22:15:00",
+    "home": "ACHIPERROS FC",
+    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "score": [
+     "6",
+     "1"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8692587"
+   },
+   {
+    "date": "2025-10-27T21:15:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
     "score": [
      "5",
      "3"
     ],
     "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079540"
+    "url": "https://www.competize.com/es/matches/view/8692563"
    },
    {
-    "date": "2026-09-27T12:00:00",
-    "home": "SKUAD DEL GÜEBO",
-    "away": "SEITO DURO FC",
-    "score": [
-     "3",
-     "7"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9079532"
-   }
-  ],
-  "head_to_head": [
-   {
-    "date": "2026-04-18T19:00:00",
-    "home": "SKUAD DEL GÜEBO",
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
     "away": "ACHIPERROS FC",
     "score": [
-     "2",
-     "5"
+     "4",
+     "7"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8689486"
+    "url": "https://www.competize.com/es/matches/view/8029748"
    },
    {
-    "date": "2025-12-13T17:00:00",
-    "home": "ACHIPERROS FC",
-    "away": "SKUAD DEL GÜEBO",
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
     "score": [
-     "3",
-     "4"
+     "4",
+     "7"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029748"
+   },
+   {
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "4",
+     "7"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029748"
+   },
+   {
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "4",
+     "7"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029748"
+   },
+   {
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "4",
+     "7"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029748"
+   },
+   {
+    "date": "2025-04-21T21:30:00",
+    "home": "BAR CON PAN Y TODO NAVALCARNERO",
+    "away": "ACHIPERROS FC",
+    "score": [
+     "4",
+     "7"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/8029748"
+   },
+   {
+    "date": "2024-12-17T22:30:00",
+    "home": "ACHIPERROS FC",
+    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "score": [
+     "2",
+     "3"
     ],
     "result": "D",
-    "url": "https://www.competize.com/es/matches/view/8689436"
+    "url": "https://www.competize.com/es/matches/view/8029629"
    }
   ]
  }
