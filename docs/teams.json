@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:31",
+ "updated": "2026-11-21T22:01",
  "competitions": [
   {
    "id": "409114",
@@ -698,23 +698,88 @@
      ]
     },
     {
-     "id": "2870272",
-     "name": "BASTARD MÜNCHEN",
+     "id": "2870267",
+     "name": "BARÇA MURAI",
      "pos": 11,
      "phase": "",
-     "pj": 7,
-     "g": 1,
-     "e": 1,
-     "p": 5,
-     "gf": 11,
+     "pj": 6,
+     "g": 2,
+     "e": 0,
+     "p": 4,
+     "gf": 18,
      "gc": 21,
-     "dg": -10,
-     "pts": 4,
+     "dg": -3,
+     "pts": 6,
      "form": [
       "D",
       "D",
       "D",
       "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-07T17:00:00",
+       "home": "BARÇA MURAI",
+       "away": "SEITO DURO FC",
+       "score": "1-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-15T20:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "BARÇA MURAI",
+       "score": "3-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-21T20:00:00",
+       "home": "BARÇA MURAI",
+       "away": "BASTARD MÜNCHEN",
+       "score": "7-2",
+       "result": "V"
+      }
+     ]
+    },
+    {
+     "id": "2870272",
+     "name": "BASTARD MÜNCHEN",
+     "pos": 12,
+     "phase": "",
+     "pj": 8,
+     "g": 1,
+     "e": 1,
+     "p": 6,
+     "gf": 13,
+     "gc": 28,
+     "dg": -15,
+     "pts": 4,
+     "form": [
+      "D",
+      "D",
+      "V",
+      "D",
       "D"
      ],
      "matches": [
@@ -766,64 +831,13 @@
        "away": "BURDEL KING",
        "score": "0-6",
        "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2870267",
-     "name": "BARÇA MURAI",
-     "pos": 12,
-     "phase": "",
-     "pj": 5,
-     "g": 1,
-     "e": 0,
-     "p": 4,
-     "gf": 11,
-     "gc": 19,
-     "dg": -8,
-     "pts": 3,
-     "form": [
-      "D",
-      "D",
-      "D",
-      "D",
-      "V"
-     ],
-     "matches": [
+      },
       {
-       "date": "2026-09-20T19:00:00",
+       "date": "2026-11-21T20:00:00",
        "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
+       "away": "BASTARD MÜNCHEN",
+       "score": "7-2",
        "result": "D"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-10T18:00:00",
-       "home": "BURDEL KING",
-       "away": "BARÇA MURAI",
-       "score": "4-0",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-07T17:00:00",
-       "home": "BARÇA MURAI",
-       "away": "SEITO DURO FC",
-       "score": "1-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-15T20:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "BARÇA MURAI",
-       "score": "3-5",
-       "result": "V"
       }
      ]
     },
