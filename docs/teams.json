@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:31",
+ "updated": "2026-11-22T16:31",
  "competitions": [
   {
    "id": "409114",
@@ -301,79 +301,21 @@
      ]
     },
     {
-     "id": "1875645",
-     "name": "COCA JUNIORS",
-     "pos": 5,
-     "phase": "",
-     "pj": 6,
-     "g": 4,
-     "e": 1,
-     "p": 1,
-     "gf": 35,
-     "gc": 15,
-     "dg": 20,
-     "pts": 13,
-     "form": [
-      "V",
-      "V",
-      "D",
-      "V",
-      "E"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T21:00:00",
-       "home": "COCA JUNIORS",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "4-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T18:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "COCA JUNIORS",
-       "score": "1-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T19:00:00",
-       "home": "BURDEL KING",
-       "away": "COCA JUNIORS",
-       "score": "8-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-08T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "COCA JUNIORS",
-       "score": "1-16",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-13T22:15:00",
-       "home": "COCA JUNIORS",
-       "away": "ACHIPERROS FC",
-       "score": "2-2",
-       "result": "E"
-      }
-     ]
-    },
-    {
      "id": "2870362",
      "name": "PORRATHINAIKOS",
-     "pos": 6,
+     "pos": 5,
      "phase": "",
-     "pj": 7,
-     "g": 4,
+     "pj": 8,
+     "g": 5,
      "e": 1,
      "p": 2,
-     "gf": 22,
+     "gf": 25,
      "gc": 17,
-     "dg": 5,
-     "pts": 13,
+     "dg": 8,
+     "pts": 16,
      "form": [
-      "D",
       "E",
+      "V",
       "V",
       "V",
       "V"
@@ -427,6 +369,71 @@
        "away": "PORRATHINAIKOS",
        "score": "0-3",
        "result": "V"
+      },
+      {
+       "date": "2026-11-22T15:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "3-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
+     "id": "1875645",
+     "name": "COCA JUNIORS",
+     "pos": 6,
+     "phase": "",
+     "pj": 6,
+     "g": 4,
+     "e": 1,
+     "p": 1,
+     "gf": 35,
+     "gc": 15,
+     "dg": 20,
+     "pts": 13,
+     "form": [
+      "V",
+      "V",
+      "D",
+      "V",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T21:00:00",
+       "home": "COCA JUNIORS",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T18:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "COCA JUNIORS",
+       "score": "1-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T19:00:00",
+       "home": "BURDEL KING",
+       "away": "COCA JUNIORS",
+       "score": "8-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-08T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "COCA JUNIORS",
+       "score": "1-16",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-13T22:15:00",
+       "home": "COCA JUNIORS",
+       "away": "ACHIPERROS FC",
+       "score": "2-2",
+       "result": "E"
       }
      ]
     },
@@ -500,17 +507,17 @@
      "name": "LEGIÓN SUR F.C.",
      "pos": 8,
      "phase": "",
-     "pj": 7,
+     "pj": 8,
      "g": 3,
      "e": 0,
-     "p": 4,
+     "p": 5,
      "gf": 27,
-     "gc": 33,
-     "dg": -6,
+     "gc": 36,
+     "dg": -9,
      "pts": 9,
      "form": [
       "V",
-      "V",
+      "D",
       "D",
       "D",
       "D"
@@ -563,6 +570,13 @@
        "home": "LEGIÓN SUR F.C.",
        "away": "SKUAD DEL GÜEBO",
        "score": "2-8",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-22T15:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "3-0",
        "result": "D"
       }
      ]
