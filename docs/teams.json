@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:01",
+ "updated": "2026-11-22T14:31",
  "competitions": [
   {
    "id": "409114",
@@ -157,9 +157,81 @@
      ]
     },
     {
+     "id": "2538194",
+     "name": "CDE FORUSIA",
+     "pos": 3,
+     "phase": "",
+     "pj": 7,
+     "g": 6,
+     "e": 0,
+     "p": 1,
+     "gf": 35,
+     "gc": 14,
+     "dg": 21,
+     "pts": 18,
+     "form": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-27T19:00:00",
+       "home": "CDE FORUSIA",
+       "away": "BASTARD MÜNCHEN",
+       "score": "6-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T16:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-24T21:00:00",
+       "home": "CDE FORUSIA",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "5-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-15T15:00:00",
+       "home": "CDE FORUSIA",
+       "away": "PORRATHINAIKOS",
+       "score": "0-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-22T12:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "CDE FORUSIA",
+       "score": "5-11",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538202",
      "name": "ACHIPERROS FC",
-     "pos": 3,
+     "pos": 4,
      "phase": "",
      "pj": 7,
      "g": 5,
@@ -225,71 +297,6 @@
        "away": "ACHIPERROS FC",
        "score": "2-2",
        "result": "E"
-      }
-     ]
-    },
-    {
-     "id": "2538194",
-     "name": "CDE FORUSIA",
-     "pos": 4,
-     "phase": "",
-     "pj": 6,
-     "g": 5,
-     "e": 0,
-     "p": 1,
-     "gf": 24,
-     "gc": 9,
-     "dg": 15,
-     "pts": 15,
-     "form": [
-      "V",
-      "V",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-27T19:00:00",
-       "home": "CDE FORUSIA",
-       "away": "BASTARD MÜNCHEN",
-       "score": "6-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T16:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-24T21:00:00",
-       "home": "CDE FORUSIA",
-       "away": "LEGIÓN SUR F.C.",
-       "score": "5-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-15T15:00:00",
-       "home": "CDE FORUSIA",
-       "away": "PORRATHINAIKOS",
-       "score": "0-3",
-       "result": "D"
       }
      ]
     },
@@ -637,20 +644,20 @@
      "name": "GALÁCTICOS FC",
      "pos": 10,
      "phase": "",
-     "pj": 7,
+     "pj": 8,
      "g": 3,
      "e": 0,
-     "p": 4,
-     "gf": 30,
-     "gc": 20,
-     "dg": 10,
+     "p": 5,
+     "gf": 35,
+     "gc": 31,
+     "dg": 4,
      "pts": 6,
      "form": [
+      "D",
+      "D",
+      "D",
       "V",
-      "D",
-      "D",
-      "D",
-      "V"
+      "D"
      ],
      "matches": [
       {
@@ -694,6 +701,13 @@
        "away": "GALÁCTICOS FC",
        "score": "1-8",
        "result": "V"
+      },
+      {
+       "date": "2026-11-22T12:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "CDE FORUSIA",
+       "score": "5-11",
+       "result": "D"
       }
      ]
     },
