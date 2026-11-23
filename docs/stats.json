@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:00+01:00",
+ "updated": "2026-11-23T23:00+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -3641,210 +3641,110 @@
   }
  ],
  "next_rival": {
-  "name": "BAR CON PAN Y TODO NAVALCARNERO",
-  "match_id": "9087072",
-  "competition": "FÚTBOL 7 LABORAL 26/27",
-  "date": "2026-11-23T21:15:00",
+  "name": "SEITO DURO FC",
+  "match_id": "9079578",
+  "competition": "FÚTBOL 7 FINDE 26/27 1ª DIVISIÓN",
+  "date": "2026-11-29T13:00:00",
   "venue": "Fútbol 7 Club Deportivo Estoril II",
   "home": false,
-  "url": "https://www.competize.com/es/matches/view/9087072",
-  "matchday": "Jornada 7",
+  "url": "https://www.competize.com/es/matches/view/9079578",
+  "matchday": "Jornada 9",
   "standing": {
-   "pos": 4,
-   "phase": "Fase oro",
-   "team": "BAR CON PAN Y TODO NAVALCARNERO",
-   "team_id": "1327061",
-   "j": 6,
-   "g": 4,
+   "pos": 2,
+   "phase": "",
+   "team": "SEITO DURO FC",
+   "team_id": "2724454",
+   "j": 8,
+   "g": 7,
    "e": 0,
-   "p": 2,
-   "gf": 42,
-   "gc": 22,
-   "dg": 20,
-   "pts": 12
+   "p": 1,
+   "gf": 48,
+   "gc": 18,
+   "dg": 30,
+   "pts": 21
   },
-  "rival_id": "1327061",
+  "rival_id": "2724454",
   "top_scorers": [
    {
-    "Posición": 1,
-    "Nombre": "JOSE LUIS GINÉS",
-    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-    "Part.": 6,
-    "Goles": 20
+    "Posición": 6,
+    "Nombre": "SAÚL VALERA",
+    "Equipo": "SEITO DURO FC",
+    "Part.": 7,
+    "Goles": 11
    },
    {
-    "Posición": 23,
-    "Nombre": "SERGIO RODRÍGUEZ",
-    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-    "Part.": 5,
-    "Goles": 5
+    "Posición": 9,
+    "Nombre": "LUCAS VALERA",
+    "Equipo": "SEITO DURO FC",
+    "Part.": 7,
+    "Goles": 10
    },
    {
-    "Posición": 31,
-    "Nombre": "JUAN CARLOS AYUSO",
-    "Equipo": "BAR CON PAN Y TODO NAVALCARNERO",
-    "Part.": 6,
-    "Goles": 4
+    "Posición": 12,
+    "Nombre": "ÓSCAR DANIEL VAZQUEZ",
+    "Equipo": "SEITO DURO FC",
+    "Part.": 8,
+    "Goles": 7
    }
   ],
   "sanctions": [],
   "last_results": [
    {
-    "date": "2026-11-18T22:15:00",
-    "home": "CREATIVE PROJECT",
-    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "date": "2026-11-22T20:00:00",
+    "home": "COCA JUNIORS",
+    "away": "SEITO DURO FC",
     "score": [
-     "9",
-     "4"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9087067"
-   },
-   {
-    "date": "2026-11-09T21:15:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "F.C SKBIA-2",
-    "score": [
-     "6",
-     "1"
+     "2",
+     "5"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9087059"
+    "url": "https://www.competize.com/es/matches/view/9079577"
    },
    {
-    "date": "2026-10-28T22:15:00",
-    "home": "MONSINES FC",
-    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "date": "2026-11-15T14:00:00",
+    "home": "SEITO DURO FC",
+    "away": "PEÑA ATLETICA MOSTOLES",
+    "score": [
+     "19",
+     "2"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079565"
+   },
+   {
+    "date": "2026-11-07T17:00:00",
+    "home": "BARÇA MURAI",
+    "away": "SEITO DURO FC",
     "score": [
      "1",
-     "6"
+     "2"
     ],
     "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9087052"
+    "url": "https://www.competize.com/es/matches/view/9079562"
    },
    {
-    "date": "2026-10-22T22:15:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "RECRELEGENS F.C.",
-    "score": [
-     "11",
-     "1"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/9087046"
-   },
-   {
-    "date": "2026-10-07T22:15:00",
-    "home": "CDE FORUSIA",
-    "away": "BAR CON PAN Y TODO NAVALCARNERO",
-    "score": [
-     "7",
-     "6"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/9087037"
-   }
-  ],
-  "head_to_head": [
-   {
-    "date": "2026-01-19T22:15:00",
-    "home": "ACHIPERROS FC",
-    "away": "BAR CON PAN Y TODO NAVALCARNERO",
-    "score": [
-     "6",
-     "1"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8692587"
-   },
-   {
-    "date": "2025-10-27T21:15:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "5",
-     "3"
-    ],
-    "result": "D",
-    "url": "https://www.competize.com/es/matches/view/8692563"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2025-04-21T21:30:00",
-    "home": "BAR CON PAN Y TODO NAVALCARNERO",
-    "away": "ACHIPERROS FC",
-    "score": [
-     "4",
-     "7"
-    ],
-    "result": "V",
-    "url": "https://www.competize.com/es/matches/view/8029748"
-   },
-   {
-    "date": "2024-12-17T22:30:00",
-    "home": "ACHIPERROS FC",
-    "away": "BAR CON PAN Y TODO NAVALCARNERO",
+    "date": "2026-10-24T16:00:00",
+    "home": "SEITO DURO FC",
+    "away": "BURDEL KING",
     "score": [
      "2",
      "3"
     ],
     "result": "D",
-    "url": "https://www.competize.com/es/matches/view/8029629"
+    "url": "https://www.competize.com/es/matches/view/9079552"
+   },
+   {
+    "date": "2026-10-18T19:00:00",
+    "home": "GALÁCTICOS FC",
+    "away": "SEITO DURO FC",
+    "score": [
+     "4",
+     "5"
+    ],
+    "result": "V",
+    "url": "https://www.competize.com/es/matches/view/9079547"
    }
-  ]
+  ],
+  "head_to_head": []
  }
 }
