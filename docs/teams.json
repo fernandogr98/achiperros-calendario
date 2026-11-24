@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:01",
+ "updated": "2026-11-24T15:01",
  "competitions": [
   {
    "id": "409114",
@@ -1127,9 +1127,81 @@
      ]
     },
     {
+     "id": "1871444",
+     "name": "ALLIGATORS",
+     "pos": 2,
+     "phase": "Fase oro",
+     "pj": 7,
+     "g": 4,
+     "e": 1,
+     "p": 2,
+     "gf": 45,
+     "gc": 31,
+     "dg": 14,
+     "pts": 13,
+     "form": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-28T21:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "ALLIGATORS",
+       "score": "2-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-19T21:15:00",
+       "home": "ALLIGATORS",
+       "away": "BETA - PUBLIX CF",
+       "score": "8-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-09T22:15:00",
+       "home": "ALLIGATORS",
+       "away": "RECRELEGENS F.C.",
+       "score": "12-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-19T21:15:00",
+       "home": "MONSINES FC",
+       "away": "ALLIGATORS",
+       "score": "2-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-23T22:15:00",
+       "home": "ALLIGATORS",
+       "away": "F.C SKBIA-2",
+       "score": "5-5",
+       "result": "E"
+      }
+     ]
+    },
+    {
      "id": "2332120",
      "name": "SANFERDOG",
-     "pos": 2,
+     "pos": 3,
      "phase": "Fase oro",
      "pj": 6,
      "g": 4,
@@ -1194,7 +1266,7 @@
     {
      "id": "30129",
      "name": "PUB OSCAR F.C.",
-     "pos": 3,
+     "pos": 4,
      "phase": "Fase oro",
      "pj": 6,
      "g": 4,
@@ -1259,8 +1331,8 @@
     {
      "id": "1327061",
      "name": "BAR CON PAN Y TODO NAVALCARNERO",
-     "pos": 4,
-     "phase": "Fase oro",
+     "pos": 5,
+     "phase": "Fase plata",
      "pj": 7,
      "g": 4,
      "e": 0,
@@ -1325,71 +1397,6 @@
        "away": "ACHIPERROS FC",
        "score": "3-5",
        "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "1871444",
-     "name": "ALLIGATORS",
-     "pos": 5,
-     "phase": "Fase plata",
-     "pj": 6,
-     "g": 4,
-     "e": 0,
-     "p": 2,
-     "gf": 40,
-     "gc": 26,
-     "dg": 14,
-     "pts": 12,
-     "form": [
-      "D",
-      "V",
-      "D",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-28T21:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "ALLIGATORS",
-       "score": "2-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-19T21:15:00",
-       "home": "ALLIGATORS",
-       "away": "BETA - PUBLIX CF",
-       "score": "8-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-05T21:15:00",
-       "home": "CDE FORUSIA",
-       "away": "ALLIGATORS",
-       "score": "8-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-09T22:15:00",
-       "home": "ALLIGATORS",
-       "away": "RECRELEGENS F.C.",
-       "score": "12-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-19T21:15:00",
-       "home": "MONSINES FC",
-       "away": "ALLIGATORS",
-       "score": "2-4",
-       "result": "V"
       }
      ]
     },
@@ -1658,20 +1665,20 @@
      "name": "F.C SKBIA-2",
      "pos": 10,
      "phase": "",
-     "pj": 6,
+     "pj": 7,
      "g": 2,
-     "e": 0,
+     "e": 1,
      "p": 4,
-     "gf": 19,
-     "gc": 34,
+     "gf": 24,
+     "gc": 39,
      "dg": -15,
-     "pts": 6,
+     "pts": 7,
      "form": [
-      "D",
       "V",
       "V",
       "D",
-      "D"
+      "D",
+      "E"
      ],
      "matches": [
       {
@@ -1715,6 +1722,13 @@
        "away": "POLEMICAS APARTE FC",
        "score": "2-5",
        "result": "D"
+      },
+      {
+       "date": "2026-11-23T22:15:00",
+       "home": "ALLIGATORS",
+       "away": "F.C SKBIA-2",
+       "score": "5-5",
+       "result": "E"
       }
      ]
     },
