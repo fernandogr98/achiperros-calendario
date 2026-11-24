@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:01",
+ "updated": "2026-11-24T23:31",
  "competitions": [
   {
    "id": "409114",
@@ -1401,9 +1401,81 @@
      ]
     },
     {
+     "id": "2806044",
+     "name": "CDE FORUSIA",
+     "pos": 6,
+     "phase": "Fase plata",
+     "pj": 7,
+     "g": 4,
+     "e": 0,
+     "p": 3,
+     "gf": 47,
+     "gc": 38,
+     "dg": 9,
+     "pts": 12,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T21:15:00",
+       "home": "FONTANERÍA RUBIO",
+       "away": "CDE FORUSIA",
+       "score": "4-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-07T22:15:00",
+       "home": "CDE FORUSIA",
+       "away": "BAR CON PAN Y TODO NAVALCARNERO",
+       "score": "7-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T22:15:00",
+       "home": "POLEMICAS APARTE FC",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-05T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "ALLIGATORS",
+       "score": "8-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-11T21:15:00",
+       "home": "BETA - PUBLIX CF",
+       "away": "CDE FORUSIA",
+       "score": "4-9",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-16T22:15:00",
+       "home": "SANFERDOG",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-24T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "RECRELEGENS F.C.",
+       "score": "10-6",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870356",
      "name": "POLEMICAS APARTE FC",
-     "pos": 6,
+     "pos": 7,
      "phase": "Fase plata",
      "pj": 6,
      "g": 4,
@@ -1468,7 +1540,7 @@
     {
      "id": "2874265",
      "name": "CREATIVE PROJECT",
-     "pos": 7,
+     "pos": 8,
      "phase": "Fase plata",
      "pj": 6,
      "g": 3,
@@ -1533,8 +1605,8 @@
     {
      "id": "1871372",
      "name": "MONSINES FC",
-     "pos": 8,
-     "phase": "Fase plata",
+     "pos": 9,
+     "phase": "",
      "pj": 6,
      "g": 3,
      "e": 0,
@@ -1591,71 +1663,6 @@
        "home": "MONSINES FC",
        "away": "ALLIGATORS",
        "score": "2-4",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2806044",
-     "name": "CDE FORUSIA",
-     "pos": 9,
-     "phase": "",
-     "pj": 6,
-     "g": 3,
-     "e": 0,
-     "p": 3,
-     "gf": 37,
-     "gc": 32,
-     "dg": 5,
-     "pts": 9,
-     "form": [
-      "V",
-      "D",
-      "V",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T21:15:00",
-       "home": "FONTANERÍA RUBIO",
-       "away": "CDE FORUSIA",
-       "score": "4-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-07T22:15:00",
-       "home": "CDE FORUSIA",
-       "away": "BAR CON PAN Y TODO NAVALCARNERO",
-       "score": "7-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T22:15:00",
-       "home": "POLEMICAS APARTE FC",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-05T21:15:00",
-       "home": "CDE FORUSIA",
-       "away": "ALLIGATORS",
-       "score": "8-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-11T21:15:00",
-       "home": "BETA - PUBLIX CF",
-       "away": "CDE FORUSIA",
-       "score": "4-9",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-16T22:15:00",
-       "home": "SANFERDOG",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
        "result": "D"
       }
      ]
@@ -1733,67 +1740,9 @@
      ]
     },
     {
-     "id": "2874263",
-     "name": "RECRELEGENS F.C.",
-     "pos": 11,
-     "phase": "",
-     "pj": 5,
-     "g": 1,
-     "e": 1,
-     "p": 3,
-     "gf": 13,
-     "gc": 33,
-     "dg": -20,
-     "pts": 4,
-     "form": [
-      "V",
-      "E",
-      "D",
-      "D",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-29T22:15:00",
-       "home": "BARRIO SÉSAMO",
-       "away": "RECRELEGENS F.C.",
-       "score": "2-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-08T21:15:00",
-       "home": "RECRELEGENS F.C.",
-       "away": "FONTANERÍA RUBIO",
-       "score": "4-4",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-22T22:15:00",
-       "home": "BAR CON PAN Y TODO NAVALCARNERO",
-       "away": "RECRELEGENS F.C.",
-       "score": "11-1",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-27T21:15:00",
-       "home": "RECRELEGENS F.C.",
-       "away": "POLEMICAS APARTE FC",
-       "score": "3-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-09T22:15:00",
-       "home": "ALLIGATORS",
-       "away": "RECRELEGENS F.C.",
-       "score": "12-1",
-       "result": "D"
-      }
-     ]
-    },
-    {
      "id": "2332125",
      "name": "FONTANERÍA RUBIO",
-     "pos": 12,
+     "pos": 11,
      "phase": "",
      "pj": 6,
      "g": 1,
@@ -1851,6 +1800,71 @@
        "home": "ACHIPERROS FC",
        "away": "FONTANERÍA RUBIO",
        "score": "9-0",
+       "result": "D"
+      }
+     ]
+    },
+    {
+     "id": "2874263",
+     "name": "RECRELEGENS F.C.",
+     "pos": 12,
+     "phase": "",
+     "pj": 6,
+     "g": 1,
+     "e": 1,
+     "p": 4,
+     "gf": 19,
+     "gc": 43,
+     "dg": -24,
+     "pts": 4,
+     "form": [
+      "E",
+      "D",
+      "D",
+      "D",
+      "D"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-29T22:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "RECRELEGENS F.C.",
+       "score": "2-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-08T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "FONTANERÍA RUBIO",
+       "score": "4-4",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-22T22:15:00",
+       "home": "BAR CON PAN Y TODO NAVALCARNERO",
+       "away": "RECRELEGENS F.C.",
+       "score": "11-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-27T21:15:00",
+       "home": "RECRELEGENS F.C.",
+       "away": "POLEMICAS APARTE FC",
+       "score": "3-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-09T22:15:00",
+       "home": "ALLIGATORS",
+       "away": "RECRELEGENS F.C.",
+       "score": "12-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-24T21:15:00",
+       "home": "CDE FORUSIA",
+       "away": "RECRELEGENS F.C.",
+       "score": "10-6",
        "result": "D"
       }
      ]
