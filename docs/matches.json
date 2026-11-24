@@ -1669,5 +1669,146 @@
   ],
   "referee": "Sergio De la iglesia de la iglesia",
   "report": ""
+ },
+ "9087072": {
+  "away": [
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {
+     "Gol recibido": 3,
+     "MVP": 1
+    }
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {
+     "Gol": 1
+    }
+   }
+  ],
+  "fetched": "2026-11-24",
+  "home": [
+   {
+    "name": "JUAN CARLOS AYUSO",
+    "num": "3",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "MIGUEL ÁNGEL FERNÁNDEZ",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "JAIRO AFONSO",
+    "num": "6",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "JOSE LUIS GINÉS",
+    "num": "7",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ALEJANDRO UCENDO",
+    "num": "8",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "RUBEN DE MIGUEL",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "ISMAEL PACHECO",
+    "num": "10",
+    "stats": {
+     "Gol": 1
+    }
+   },
+   {
+    "name": "ÁLVARO ADAME",
+    "num": "11",
+    "stats": {
+     "Tarjeta Amarilla": 1
+    }
+   },
+   {
+    "name": "SERGIO RODRÍGUEZ",
+    "num": "14",
+    "stats": {
+     "Gol recibido": 5
+    }
+   }
+  ],
+  "referee": "",
+  "report": ""
  }
 }
