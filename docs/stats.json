@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:00+01:00",
+ "updated": "2026-11-25T23:30+01:00",
  "competitions": [
   {
    "name": "FÚTBOL 7 LABORAL 26/27",
@@ -1685,6 +1685,20 @@
     {
      "pos": 4,
      "phase": "",
+     "team": "PORRATHINAIKOS",
+     "team_id": "2870362",
+     "j": 9,
+     "g": 5,
+     "e": 2,
+     "p": 2,
+     "gf": 25,
+     "gc": 17,
+     "dg": 8,
+     "pts": 17
+    },
+    {
+     "pos": 5,
+     "phase": "",
      "team": "ACHIPERROS FC",
      "team_id": "2538202",
      "j": 7,
@@ -1694,20 +1708,6 @@
      "gf": 52,
      "gc": 14,
      "dg": 38,
-     "pts": 16
-    },
-    {
-     "pos": 5,
-     "phase": "",
-     "team": "PORRATHINAIKOS",
-     "team_id": "2870362",
-     "j": 8,
-     "g": 5,
-     "e": 1,
-     "p": 2,
-     "gf": 25,
-     "gc": 17,
-     "dg": 8,
      "pts": 16
     },
     {
@@ -1727,6 +1727,20 @@
     {
      "pos": 7,
      "phase": "",
+     "team": "SKUAD DEL GÜEBO",
+     "team_id": "2538199",
+     "j": 7,
+     "g": 3,
+     "e": 1,
+     "p": 3,
+     "gf": 31,
+     "gc": 24,
+     "dg": 7,
+     "pts": 10
+    },
+    {
+     "pos": 8,
+     "phase": "",
      "team": "LOS DE SIEMPRE FC",
      "team_id": "2723836",
      "j": 8,
@@ -1737,20 +1751,6 @@
      "gc": 33,
      "dg": 0,
      "pts": 10
-    },
-    {
-     "pos": 8,
-     "phase": "",
-     "team": "SKUAD DEL GÜEBO",
-     "team_id": "2538199",
-     "j": 6,
-     "g": 3,
-     "e": 0,
-     "p": 3,
-     "gf": 31,
-     "gc": 24,
-     "dg": 7,
-     "pts": 9
     },
     {
      "pos": 9,
