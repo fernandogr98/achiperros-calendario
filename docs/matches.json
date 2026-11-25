@@ -950,6 +950,170 @@
   "referee": "Gonzalo DRG",
   "report": ""
  },
+ "9079571": {
+  "away": [
+   {
+    "name": "HUGO JIMÉNEZ",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "CARLOS MORENO",
+    "num": "3",
+    "stats": {}
+   },
+   {
+    "name": "IVAN MARTINEZ",
+    "num": "4",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL HERRERO",
+    "num": "5",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO RODRIGO",
+    "num": "6",
+    "stats": {}
+   },
+   {
+    "name": "ADRIÁN VALENCIA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "IVAN LEÓN",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "JORGE MERCADO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "MARCO CABALLERO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "PABLO JIMÉNEZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "MIGUEL FRANCISCO FERRER",
+    "num": "13",
+    "stats": {}
+   },
+   {
+    "name": "AITOR LECHÓN",
+    "num": "14",
+    "stats": {}
+   },
+   {
+    "name": "JORGE RUBIO",
+    "num": "15",
+    "stats": {}
+   },
+   {
+    "name": "JOSÉ LUIS SEVILLA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ISMAEL UTRERO",
+    "num": "20",
+    "stats": {}
+   },
+   {
+    "name": "MIGUEL ÁNGEL INIESTO",
+    "num": "22",
+    "stats": {}
+   }
+  ],
+  "fetched": "2026-11-26",
+  "home": [
+   {
+    "name": "DIEGO MANZANO",
+    "num": "1",
+    "stats": {}
+   },
+   {
+    "name": "SERGIO RIVERA",
+    "num": "7",
+    "stats": {}
+   },
+   {
+    "name": "FERNANDO GALLARDO",
+    "num": "8",
+    "stats": {}
+   },
+   {
+    "name": "RODRIGO ALONSO",
+    "num": "9",
+    "stats": {}
+   },
+   {
+    "name": "DANIEL BAJO",
+    "num": "10",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR HUGO KARASKIEWICZ",
+    "num": "11",
+    "stats": {}
+   },
+   {
+    "name": "ÁLVARO PASCUAL",
+    "num": "18",
+    "stats": {}
+   },
+   {
+    "name": "ADRIÁN SIERRA",
+    "num": "19",
+    "stats": {}
+   },
+   {
+    "name": "ROBERTO RIVAS",
+    "num": "22",
+    "stats": {}
+   },
+   {
+    "name": "JORGE ALBERTO RODRÍGUEZ",
+    "num": "24",
+    "stats": {}
+   },
+   {
+    "name": "SEBASTIÁN GALEANO",
+    "num": "29",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR ALCARAZ",
+    "num": "33",
+    "stats": {}
+   },
+   {
+    "name": "MANUEL RAMÓN",
+    "num": "73",
+    "stats": {}
+   },
+   {
+    "name": "DAWID DARIUSZ CHRUSCIEL",
+    "num": "78",
+    "stats": {}
+   },
+   {
+    "name": "VÍCTOR CENDRERO",
+    "num": "89",
+    "stats": {}
+   }
+  ],
+  "referee": "TITO GARCIA GARCIA",
+  "report": ""
+ },
  "9084232": {
   "away": [
    {
@@ -1746,7 +1910,7 @@
     }
    }
   ],
-  "fetched": "2026-11-25",
+  "fetched": "2026-11-26",
   "home": [
    {
     "name": "JUAN CARLOS AYUSO",

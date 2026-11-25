@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:30",
+ "updated": "2026-11-26T00:00",
  "competitions": [
   {
    "id": "409114",
@@ -164,9 +164,88 @@
      ]
     },
     {
+     "id": "2538202",
+     "name": "ACHIPERROS FC",
+     "pos": 3,
+     "phase": "",
+     "pj": 8,
+     "g": 6,
+     "e": 1,
+     "p": 1,
+     "gf": 55,
+     "gc": 14,
+     "dg": 41,
+     "pts": 19,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "E",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T20:00:00",
+       "home": "BURDEL KING",
+       "away": "ACHIPERROS FC",
+       "score": "3-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-09-26T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LOS PATXIS FC",
+       "score": "14-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-17T20:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "CDE FORUSIA",
+       "score": "1-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-25T13:00:00",
+       "home": "PEÑA ATLETICA MOSTOLES",
+       "away": "ACHIPERROS FC",
+       "score": "0-13",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-08T16:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "LEGIÓN SUR F.C.",
+       "score": "9-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-13T22:15:00",
+       "home": "COCA JUNIORS",
+       "away": "ACHIPERROS FC",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-11-21T17:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "3-0",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2538194",
      "name": "CDE FORUSIA",
-     "pos": 3,
+     "pos": 4,
      "phase": "",
      "pj": 7,
      "g": 6,
@@ -238,7 +317,7 @@
     {
      "id": "2870362",
      "name": "PORRATHINAIKOS",
-     "pos": 4,
+     "pos": 5,
      "phase": "",
      "pj": 9,
      "g": 5,
@@ -322,78 +401,6 @@
      ]
     },
     {
-     "id": "2538202",
-     "name": "ACHIPERROS FC",
-     "pos": 5,
-     "phase": "",
-     "pj": 7,
-     "g": 5,
-     "e": 1,
-     "p": 1,
-     "gf": 52,
-     "gc": 14,
-     "dg": 38,
-     "pts": 16,
-     "form": [
-      "V",
-      "D",
-      "V",
-      "V",
-      "E"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T20:00:00",
-       "home": "BURDEL KING",
-       "away": "ACHIPERROS FC",
-       "score": "3-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-09-26T16:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "LOS PATXIS FC",
-       "score": "14-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-17T20:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "CDE FORUSIA",
-       "score": "1-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-25T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "ACHIPERROS FC",
-       "score": "0-13",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-08T16:00:00",
-       "home": "ACHIPERROS FC",
-       "away": "LEGIÓN SUR F.C.",
-       "score": "9-0",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-13T22:15:00",
-       "home": "COCA JUNIORS",
-       "away": "ACHIPERROS FC",
-       "score": "2-2",
-       "result": "E"
-      }
-     ]
-    },
-    {
      "id": "1875645",
      "name": "COCA JUNIORS",
      "pos": 6,
@@ -429,6 +436,13 @@
        "result": "V"
       },
       {
+       "date": "2026-10-03T17:00:00",
+       "home": "COCA JUNIORS",
+       "away": "GALÁCTICOS FC",
+       "score": "3-0",
+       "result": "V"
+      },
+      {
        "date": "2026-10-17T19:00:00",
        "home": "BURDEL KING",
        "away": "COCA JUNIORS",
@@ -459,23 +473,109 @@
      ]
     },
     {
-     "id": "2538199",
-     "name": "SKUAD DEL GÜEBO",
+     "id": "1899890",
+     "name": "GALÁCTICOS FC",
      "pos": 7,
      "phase": "",
-     "pj": 7,
+     "pj": 9,
      "g": 3,
      "e": 1,
-     "p": 3,
-     "gf": 31,
-     "gc": 24,
-     "dg": 7,
+     "p": 5,
+     "gf": 35,
+     "gc": 31,
+     "dg": 4,
      "pts": 10,
      "form": [
       "D",
+      "D",
+      "V",
+      "D",
+      "E"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-02T21:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "PEÑA ATLETICA MOSTOLES",
+       "score": "12-1",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-03T17:00:00",
+       "home": "COCA JUNIORS",
+       "away": "GALÁCTICOS FC",
+       "score": "3-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-18T19:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "SEITO DURO FC",
+       "score": "4-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-24T17:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "GALÁCTICOS FC",
+       "score": "5-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-07T16:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "BASTARD MÜNCHEN",
+       "score": "0-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-14T17:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "GALÁCTICOS FC",
+       "score": "1-8",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-22T12:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "CDE FORUSIA",
+       "score": "5-11",
+       "result": "D"
+      },
+      {
+       "date": "2026-12-26T18:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "GALÁCTICOS FC",
+       "score": "0-0",
+       "result": "E"
+      }
+     ]
+    },
+    {
+     "id": "2538199",
+     "name": "SKUAD DEL GÜEBO",
+     "pos": 8,
+     "phase": "",
+     "pj": 8,
+     "g": 3,
+     "e": 1,
+     "p": 4,
+     "gf": 31,
+     "gc": 27,
+     "dg": 4,
+     "pts": 10,
+     "form": [
       "V",
       "V",
       "V",
+      "D",
       "E"
      ],
      "matches": [
@@ -522,6 +622,13 @@
        "result": "V"
       },
       {
+       "date": "2026-11-21T17:00:00",
+       "home": "ACHIPERROS FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "3-0",
+       "result": "D"
+      },
+      {
        "date": "2026-12-26T17:00:00",
        "home": "SKUAD DEL GÜEBO",
        "away": "PORRATHINAIKOS",
@@ -533,7 +640,7 @@
     {
      "id": "2723836",
      "name": "LOS DE SIEMPRE FC",
-     "pos": 8,
+     "pos": 9,
      "phase": "",
      "pj": 8,
      "g": 3,
@@ -612,22 +719,22 @@
     {
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
-     "pos": 9,
+     "pos": 10,
      "phase": "",
-     "pj": 8,
+     "pj": 9,
      "g": 3,
-     "e": 0,
+     "e": 1,
      "p": 5,
      "gf": 27,
      "gc": 36,
      "dg": -9,
-     "pts": 9,
+     "pts": 10,
      "form": [
-      "V",
       "D",
       "D",
       "D",
-      "D"
+      "D",
+      "E"
      ],
      "matches": [
       {
@@ -685,13 +792,92 @@
        "away": "LEGIÓN SUR F.C.",
        "score": "3-0",
        "result": "D"
+      },
+      {
+       "date": "2026-12-26T18:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "GALÁCTICOS FC",
+       "score": "0-0",
+       "result": "E"
+      }
+     ]
+    },
+    {
+     "id": "2870267",
+     "name": "BARÇA MURAI",
+     "pos": 11,
+     "phase": "",
+     "pj": 7,
+     "g": 3,
+     "e": 0,
+     "p": 4,
+     "gf": 21,
+     "gc": 21,
+     "dg": 0,
+     "pts": 9,
+     "form": [
+      "D",
+      "V",
+      "D",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-04T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "ACHIPERROS FC",
+       "score": "3-6",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-10T18:00:00",
+       "home": "BURDEL KING",
+       "away": "BARÇA MURAI",
+       "score": "4-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-06T21:00:00",
+       "home": "BARÇA MURAI",
+       "away": "PEÑA ATLETICA MOSTOLES",
+       "score": "3-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-07T17:00:00",
+       "home": "BARÇA MURAI",
+       "away": "SEITO DURO FC",
+       "score": "1-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-15T20:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "BARÇA MURAI",
+       "score": "3-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-21T20:00:00",
+       "home": "BARÇA MURAI",
+       "away": "BASTARD MÜNCHEN",
+       "score": "7-2",
+       "result": "V"
       }
      ]
     },
     {
      "id": "2870272",
      "name": "BASTARD MÜNCHEN",
-     "pos": 10,
+     "pos": 12,
      "phase": "",
      "pj": 9,
      "g": 2,
@@ -770,143 +956,6 @@
        "home": "BASTARD MÜNCHEN",
        "away": "PEÑA ATLETICA MOSTOLES",
        "score": "3-0",
-       "result": "V"
-      }
-     ]
-    },
-    {
-     "id": "1899890",
-     "name": "GALÁCTICOS FC",
-     "pos": 11,
-     "phase": "",
-     "pj": 8,
-     "g": 3,
-     "e": 0,
-     "p": 5,
-     "gf": 35,
-     "gc": 31,
-     "dg": 4,
-     "pts": 6,
-     "form": [
-      "D",
-      "D",
-      "D",
-      "V",
-      "D"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-02T21:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "12-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-18T19:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "SEITO DURO FC",
-       "score": "4-5",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-24T17:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "GALÁCTICOS FC",
-       "score": "5-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-07T16:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "BASTARD MÜNCHEN",
-       "score": "0-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-14T17:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "GALÁCTICOS FC",
-       "score": "1-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-22T12:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "CDE FORUSIA",
-       "score": "5-11",
-       "result": "D"
-      }
-     ]
-    },
-    {
-     "id": "2870267",
-     "name": "BARÇA MURAI",
-     "pos": 12,
-     "phase": "",
-     "pj": 6,
-     "g": 2,
-     "e": 0,
-     "p": 4,
-     "gf": 18,
-     "gc": 21,
-     "dg": -3,
-     "pts": 6,
-     "form": [
-      "D",
-      "D",
-      "D",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-04T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "ACHIPERROS FC",
-       "score": "3-6",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-10T18:00:00",
-       "home": "BURDEL KING",
-       "away": "BARÇA MURAI",
-       "score": "4-0",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-07T17:00:00",
-       "home": "BARÇA MURAI",
-       "away": "SEITO DURO FC",
-       "score": "1-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-15T20:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "BARÇA MURAI",
-       "score": "3-5",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-21T20:00:00",
-       "home": "BARÇA MURAI",
-       "away": "BASTARD MÜNCHEN",
-       "score": "7-2",
        "result": "V"
       }
      ]
@@ -995,13 +1044,13 @@
      "name": "PEÑA ATLETICA MOSTOLES",
      "pos": 14,
      "phase": "",
-     "pj": 8,
+     "pj": 9,
      "g": 0,
      "e": 0,
-     "p": 8,
+     "p": 9,
      "gf": 9,
-     "gc": 98,
-     "dg": -89,
+     "gc": 101,
+     "dg": -92,
      "pts": 0,
      "form": [
       "D",
@@ -1037,6 +1086,13 @@
        "home": "PEÑA ATLETICA MOSTOLES",
        "away": "ACHIPERROS FC",
        "score": "0-13",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-06T21:00:00",
+       "home": "BARÇA MURAI",
+       "away": "PEÑA ATLETICA MOSTOLES",
+       "score": "3-0",
        "result": "D"
       },
       {
@@ -1141,9 +1197,81 @@
      ]
     },
     {
+     "id": "2332120",
+     "name": "SANFERDOG",
+     "pos": 2,
+     "phase": "Fase oro",
+     "pj": 7,
+     "g": 5,
+     "e": 1,
+     "p": 1,
+     "gf": 49,
+     "gc": 22,
+     "dg": 27,
+     "pts": 16,
+     "form": [
+      "D",
+      "V",
+      "V",
+      "V",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-10-01T21:15:00",
+       "home": "CREATIVE PROJECT",
+       "away": "SANFERDOG",
+       "score": "2-2",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-05T21:15:00",
+       "home": "SANFERDOG",
+       "away": "ALLIGATORS",
+       "score": "11-4",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-20T21:15:00",
+       "home": "ACHIPERROS FC",
+       "away": "SANFERDOG",
+       "score": "4-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-26T21:15:00",
+       "home": "SANFERDOG",
+       "away": "BETA - PUBLIX CF",
+       "score": "4-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-10T21:15:00",
+       "home": "PUB OSCAR F.C.",
+       "away": "SANFERDOG",
+       "score": "4-7",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-16T22:15:00",
+       "home": "SANFERDOG",
+       "away": "CDE FORUSIA",
+       "score": "6-5",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-25T21:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "SANFERDOG",
+       "score": "0-17",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "1871444",
      "name": "ALLIGATORS",
-     "pos": 2,
+     "pos": 3,
      "phase": "Fase oro",
      "pj": 7,
      "g": 4,
@@ -1209,71 +1337,6 @@
        "away": "F.C SKBIA-2",
        "score": "5-5",
        "result": "E"
-      }
-     ]
-    },
-    {
-     "id": "2332120",
-     "name": "SANFERDOG",
-     "pos": 3,
-     "phase": "Fase oro",
-     "pj": 6,
-     "g": 4,
-     "e": 1,
-     "p": 1,
-     "gf": 32,
-     "gc": 22,
-     "dg": 10,
-     "pts": 13,
-     "form": [
-      "V",
-      "D",
-      "V",
-      "V",
-      "V"
-     ],
-     "matches": [
-      {
-       "date": "2026-10-01T21:15:00",
-       "home": "CREATIVE PROJECT",
-       "away": "SANFERDOG",
-       "score": "2-2",
-       "result": "E"
-      },
-      {
-       "date": "2026-10-05T21:15:00",
-       "home": "SANFERDOG",
-       "away": "ALLIGATORS",
-       "score": "11-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-20T21:15:00",
-       "home": "ACHIPERROS FC",
-       "away": "SANFERDOG",
-       "score": "4-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-26T21:15:00",
-       "home": "SANFERDOG",
-       "away": "BETA - PUBLIX CF",
-       "score": "4-3",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-10T21:15:00",
-       "home": "PUB OSCAR F.C.",
-       "away": "SANFERDOG",
-       "score": "4-7",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-16T22:15:00",
-       "home": "SANFERDOG",
-       "away": "CDE FORUSIA",
-       "score": "6-5",
-       "result": "V"
       }
      ]
     },
@@ -1946,13 +2009,13 @@
      "name": "BARRIO SÉSAMO",
      "pos": 14,
      "phase": "",
-     "pj": 5,
+     "pj": 6,
      "g": 0,
      "e": 0,
-     "p": 5,
+     "p": 6,
      "gf": 7,
-     "gc": 59,
-     "dg": -52,
+     "gc": 76,
+     "dg": -69,
      "pts": 0,
      "form": [
       "D",
@@ -1995,6 +2058,13 @@
        "home": "PUB OSCAR F.C.",
        "away": "BARRIO SÉSAMO",
        "score": "18-2",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-25T21:15:00",
+       "home": "BARRIO SÉSAMO",
+       "away": "SANFERDOG",
+       "score": "0-17",
        "result": "D"
       }
      ]
