@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:01",
+ "updated": "2026-11-28T08:00",
  "competitions": [
   {
    "id": "409114",
@@ -14,9 +14,9 @@
      "g": 7,
      "e": 0,
      "p": 1,
-     "gf": 53,
+     "gf": 44,
      "gc": 13,
-     "dg": 40,
+     "dg": 31,
      "pts": 21,
      "form": [
       "V",
@@ -35,9 +35,9 @@
       },
       {
        "date": "2026-10-04T12:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "BURDEL KING",
-       "score": "0-12",
+       "score": "0-3",
        "result": "V"
       },
       {
@@ -93,9 +93,9 @@
      "g": 7,
      "e": 0,
      "p": 1,
-     "gf": 48,
-     "gc": 18,
-     "dg": 30,
+     "gf": 32,
+     "gc": 16,
+     "dg": 16,
      "pts": 21,
      "form": [
       "V",
@@ -150,8 +150,8 @@
       {
        "date": "2026-11-15T14:00:00",
        "home": "SEITO DURO FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "19-2",
+       "away": "MANCHESTER PITIS",
+       "score": "3-0",
        "result": "V"
       },
       {
@@ -172,9 +172,9 @@
      "g": 6,
      "e": 1,
      "p": 1,
-     "gf": 55,
+     "gf": 45,
      "gc": 14,
-     "dg": 41,
+     "dg": 31,
      "pts": 19,
      "form": [
       "D",
@@ -214,9 +214,9 @@
       },
       {
        "date": "2026-10-25T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "ACHIPERROS FC",
-       "score": "0-13",
+       "score": "0-3",
        "result": "V"
       },
       {
@@ -323,9 +323,9 @@
      "g": 5,
      "e": 2,
      "p": 2,
-     "gf": 25,
-     "gc": 17,
-     "dg": 8,
+     "gf": 20,
+     "gc": 15,
+     "dg": 5,
      "pts": 17,
      "form": [
       "V",
@@ -337,9 +337,9 @@
      "matches": [
       {
        "date": "2026-09-19T16:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "PORRATHINAIKOS",
-       "score": "2-8",
+       "score": "0-3",
        "result": "V"
       },
       {
@@ -409,9 +409,9 @@
      "g": 4,
      "e": 1,
      "p": 2,
-     "gf": 37,
-     "gc": 20,
-     "dg": 17,
+     "gf": 24,
+     "gc": 19,
+     "dg": 5,
      "pts": 13,
      "form": [
       "V",
@@ -451,9 +451,9 @@
       },
       {
        "date": "2026-11-08T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "COCA JUNIORS",
-       "score": "1-16",
+       "score": "0-3",
        "result": "V"
       },
       {
@@ -473,95 +473,9 @@
      ]
     },
     {
-     "id": "1899890",
-     "name": "GALÁCTICOS FC",
-     "pos": 7,
-     "phase": "",
-     "pj": 9,
-     "g": 3,
-     "e": 1,
-     "p": 5,
-     "gf": 35,
-     "gc": 31,
-     "dg": 4,
-     "pts": 10,
-     "form": [
-      "D",
-      "D",
-      "V",
-      "D",
-      "E"
-     ],
-     "matches": [
-      {
-       "date": "2026-09-20T19:00:00",
-       "home": "BARÇA MURAI",
-       "away": "GALÁCTICOS FC",
-       "score": "2-4",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-02T21:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "12-1",
-       "result": "V"
-      },
-      {
-       "date": "2026-10-03T17:00:00",
-       "home": "COCA JUNIORS",
-       "away": "GALÁCTICOS FC",
-       "score": "3-0",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-18T19:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "SEITO DURO FC",
-       "score": "4-5",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-24T17:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "GALÁCTICOS FC",
-       "score": "5-2",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-07T16:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "BASTARD MÜNCHEN",
-       "score": "0-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-14T17:00:00",
-       "home": "LOS PATXIS FC",
-       "away": "GALÁCTICOS FC",
-       "score": "1-8",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-22T12:00:00",
-       "home": "GALÁCTICOS FC",
-       "away": "CDE FORUSIA",
-       "score": "5-11",
-       "result": "D"
-      },
-      {
-       "date": "2026-12-26T18:00:00",
-       "home": "LEGIÓN SUR F.C.",
-       "away": "GALÁCTICOS FC",
-       "score": "0-0",
-       "result": "E"
-      }
-     ]
-    },
-    {
      "id": "2538199",
      "name": "SKUAD DEL GÜEBO",
-     "pos": 8,
+     "pos": 7,
      "phase": "",
      "pj": 8,
      "g": 3,
@@ -638,88 +552,95 @@
      ]
     },
     {
-     "id": "2723836",
-     "name": "LOS DE SIEMPRE FC",
-     "pos": 9,
+     "id": "1899890",
+     "name": "GALÁCTICOS FC",
+     "pos": 8,
      "phase": "",
-     "pj": 8,
+     "pj": 9,
      "g": 3,
      "e": 1,
-     "p": 4,
-     "gf": 33,
-     "gc": 33,
-     "dg": 0,
+     "p": 5,
+     "gf": 26,
+     "gc": 30,
+     "dg": -4,
      "pts": 10,
      "form": [
-      "E",
+      "D",
+      "D",
       "V",
       "D",
-      "D",
-      "V"
+      "E"
      ],
      "matches": [
       {
-       "date": "2026-09-19T19:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "CDE FORUSIA",
-       "score": "0-4",
-       "result": "D"
-      },
-      {
-       "date": "2026-09-26T17:00:00",
-       "home": "LEGIÓN SUR F.C.",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "6-3",
-       "result": "D"
-      },
-      {
-       "date": "2026-10-03T21:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "SKUAD DEL GÜEBO",
-       "score": "5-3",
+       "date": "2026-09-20T19:00:00",
+       "home": "BARÇA MURAI",
+       "away": "GALÁCTICOS FC",
+       "score": "2-4",
        "result": "V"
       },
       {
-       "date": "2026-10-16T21:00:00",
-       "home": "PORRATHINAIKOS",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "1-1",
-       "result": "E"
+       "date": "2026-10-02T21:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "MANCHESTER PITIS",
+       "score": "3-0",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-03T17:00:00",
+       "home": "COCA JUNIORS",
+       "away": "GALÁCTICOS FC",
+       "score": "3-0",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-18T19:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "SEITO DURO FC",
+       "score": "4-5",
+       "result": "D"
       },
       {
        "date": "2026-10-24T17:00:00",
        "home": "LOS DE SIEMPRE FC",
        "away": "GALÁCTICOS FC",
        "score": "5-2",
-       "result": "V"
-      },
-      {
-       "date": "2026-11-07T18:00:00",
-       "home": "BURDEL KING",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "9-1",
        "result": "D"
       },
       {
-       "date": "2026-11-15T20:00:00",
-       "home": "LOS DE SIEMPRE FC",
-       "away": "BARÇA MURAI",
-       "score": "3-5",
+       "date": "2026-11-07T16:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "BASTARD MÜNCHEN",
+       "score": "0-3",
        "result": "D"
       },
       {
-       "date": "2026-11-22T19:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
-       "away": "LOS DE SIEMPRE FC",
-       "score": "3-15",
+       "date": "2026-11-14T17:00:00",
+       "home": "LOS PATXIS FC",
+       "away": "GALÁCTICOS FC",
+       "score": "1-8",
        "result": "V"
+      },
+      {
+       "date": "2026-11-22T12:00:00",
+       "home": "GALÁCTICOS FC",
+       "away": "CDE FORUSIA",
+       "score": "5-11",
+       "result": "D"
+      },
+      {
+       "date": "2026-12-26T18:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "GALÁCTICOS FC",
+       "score": "0-0",
+       "result": "E"
       }
      ]
     },
     {
      "id": "2726443",
      "name": "LEGIÓN SUR F.C.",
-     "pos": 10,
+     "pos": 9,
      "phase": "",
      "pj": 9,
      "g": 3,
@@ -803,6 +724,85 @@
      ]
     },
     {
+     "id": "2723836",
+     "name": "LOS DE SIEMPRE FC",
+     "pos": 10,
+     "phase": "",
+     "pj": 8,
+     "g": 3,
+     "e": 1,
+     "p": 4,
+     "gf": 21,
+     "gc": 30,
+     "dg": -9,
+     "pts": 10,
+     "form": [
+      "E",
+      "V",
+      "D",
+      "D",
+      "V"
+     ],
+     "matches": [
+      {
+       "date": "2026-09-19T19:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "CDE FORUSIA",
+       "score": "0-4",
+       "result": "D"
+      },
+      {
+       "date": "2026-09-26T17:00:00",
+       "home": "LEGIÓN SUR F.C.",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "6-3",
+       "result": "D"
+      },
+      {
+       "date": "2026-10-03T21:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "SKUAD DEL GÜEBO",
+       "score": "5-3",
+       "result": "V"
+      },
+      {
+       "date": "2026-10-16T21:00:00",
+       "home": "PORRATHINAIKOS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "1-1",
+       "result": "E"
+      },
+      {
+       "date": "2026-10-24T17:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "GALÁCTICOS FC",
+       "score": "5-2",
+       "result": "V"
+      },
+      {
+       "date": "2026-11-07T18:00:00",
+       "home": "BURDEL KING",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "9-1",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-15T20:00:00",
+       "home": "LOS DE SIEMPRE FC",
+       "away": "BARÇA MURAI",
+       "score": "3-5",
+       "result": "D"
+      },
+      {
+       "date": "2026-11-22T19:00:00",
+       "home": "MANCHESTER PITIS",
+       "away": "LOS DE SIEMPRE FC",
+       "score": "0-3",
+       "result": "V"
+      }
+     ]
+    },
+    {
      "id": "2870267",
      "name": "BARÇA MURAI",
      "pos": 11,
@@ -847,7 +847,7 @@
       {
        "date": "2026-11-06T21:00:00",
        "home": "BARÇA MURAI",
-       "away": "PEÑA ATLETICA MOSTOLES",
+       "away": "MANCHESTER PITIS",
        "score": "3-0",
        "result": "V"
       },
@@ -879,20 +879,20 @@
      "name": "BASTARD MÜNCHEN",
      "pos": 12,
      "phase": "",
-     "pj": 9,
-     "g": 2,
+     "pj": 8,
+     "g": 1,
      "e": 1,
      "p": 6,
-     "gf": 16,
+     "gf": 13,
      "gc": 28,
-     "dg": -12,
-     "pts": 7,
+     "dg": -15,
+     "pts": 4,
      "form": [
+      "D",
       "D",
       "V",
       "D",
-      "D",
-      "V"
+      "D"
      ],
      "matches": [
       {
@@ -950,13 +950,6 @@
        "away": "BASTARD MÜNCHEN",
        "score": "7-2",
        "result": "D"
-      },
-      {
-       "date": "2026-11-29T16:00:00",
-       "home": "BASTARD MÜNCHEN",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "3-0",
-       "result": "V"
       }
      ]
     },
@@ -1041,16 +1034,16 @@
     },
     {
      "id": "2870268",
-     "name": "PEÑA ATLETICA MOSTOLES",
+     "name": "MANCHESTER PITIS",
      "pos": 14,
      "phase": "",
-     "pj": 9,
+     "pj": 8,
      "g": 0,
      "e": 0,
-     "p": 9,
-     "gf": 9,
-     "gc": 101,
-     "dg": -92,
+     "p": 8,
+     "gf": 0,
+     "gc": 24,
+     "dg": -24,
      "pts": 0,
      "form": [
       "D",
@@ -1062,65 +1055,58 @@
      "matches": [
       {
        "date": "2026-09-19T16:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "PORRATHINAIKOS",
-       "score": "2-8",
+       "score": "0-3",
        "result": "D"
       },
       {
        "date": "2026-10-02T21:00:00",
        "home": "GALÁCTICOS FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "12-1",
+       "away": "MANCHESTER PITIS",
+       "score": "3-0",
        "result": "D"
       },
       {
        "date": "2026-10-04T12:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "BURDEL KING",
-       "score": "0-12",
+       "score": "0-3",
        "result": "D"
       },
       {
        "date": "2026-10-25T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "ACHIPERROS FC",
-       "score": "0-13",
+       "score": "0-3",
        "result": "D"
       },
       {
        "date": "2026-11-06T21:00:00",
        "home": "BARÇA MURAI",
-       "away": "PEÑA ATLETICA MOSTOLES",
+       "away": "MANCHESTER PITIS",
        "score": "3-0",
        "result": "D"
       },
       {
        "date": "2026-11-08T13:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "COCA JUNIORS",
-       "score": "1-16",
+       "score": "0-3",
        "result": "D"
       },
       {
        "date": "2026-11-15T14:00:00",
        "home": "SEITO DURO FC",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "19-2",
+       "away": "MANCHESTER PITIS",
+       "score": "3-0",
        "result": "D"
       },
       {
        "date": "2026-11-22T19:00:00",
-       "home": "PEÑA ATLETICA MOSTOLES",
+       "home": "MANCHESTER PITIS",
        "away": "LOS DE SIEMPRE FC",
-       "score": "3-15",
-       "result": "D"
-      },
-      {
-       "date": "2026-11-29T16:00:00",
-       "home": "BASTARD MÜNCHEN",
-       "away": "PEÑA ATLETICA MOSTOLES",
-       "score": "3-0",
+       "score": "0-3",
        "result": "D"
       }
      ]
